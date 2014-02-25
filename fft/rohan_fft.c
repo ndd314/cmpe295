@@ -90,7 +90,7 @@ while(!feof(ip) || i<1024)
 fscanf(ip, "%f", &fm);// reading from the file.
 {
  arr[i]= fm * 3.3/4095;
- i++;   
+ i++;
 }
 }
 
@@ -104,16 +104,16 @@ X[i].b = 0.0;
 printf ("*********Before*********\n");
 fprintf (fp, "*********Before*********\n");
 for (i = 0; i < 1024; i++)
-{	
+{
 printf ("X[%d]:real == %f imaginary == %f\n", i, X[i].a, X[i].b);
 fprintf (fp, "X[%d]:real == %f imaginary == %f\n", i, X[i].a, X[i].b);
-}	
+}
 FFT();
 
 printf ("\n\n**********After*********\n");
 fprintf (fp, "\n\n**********After*********\n");
 for (i = 0; i < 1024; i++)
-{	
+{
 printf ("X[%d]:real == %f imaginary == %f\n", i, (X[i].a/256), (X[i].b/256));
 fprintf (fp, "X[%d]:real == %f imaginary == %f\n", i, (X[i].a/256), (X[i].b/256));
 }
@@ -125,7 +125,6 @@ for (i = 0; i < 1024; i++)
 
    c= pow((X[i].a/1024),2);
    d= pow((X[i].b/1024),2);
-   c+d;
    pm[i]= sqrt((c+d));
    fprintf(fp, "Power is %f\n", pm[i]); //writing into the file.
    printf("Power is %f\n", pm[i]);
@@ -135,12 +134,12 @@ max = pm[i];
 
 printf("power at N = 511 is %f\n", pm[511]);
 if(pm[511]<=(max*0.05))
-{	
+{
 printf("data is valid\n");
  	fprintf(fp, "data is valid\n");
 }
 else
-{	
+{
 printf("Data invalid\n");
 fprintf(fp, "Data invalid\n");
 }
