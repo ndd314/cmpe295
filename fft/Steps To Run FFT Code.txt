@@ -1,0 +1,8 @@
+"rohan_fft.c" is the main C code
+
+"out_rohan_fft" is the compiled C code
+
+Just run the "out_rohan_fft", it will take inputs from the "rohan_data.txt" and will dump output values into "rohan_pwm" file.
+Real, Imaginary and Power values will be stored in "rohan_pwm" file.
+
+Now, copy only the Power values from the "rohan_pwm" file and paste in into a spreadsheet. Select the coulmn containing power values and plot in on a chart.
