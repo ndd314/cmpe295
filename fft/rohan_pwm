@@ -1,0 +1,3081 @@
+*********Before*********
+X[0]:real == 0.000000 imaginary == 0.000000
+X[1]:real == 0.000000 imaginary == 0.000000
+X[2]:real == 0.000000 imaginary == 0.000000
+X[3]:real == 0.000000 imaginary == 0.000000
+X[4]:real == 0.000000 imaginary == 0.000000
+X[5]:real == 0.000000 imaginary == 0.000000
+X[6]:real == 0.000000 imaginary == 0.000000
+X[7]:real == 0.000000 imaginary == 0.000000
+X[8]:real == 0.000000 imaginary == 0.000000
+X[9]:real == 0.000000 imaginary == 0.000000
+X[10]:real == 0.000000 imaginary == 0.000000
+X[11]:real == 0.000000 imaginary == 0.000000
+X[12]:real == 0.000000 imaginary == 0.000000
+X[13]:real == 0.000000 imaginary == 0.000000
+X[14]:real == 0.000000 imaginary == 0.000000
+X[15]:real == 0.000000 imaginary == 0.000000
+X[16]:real == 0.000000 imaginary == 0.000000
+X[17]:real == 0.000000 imaginary == 0.000000
+X[18]:real == 0.000000 imaginary == 0.000000
+X[19]:real == 0.000000 imaginary == 0.000000
+X[20]:real == 0.000000 imaginary == 0.000000
+X[21]:real == 0.000000 imaginary == 0.000000
+X[22]:real == 0.000000 imaginary == 0.000000
+X[23]:real == 0.000000 imaginary == 0.000000
+X[24]:real == 0.000000 imaginary == 0.000000
+X[25]:real == 0.000000 imaginary == 0.000000
+X[26]:real == 0.000000 imaginary == 0.000000
+X[27]:real == 0.000000 imaginary == 0.000000
+X[28]:real == 0.000000 imaginary == 0.000000
+X[29]:real == 0.000000 imaginary == 0.000000
+X[30]:real == 0.000000 imaginary == 0.000000
+X[31]:real == 0.000000 imaginary == 0.000000
+X[32]:real == 0.000000 imaginary == 0.000000
+X[33]:real == 0.000000 imaginary == 0.000000
+X[34]:real == 0.000000 imaginary == 0.000000
+X[35]:real == 0.000000 imaginary == 0.000000
+X[36]:real == 0.000000 imaginary == 0.000000
+X[37]:real == 0.000000 imaginary == 0.000000
+X[38]:real == 0.000000 imaginary == 0.000000
+X[39]:real == 0.000000 imaginary == 0.000000
+X[40]:real == 0.000000 imaginary == 0.000000
+X[41]:real == 0.000000 imaginary == 0.000000
+X[42]:real == 0.000000 imaginary == 0.000000
+X[43]:real == 0.000000 imaginary == 0.000000
+X[44]:real == 0.000000 imaginary == 0.000000
+X[45]:real == 0.000000 imaginary == 0.000000
+X[46]:real == 0.000000 imaginary == 0.000000
+X[47]:real == 0.000000 imaginary == 0.000000
+X[48]:real == 0.000000 imaginary == 0.000000
+X[49]:real == 0.000000 imaginary == 0.000000
+X[50]:real == 0.000000 imaginary == 0.000000
+X[51]:real == 0.000000 imaginary == 0.000000
+X[52]:real == 0.000000 imaginary == 0.000000
+X[53]:real == 0.000000 imaginary == 0.000000
+X[54]:real == 0.000000 imaginary == 0.000000
+X[55]:real == 0.000000 imaginary == 0.000000
+X[56]:real == 0.000000 imaginary == 0.000000
+X[57]:real == 0.000000 imaginary == 0.000000
+X[58]:real == 0.000000 imaginary == 0.000000
+X[59]:real == 0.000000 imaginary == 0.000000
+X[60]:real == 0.000000 imaginary == 0.000000
+X[61]:real == 0.000000 imaginary == 0.000000
+X[62]:real == 0.000000 imaginary == 0.000000
+X[63]:real == 0.000000 imaginary == 0.000000
+X[64]:real == 0.000000 imaginary == 0.000000
+X[65]:real == 0.000000 imaginary == 0.000000
+X[66]:real == 0.000000 imaginary == 0.000000
+X[67]:real == 0.000000 imaginary == 0.000000
+X[68]:real == 0.000000 imaginary == 0.000000
+X[69]:real == 0.000000 imaginary == 0.000000
+X[70]:real == 0.000000 imaginary == 0.000000
+X[71]:real == 0.000000 imaginary == 0.000000
+X[72]:real == 0.000000 imaginary == 0.000000
+X[73]:real == 0.000000 imaginary == 0.000000
+X[74]:real == 0.000000 imaginary == 0.000000
+X[75]:real == 0.000000 imaginary == 0.000000
+X[76]:real == 0.000000 imaginary == 0.000000
+X[77]:real == 0.000000 imaginary == 0.000000
+X[78]:real == 0.000000 imaginary == 0.000000
+X[79]:real == 0.000000 imaginary == 0.000000
+X[80]:real == 0.000000 imaginary == 0.000000
+X[81]:real == 0.000000 imaginary == 0.000000
+X[82]:real == 0.000000 imaginary == 0.000000
+X[83]:real == 0.000000 imaginary == 0.000000
+X[84]:real == 0.000000 imaginary == 0.000000
+X[85]:real == 0.000000 imaginary == 0.000000
+X[86]:real == 0.000000 imaginary == 0.000000
+X[87]:real == 0.000000 imaginary == 0.000000
+X[88]:real == 0.000000 imaginary == 0.000000
+X[89]:real == 0.000000 imaginary == 0.000000
+X[90]:real == 0.000000 imaginary == 0.000000
+X[91]:real == 0.000000 imaginary == 0.000000
+X[92]:real == 0.000000 imaginary == 0.000000
+X[93]:real == 0.000000 imaginary == 0.000000
+X[94]:real == 0.000000 imaginary == 0.000000
+X[95]:real == 0.000000 imaginary == 0.000000
+X[96]:real == 0.000000 imaginary == 0.000000
+X[97]:real == 0.000000 imaginary == 0.000000
+X[98]:real == 0.000000 imaginary == 0.000000
+X[99]:real == 0.000000 imaginary == 0.000000
+X[100]:real == 0.000000 imaginary == 0.000000
+X[101]:real == 0.000000 imaginary == 0.000000
+X[102]:real == 0.000000 imaginary == 0.000000
+X[103]:real == 0.000000 imaginary == 0.000000
+X[104]:real == 0.000000 imaginary == 0.000000
+X[105]:real == 0.000000 imaginary == 0.000000
+X[106]:real == 0.000000 imaginary == 0.000000
+X[107]:real == 0.000000 imaginary == 0.000000
+X[108]:real == 0.000000 imaginary == 0.000000
+X[109]:real == 0.000000 imaginary == 0.000000
+X[110]:real == 0.000000 imaginary == 0.000000
+X[111]:real == 0.000000 imaginary == 0.000000
+X[112]:real == 0.000000 imaginary == 0.000000
+X[113]:real == 0.000000 imaginary == 0.000000
+X[114]:real == 0.000000 imaginary == 0.000000
+X[115]:real == 0.000000 imaginary == 0.000000
+X[116]:real == 0.000000 imaginary == 0.000000
+X[117]:real == 0.000000 imaginary == 0.000000
+X[118]:real == 0.000000 imaginary == 0.000000
+X[119]:real == 0.000000 imaginary == 0.000000
+X[120]:real == 0.000000 imaginary == 0.000000
+X[121]:real == 0.000000 imaginary == 0.000000
+X[122]:real == 0.000000 imaginary == 0.000000
+X[123]:real == 0.000000 imaginary == 0.000000
+X[124]:real == 0.000000 imaginary == 0.000000
+X[125]:real == 0.000000 imaginary == 0.000000
+X[126]:real == 0.000000 imaginary == 0.000000
+X[127]:real == 0.000000 imaginary == 0.000000
+X[128]:real == 0.000000 imaginary == 0.000000
+X[129]:real == 0.000000 imaginary == 0.000000
+X[130]:real == 0.000000 imaginary == 0.000000
+X[131]:real == 0.000000 imaginary == 0.000000
+X[132]:real == 0.000000 imaginary == 0.000000
+X[133]:real == 0.000000 imaginary == 0.000000
+X[134]:real == 0.000000 imaginary == 0.000000
+X[135]:real == 0.000000 imaginary == 0.000000
+X[136]:real == 0.000000 imaginary == 0.000000
+X[137]:real == 0.000000 imaginary == 0.000000
+X[138]:real == 0.000000 imaginary == 0.000000
+X[139]:real == 0.000000 imaginary == 0.000000
+X[140]:real == 0.000000 imaginary == 0.000000
+X[141]:real == 0.000000 imaginary == 0.000000
+X[142]:real == 0.000000 imaginary == 0.000000
+X[143]:real == 0.000000 imaginary == 0.000000
+X[144]:real == 0.000000 imaginary == 0.000000
+X[145]:real == 0.000000 imaginary == 0.000000
+X[146]:real == 0.000000 imaginary == 0.000000
+X[147]:real == 0.000000 imaginary == 0.000000
+X[148]:real == 0.000000 imaginary == 0.000000
+X[149]:real == 0.000000 imaginary == 0.000000
+X[150]:real == 0.000000 imaginary == 0.000000
+X[151]:real == 0.000000 imaginary == 0.000000
+X[152]:real == 0.000000 imaginary == 0.000000
+X[153]:real == 0.000000 imaginary == 0.000000
+X[154]:real == 0.000000 imaginary == 0.000000
+X[155]:real == 0.000000 imaginary == 0.000000
+X[156]:real == 0.000000 imaginary == 0.000000
+X[157]:real == 0.000000 imaginary == 0.000000
+X[158]:real == 0.000000 imaginary == 0.000000
+X[159]:real == 0.000000 imaginary == 0.000000
+X[160]:real == 0.000000 imaginary == 0.000000
+X[161]:real == 0.000000 imaginary == 0.000000
+X[162]:real == 0.000000 imaginary == 0.000000
+X[163]:real == 0.000000 imaginary == 0.000000
+X[164]:real == 0.000000 imaginary == 0.000000
+X[165]:real == 0.000000 imaginary == 0.000000
+X[166]:real == 0.000000 imaginary == 0.000000
+X[167]:real == 0.000000 imaginary == 0.000000
+X[168]:real == 0.000000 imaginary == 0.000000
+X[169]:real == 0.000000 imaginary == 0.000000
+X[170]:real == 0.000000 imaginary == 0.000000
+X[171]:real == 0.000000 imaginary == 0.000000
+X[172]:real == 0.000000 imaginary == 0.000000
+X[173]:real == 0.000000 imaginary == 0.000000
+X[174]:real == 0.000000 imaginary == 0.000000
+X[175]:real == 0.000000 imaginary == 0.000000
+X[176]:real == 0.000000 imaginary == 0.000000
+X[177]:real == 0.000000 imaginary == 0.000000
+X[178]:real == 0.000000 imaginary == 0.000000
+X[179]:real == 0.000000 imaginary == 0.000000
+X[180]:real == 0.000000 imaginary == 0.000000
+X[181]:real == 0.000000 imaginary == 0.000000
+X[182]:real == 0.000000 imaginary == 0.000000
+X[183]:real == 0.000000 imaginary == 0.000000
+X[184]:real == 0.000000 imaginary == 0.000000
+X[185]:real == 0.000000 imaginary == 0.000000
+X[186]:real == 0.000000 imaginary == 0.000000
+X[187]:real == 0.000000 imaginary == 0.000000
+X[188]:real == 0.000000 imaginary == 0.000000
+X[189]:real == 0.000000 imaginary == 0.000000
+X[190]:real == 0.000000 imaginary == 0.000000
+X[191]:real == 0.000000 imaginary == 0.000000
+X[192]:real == 0.000000 imaginary == 0.000000
+X[193]:real == 0.000000 imaginary == 0.000000
+X[194]:real == 0.000000 imaginary == 0.000000
+X[195]:real == 0.000000 imaginary == 0.000000
+X[196]:real == 0.000000 imaginary == 0.000000
+X[197]:real == 0.000000 imaginary == 0.000000
+X[198]:real == 0.000000 imaginary == 0.000000
+X[199]:real == 0.000000 imaginary == 0.000000
+X[200]:real == 0.000000 imaginary == 0.000000
+X[201]:real == 0.000000 imaginary == 0.000000
+X[202]:real == 0.000000 imaginary == 0.000000
+X[203]:real == 0.000000 imaginary == 0.000000
+X[204]:real == 0.000000 imaginary == 0.000000
+X[205]:real == 0.000000 imaginary == 0.000000
+X[206]:real == 0.000000 imaginary == 0.000000
+X[207]:real == 0.000000 imaginary == 0.000000
+X[208]:real == 0.000000 imaginary == 0.000000
+X[209]:real == 0.000000 imaginary == 0.000000
+X[210]:real == 0.000000 imaginary == 0.000000
+X[211]:real == 0.000000 imaginary == 0.000000
+X[212]:real == 0.000000 imaginary == 0.000000
+X[213]:real == 0.000000 imaginary == 0.000000
+X[214]:real == 0.000000 imaginary == 0.000000
+X[215]:real == 0.000000 imaginary == 0.000000
+X[216]:real == 0.000000 imaginary == 0.000000
+X[217]:real == 0.000000 imaginary == 0.000000
+X[218]:real == 0.000000 imaginary == 0.000000
+X[219]:real == 0.000000 imaginary == 0.000000
+X[220]:real == 0.000000 imaginary == 0.000000
+X[221]:real == 0.000000 imaginary == 0.000000
+X[222]:real == 0.000000 imaginary == 0.000000
+X[223]:real == 0.000000 imaginary == 0.000000
+X[224]:real == 0.000000 imaginary == 0.000000
+X[225]:real == 0.000000 imaginary == 0.000000
+X[226]:real == 0.000000 imaginary == 0.000000
+X[227]:real == 0.000000 imaginary == 0.000000
+X[228]:real == 0.000000 imaginary == 0.000000
+X[229]:real == 0.000000 imaginary == 0.000000
+X[230]:real == 0.000000 imaginary == 0.000000
+X[231]:real == 0.000000 imaginary == 0.000000
+X[232]:real == 0.000000 imaginary == 0.000000
+X[233]:real == 0.000000 imaginary == 0.000000
+X[234]:real == 0.000000 imaginary == 0.000000
+X[235]:real == 0.000000 imaginary == 0.000000
+X[236]:real == 0.000000 imaginary == 0.000000
+X[237]:real == 0.000000 imaginary == 0.000000
+X[238]:real == 0.000000 imaginary == 0.000000
+X[239]:real == 0.000000 imaginary == 0.000000
+X[240]:real == 0.000000 imaginary == 0.000000
+X[241]:real == 0.000000 imaginary == 0.000000
+X[242]:real == 0.000000 imaginary == 0.000000
+X[243]:real == 0.000000 imaginary == 0.000000
+X[244]:real == 0.000000 imaginary == 0.000000
+X[245]:real == 0.000000 imaginary == 0.000000
+X[246]:real == 0.000000 imaginary == 0.000000
+X[247]:real == 0.000000 imaginary == 0.000000
+X[248]:real == 0.000000 imaginary == 0.000000
+X[249]:real == 0.000000 imaginary == 0.000000
+X[250]:real == 0.000000 imaginary == 0.000000
+X[251]:real == 0.000000 imaginary == 0.000000
+X[252]:real == 0.000000 imaginary == 0.000000
+X[253]:real == 0.000000 imaginary == 0.000000
+X[254]:real == 0.000000 imaginary == 0.000000
+X[255]:real == 0.000000 imaginary == 0.000000
+X[256]:real == 0.000000 imaginary == 0.000000
+X[257]:real == 0.000000 imaginary == 0.000000
+X[258]:real == 0.000000 imaginary == 0.000000
+X[259]:real == 0.000000 imaginary == 0.000000
+X[260]:real == 0.000000 imaginary == 0.000000
+X[261]:real == 0.000000 imaginary == 0.000000
+X[262]:real == 0.000000 imaginary == 0.000000
+X[263]:real == 0.000000 imaginary == 0.000000
+X[264]:real == 0.000000 imaginary == 0.000000
+X[265]:real == 0.000000 imaginary == 0.000000
+X[266]:real == 0.000000 imaginary == 0.000000
+X[267]:real == 0.000000 imaginary == 0.000000
+X[268]:real == 0.000000 imaginary == 0.000000
+X[269]:real == 0.000000 imaginary == 0.000000
+X[270]:real == 0.000000 imaginary == 0.000000
+X[271]:real == 0.000000 imaginary == 0.000000
+X[272]:real == 0.000000 imaginary == 0.000000
+X[273]:real == 0.000000 imaginary == 0.000000
+X[274]:real == 0.000000 imaginary == 0.000000
+X[275]:real == 0.000000 imaginary == 0.000000
+X[276]:real == 0.000000 imaginary == 0.000000
+X[277]:real == 0.000000 imaginary == 0.000000
+X[278]:real == 0.000000 imaginary == 0.000000
+X[279]:real == 0.000000 imaginary == 0.000000
+X[280]:real == 0.000000 imaginary == 0.000000
+X[281]:real == 0.000000 imaginary == 0.000000
+X[282]:real == 0.000000 imaginary == 0.000000
+X[283]:real == 0.000000 imaginary == 0.000000
+X[284]:real == 0.000000 imaginary == 0.000000
+X[285]:real == 0.000000 imaginary == 0.000000
+X[286]:real == 0.000000 imaginary == 0.000000
+X[287]:real == 0.000000 imaginary == 0.000000
+X[288]:real == 0.000000 imaginary == 0.000000
+X[289]:real == 0.000000 imaginary == 0.000000
+X[290]:real == 0.000000 imaginary == 0.000000
+X[291]:real == 0.000000 imaginary == 0.000000
+X[292]:real == 0.000000 imaginary == 0.000000
+X[293]:real == 0.000000 imaginary == 0.000000
+X[294]:real == 0.000000 imaginary == 0.000000
+X[295]:real == 0.000000 imaginary == 0.000000
+X[296]:real == 0.000000 imaginary == 0.000000
+X[297]:real == 0.000000 imaginary == 0.000000
+X[298]:real == 0.000000 imaginary == 0.000000
+X[299]:real == 0.000000 imaginary == 0.000000
+X[300]:real == 0.000000 imaginary == 0.000000
+X[301]:real == 0.000000 imaginary == 0.000000
+X[302]:real == 0.000000 imaginary == 0.000000
+X[303]:real == 0.000000 imaginary == 0.000000
+X[304]:real == 0.000000 imaginary == 0.000000
+X[305]:real == 0.000000 imaginary == 0.000000
+X[306]:real == 0.000000 imaginary == 0.000000
+X[307]:real == 0.000000 imaginary == 0.000000
+X[308]:real == 0.000000 imaginary == 0.000000
+X[309]:real == 0.000000 imaginary == 0.000000
+X[310]:real == 0.000000 imaginary == 0.000000
+X[311]:real == 0.000000 imaginary == 0.000000
+X[312]:real == 0.000000 imaginary == 0.000000
+X[313]:real == 0.000000 imaginary == 0.000000
+X[314]:real == 0.000000 imaginary == 0.000000
+X[315]:real == 0.000000 imaginary == 0.000000
+X[316]:real == 0.000000 imaginary == 0.000000
+X[317]:real == 0.000000 imaginary == 0.000000
+X[318]:real == 0.000000 imaginary == 0.000000
+X[319]:real == 0.000000 imaginary == 0.000000
+X[320]:real == 0.000000 imaginary == 0.000000
+X[321]:real == 0.000000 imaginary == 0.000000
+X[322]:real == 0.000000 imaginary == 0.000000
+X[323]:real == 0.000000 imaginary == 0.000000
+X[324]:real == 0.000000 imaginary == 0.000000
+X[325]:real == 0.000000 imaginary == 0.000000
+X[326]:real == 0.000000 imaginary == 0.000000
+X[327]:real == 0.000000 imaginary == 0.000000
+X[328]:real == 0.000000 imaginary == 0.000000
+X[329]:real == 0.000000 imaginary == 0.000000
+X[330]:real == 0.000000 imaginary == 0.000000
+X[331]:real == 0.000000 imaginary == 0.000000
+X[332]:real == 0.000000 imaginary == 0.000000
+X[333]:real == 0.000000 imaginary == 0.000000
+X[334]:real == 0.000000 imaginary == 0.000000
+X[335]:real == 0.000000 imaginary == 0.000000
+X[336]:real == 0.000000 imaginary == 0.000000
+X[337]:real == 0.000000 imaginary == 0.000000
+X[338]:real == 0.000000 imaginary == 0.000000
+X[339]:real == 0.000000 imaginary == 0.000000
+X[340]:real == 0.000000 imaginary == 0.000000
+X[341]:real == 0.000000 imaginary == 0.000000
+X[342]:real == 0.000000 imaginary == 0.000000
+X[343]:real == 0.000000 imaginary == 0.000000
+X[344]:real == 0.000000 imaginary == 0.000000
+X[345]:real == 0.000000 imaginary == 0.000000
+X[346]:real == 0.000000 imaginary == 0.000000
+X[347]:real == 0.000000 imaginary == 0.000000
+X[348]:real == 0.000000 imaginary == 0.000000
+X[349]:real == 0.000000 imaginary == 0.000000
+X[350]:real == 0.000000 imaginary == 0.000000
+X[351]:real == 0.000000 imaginary == 0.000000
+X[352]:real == 0.000000 imaginary == 0.000000
+X[353]:real == 0.000000 imaginary == 0.000000
+X[354]:real == 0.000000 imaginary == 0.000000
+X[355]:real == 0.000000 imaginary == 0.000000
+X[356]:real == 0.000000 imaginary == 0.000000
+X[357]:real == 0.000000 imaginary == 0.000000
+X[358]:real == 0.000000 imaginary == 0.000000
+X[359]:real == 0.000000 imaginary == 0.000000
+X[360]:real == 0.000000 imaginary == 0.000000
+X[361]:real == 0.000000 imaginary == 0.000000
+X[362]:real == 0.000000 imaginary == 0.000000
+X[363]:real == 0.000000 imaginary == 0.000000
+X[364]:real == 0.000000 imaginary == 0.000000
+X[365]:real == 0.000000 imaginary == 0.000000
+X[366]:real == 0.000000 imaginary == 0.000000
+X[367]:real == 0.000000 imaginary == 0.000000
+X[368]:real == 0.000000 imaginary == 0.000000
+X[369]:real == 0.000000 imaginary == 0.000000
+X[370]:real == 0.000000 imaginary == 0.000000
+X[371]:real == 0.000000 imaginary == 0.000000
+X[372]:real == 0.000000 imaginary == 0.000000
+X[373]:real == 0.000000 imaginary == 0.000000
+X[374]:real == 0.000000 imaginary == 0.000000
+X[375]:real == 0.000000 imaginary == 0.000000
+X[376]:real == 0.000000 imaginary == 0.000000
+X[377]:real == 0.000000 imaginary == 0.000000
+X[378]:real == 0.000000 imaginary == 0.000000
+X[379]:real == 0.000000 imaginary == 0.000000
+X[380]:real == 0.000000 imaginary == 0.000000
+X[381]:real == 0.000000 imaginary == 0.000000
+X[382]:real == 0.000000 imaginary == 0.000000
+X[383]:real == 0.000000 imaginary == 0.000000
+X[384]:real == 0.000000 imaginary == 0.000000
+X[385]:real == 0.000000 imaginary == 0.000000
+X[386]:real == 0.000000 imaginary == 0.000000
+X[387]:real == 0.000000 imaginary == 0.000000
+X[388]:real == 988.000000 imaginary == 0.000000
+X[389]:real == 865888.000000 imaginary == 0.000000
+X[390]:real == -881964.000000 imaginary == 0.000000
+X[391]:real == 0.000000 imaginary == 0.000000
+X[392]:real == 865888.000000 imaginary == 0.000000
+X[393]:real == -881964.000000 imaginary == 0.000000
+X[394]:real == 0.000000 imaginary == 0.000000
+X[395]:real == 0.000000 imaginary == 0.000000
+X[396]:real == 0.000000 imaginary == 0.000000
+X[397]:real == 0.000000 imaginary == 0.000000
+X[398]:real == 0.000000 imaginary == 0.000000
+X[399]:real == 0.000000 imaginary == 0.000000
+X[400]:real == 0.000000 imaginary == 0.000000
+X[401]:real == 0.000000 imaginary == 0.000000
+X[402]:real == 0.000000 imaginary == 0.000000
+X[403]:real == 0.000000 imaginary == 0.000000
+X[404]:real == 0.000000 imaginary == 0.000000
+X[405]:real == 960.000000 imaginary == 0.000000
+X[406]:real == 960.000000 imaginary == 0.000000
+X[407]:real == 960.000000 imaginary == 0.000000
+X[408]:real == 0.000000 imaginary == 0.000000
+X[409]:real == 0.000000 imaginary == 0.000000
+X[410]:real == 986.000000 imaginary == 0.000000
+X[411]:real == 996.000000 imaginary == 0.000000
+X[412]:real == 995.000000 imaginary == 0.000000
+X[413]:real == 1004.000000 imaginary == 0.000000
+X[414]:real == 960.000000 imaginary == 0.000000
+X[415]:real == 0.000000 imaginary == 0.000000
+X[416]:real == 0.000000 imaginary == 0.000000
+X[417]:real == 0.000000 imaginary == 0.000000
+X[418]:real == 0.000000 imaginary == 0.000000
+X[419]:real == 0.000000 imaginary == 0.000000
+X[420]:real == 0.000000 imaginary == 0.000000
+X[421]:real == 0.000000 imaginary == 0.000000
+X[422]:real == 0.000000 imaginary == 0.000000
+X[423]:real == 0.000000 imaginary == 0.000000
+X[424]:real == 0.000000 imaginary == 0.000000
+X[425]:real == 0.000000 imaginary == 0.000000
+X[426]:real == 0.000000 imaginary == 0.000000
+X[427]:real == 0.000000 imaginary == 0.000000
+X[428]:real == 0.000000 imaginary == 0.000000
+X[429]:real == 0.000000 imaginary == 0.000000
+X[430]:real == 0.000000 imaginary == 0.000000
+X[431]:real == 0.000000 imaginary == 0.000000
+X[432]:real == 0.000000 imaginary == 0.000000
+X[433]:real == 0.000000 imaginary == 0.000000
+X[434]:real == 0.000000 imaginary == 0.000000
+X[435]:real == 0.000000 imaginary == 0.000000
+X[436]:real == 0.000000 imaginary == 0.000000
+X[437]:real == 0.000000 imaginary == 0.000000
+X[438]:real == 0.000000 imaginary == 0.000000
+X[439]:real == 0.000000 imaginary == 0.000000
+X[440]:real == -881964.000000 imaginary == 0.000000
+X[441]:real == -881963.000000 imaginary == 0.000000
+X[442]:real == 0.000000 imaginary == 0.000000
+X[443]:real == -881964.000000 imaginary == 0.000000
+X[444]:real == 866113.000000 imaginary == 0.000000
+X[445]:real == 866154.000000 imaginary == 0.000000
+X[446]:real == -881964.000000 imaginary == 0.000000
+X[447]:real == 865888.000000 imaginary == 0.000000
+X[448]:real == 865888.000000 imaginary == 0.000000
+X[449]:real == 865888.000000 imaginary == 0.000000
+X[450]:real == 865888.000000 imaginary == 0.000000
+X[451]:real == 865888.000000 imaginary == 0.000000
+X[452]:real == 865889.000000 imaginary == 0.000000
+X[453]:real == 866067.000000 imaginary == 0.000000
+X[454]:real == 0.000000 imaginary == 0.000000
+X[455]:real == -881964.000000 imaginary == 0.000000
+X[456]:real == 865888.000000 imaginary == 0.000000
+X[457]:real == 0.000000 imaginary == 0.000000
+X[458]:real == 866157.000000 imaginary == 0.000000
+X[459]:real == 0.000000 imaginary == 0.000000
+X[460]:real == -881964.000000 imaginary == 0.000000
+X[461]:real == 866156.000000 imaginary == 0.000000
+X[462]:real == 0.000000 imaginary == 0.000000
+X[463]:real == 0.000000 imaginary == 0.000000
+X[464]:real == 866338.000000 imaginary == 0.000000
+X[465]:real == 865888.000000 imaginary == 0.000000
+X[466]:real == 866154.000000 imaginary == 0.000000
+X[467]:real == 866053.000000 imaginary == 0.000000
+X[468]:real == 0.000000 imaginary == 0.000000
+X[469]:real == 0.000000 imaginary == 0.000000
+X[470]:real == 1330537.000000 imaginary == 0.000000
+X[471]:real == 1330537.000000 imaginary == 0.000000
+X[472]:real == 1506814.000000 imaginary == 0.000000
+X[473]:real == 1554822.000000 imaginary == 0.000000
+X[474]:real == 2861.000000 imaginary == 0.000000
+X[475]:real == 732537.000000 imaginary == 0.000000
+X[476]:real == 627810.000000 imaginary == 0.000000
+X[477]:real == 627786.000000 imaginary == 0.000000
+X[478]:real == 627786.000000 imaginary == 0.000000
+X[479]:real == 867263.000000 imaginary == 0.000000
+X[480]:real == 867271.000000 imaginary == 0.000000
+X[481]:real == 866034.000000 imaginary == 0.000000
+X[482]:real == 0.000000 imaginary == 0.000000
+X[483]:real == 0.000000 imaginary == 0.000000
+X[484]:real == 866154.000000 imaginary == 0.000000
+X[485]:real == 866058.000000 imaginary == 0.000000
+X[486]:real == -881964.000000 imaginary == 0.000000
+X[487]:real == 322397.000000 imaginary == 0.000000
+X[488]:real == 0.000000 imaginary == 0.000000
+X[489]:real == 865888.000000 imaginary == 0.000000
+X[490]:real == 26.000000 imaginary == 0.000000
+X[491]:real == 866156.000000 imaginary == 0.000000
+X[492]:real == 0.000000 imaginary == 0.000000
+X[493]:real == 866324.000000 imaginary == 0.000000
+X[494]:real == 866154.000000 imaginary == 0.000000
+X[495]:real == 866058.000000 imaginary == 0.000000
+X[496]:real == 866154.000000 imaginary == 0.000000
+X[497]:real == 0.000000 imaginary == 0.000000
+X[498]:real == 0.000000 imaginary == 0.000000
+X[499]:real == 866154.000000 imaginary == 0.000000
+X[500]:real == 6.000000 imaginary == 0.000000
+X[501]:real == 0.000000 imaginary == 0.000000
+X[502]:real == 0.000000 imaginary == 0.000000
+X[503]:real == 3.000000 imaginary == 0.000000
+X[504]:real == 26.000000 imaginary == 0.000000
+X[505]:real == 0.000000 imaginary == 0.000000
+X[506]:real == 0.000000 imaginary == 0.000000
+X[507]:real == 0.000000 imaginary == 0.000000
+X[508]:real == 0.000000 imaginary == 0.000000
+X[509]:real == 0.000000 imaginary == 0.000000
+X[510]:real == 0.000000 imaginary == 0.000000
+X[511]:real == 0.000000 imaginary == 0.000000
+X[512]:real == 974.000000 imaginary == 0.000000
+X[513]:real == 0.000000 imaginary == 0.000000
+X[514]:real == 3.000000 imaginary == 0.000000
+X[515]:real == 0.000000 imaginary == 0.000000
+X[516]:real == 1.000000 imaginary == 0.000000
+X[517]:real == 0.000000 imaginary == 0.000000
+X[518]:real == 1077613.000000 imaginary == 0.000000
+X[519]:real == 0.000000 imaginary == 0.000000
+X[520]:real == 1042525.000000 imaginary == 0.000000
+X[521]:real == 0.000000 imaginary == 0.000000
+X[522]:real == 1073795.000000 imaginary == 0.000000
+X[523]:real == 0.000000 imaginary == 0.000000
+X[524]:real == 3.000000 imaginary == 0.000000
+X[525]:real == 0.000000 imaginary == 0.000000
+X[526]:real == 0.000000 imaginary == 0.000000
+X[527]:real == 26.000000 imaginary == 0.000000
+X[528]:real == 866154.000000 imaginary == 0.000000
+X[529]:real == 866156.000000 imaginary == 0.000000
+X[530]:real == 866156.000000 imaginary == 0.000000
+X[531]:real == 0.000000 imaginary == 0.000000
+X[532]:real == 0.000000 imaginary == 0.000000
+X[533]:real == 0.000000 imaginary == 0.000000
+X[534]:real == 0.000000 imaginary == 0.000000
+X[535]:real == 866058.000000 imaginary == 0.000000
+X[536]:real == 866156.000000 imaginary == 0.000000
+X[537]:real == 0.000000 imaginary == 0.000000
+X[538]:real == 0.000000 imaginary == 0.000000
+X[539]:real == -881963.000000 imaginary == 0.000000
+X[540]:real == 0.000000 imaginary == 0.000000
+X[541]:real == 0.000000 imaginary == 0.000000
+X[542]:real == 0.000000 imaginary == 0.000000
+X[543]:real == 0.000000 imaginary == 0.000000
+X[544]:real == 0.000000 imaginary == 0.000000
+X[545]:real == 0.000000 imaginary == 0.000000
+X[546]:real == 0.000000 imaginary == 0.000000
+X[547]:real == 0.000000 imaginary == 0.000000
+X[548]:real == 0.000000 imaginary == 0.000000
+X[549]:real == -881963.000000 imaginary == 0.000000
+X[550]:real == -881964.000000 imaginary == 0.000000
+X[551]:real == -881963.000000 imaginary == 0.000000
+X[552]:real == 0.000000 imaginary == 0.000000
+X[553]:real == 866154.000000 imaginary == 0.000000
+X[554]:real == 0.000000 imaginary == 0.000000
+X[555]:real == 950435.000000 imaginary == 0.000000
+X[556]:real == 53.000000 imaginary == 0.000000
+X[557]:real == 0.000000 imaginary == 0.000000
+X[558]:real == 0.000000 imaginary == 0.000000
+X[559]:real == 2112.000000 imaginary == 0.000000
+X[560]:real == 0.000000 imaginary == 0.000000
+X[561]:real == 71.000000 imaginary == 0.000000
+X[562]:real == 0.000000 imaginary == 0.000000
+X[563]:real == 972.000000 imaginary == 0.000000
+X[564]:real == 67600.000000 imaginary == 0.000000
+X[565]:real == 1690.000000 imaginary == 0.000000
+X[566]:real == 2112.000000 imaginary == 0.000000
+X[567]:real == 4172.000000 imaginary == 0.000000
+X[568]:real == 1514251.000000 imaginary == 0.000000
+X[569]:real == 923.000000 imaginary == 0.000000
+X[570]:real == 923.000000 imaginary == 0.000000
+X[571]:real == 923.000000 imaginary == 0.000000
+X[572]:real == 3.000000 imaginary == 0.000000
+X[573]:real == 3.000000 imaginary == 0.000000
+X[574]:real == 0.000000 imaginary == 0.000000
+X[575]:real == 0.000000 imaginary == 0.000000
+X[576]:real == 0.000000 imaginary == 0.000000
+X[577]:real == 0.000000 imaginary == 0.000000
+X[578]:real == 0.000000 imaginary == 0.000000
+X[579]:real == 0.000000 imaginary == 0.000000
+X[580]:real == 0.000000 imaginary == 0.000000
+X[581]:real == 0.000000 imaginary == 0.000000
+X[582]:real == 0.000000 imaginary == 0.000000
+X[583]:real == 0.000000 imaginary == 0.000000
+X[584]:real == 0.000000 imaginary == 0.000000
+X[585]:real == 921.000000 imaginary == 0.000000
+X[586]:real == 921.000000 imaginary == 0.000000
+X[587]:real == 921.000000 imaginary == 0.000000
+X[588]:real == 0.000000 imaginary == 0.000000
+X[589]:real == 0.000000 imaginary == 0.000000
+X[590]:real == 0.000000 imaginary == 0.000000
+X[591]:real == 0.000000 imaginary == 0.000000
+X[592]:real == 0.000000 imaginary == 0.000000
+X[593]:real == 0.000000 imaginary == 0.000000
+X[594]:real == 0.000000 imaginary == 0.000000
+X[595]:real == 0.000000 imaginary == 0.000000
+X[596]:real == 960.000000 imaginary == 0.000000
+X[597]:real == 960.000000 imaginary == 0.000000
+X[598]:real == 0.000000 imaginary == 0.000000
+X[599]:real == 26.000000 imaginary == 0.000000
+X[600]:real == 0.000000 imaginary == 0.000000
+X[601]:real == 961.000000 imaginary == 0.000000
+X[602]:real == 988.000000 imaginary == 0.000000
+X[603]:real == 988.000000 imaginary == 0.000000
+X[604]:real == 7.000000 imaginary == 0.000000
+X[605]:real == 16.000000 imaginary == 0.000000
+X[606]:real == 0.000000 imaginary == 0.000000
+X[607]:real == 26.000000 imaginary == 0.000000
+X[608]:real == 0.000000 imaginary == 0.000000
+X[609]:real == 966.000000 imaginary == 0.000000
+X[610]:real == 993.000000 imaginary == 0.000000
+X[611]:real == 993.000000 imaginary == 0.000000
+X[612]:real == 0.000000 imaginary == 0.000000
+X[613]:real == 0.000000 imaginary == 0.000000
+X[614]:real == 0.000000 imaginary == 0.000000
+X[615]:real == 0.000000 imaginary == 0.000000
+X[616]:real == 0.000000 imaginary == 0.000000
+X[617]:real == 0.000000 imaginary == 0.000000
+X[618]:real == 0.000000 imaginary == 0.000000
+X[619]:real == 0.000000 imaginary == 0.000000
+X[620]:real == 0.000000 imaginary == 0.000000
+X[621]:real == 0.000000 imaginary == 0.000000
+X[622]:real == 0.000000 imaginary == 0.000000
+X[623]:real == 0.000000 imaginary == 0.000000
+X[624]:real == 0.000000 imaginary == 0.000000
+X[625]:real == 961.000000 imaginary == 0.000000
+X[626]:real == 988.000000 imaginary == 0.000000
+X[627]:real == 988.000000 imaginary == 0.000000
+X[628]:real == 0.000000 imaginary == 0.000000
+X[629]:real == 0.000000 imaginary == 0.000000
+X[630]:real == 0.000000 imaginary == 0.000000
+X[631]:real == 0.000000 imaginary == 0.000000
+X[632]:real == 1358183.000000 imaginary == 0.000000
+X[633]:real == 927.000000 imaginary == 0.000000
+X[634]:real == 927.000000 imaginary == 0.000000
+X[635]:real == 927.000000 imaginary == 0.000000
+X[636]:real == 4.000000 imaginary == 0.000000
+X[637]:real == 4.000000 imaginary == 0.000000
+X[638]:real == 0.000000 imaginary == 0.000000
+X[639]:real == 0.000000 imaginary == 0.000000
+X[640]:real == 1358183.000000 imaginary == 0.000000
+X[641]:real == 0.000000 imaginary == 0.000000
+X[642]:real == 0.000000 imaginary == 0.000000
+X[643]:real == 0.000000 imaginary == 0.000000
+X[644]:real == 0.000000 imaginary == 0.000000
+X[645]:real == 0.000000 imaginary == 0.000000
+X[646]:real == 0.000000 imaginary == 0.000000
+X[647]:real == -881963.000000 imaginary == 0.000000
+X[648]:real == 866324.000000 imaginary == 0.000000
+X[649]:real == 867260.000000 imaginary == 0.000000
+X[650]:real == 0.000000 imaginary == 0.000000
+X[651]:real == 865888.000000 imaginary == 0.000000
+X[652]:real == 0.000000 imaginary == 0.000000
+X[653]:real == -881963.000000 imaginary == 0.000000
+X[654]:real == -881963.000000 imaginary == 0.000000
+X[655]:real == 866072.000000 imaginary == 0.000000
+X[656]:real == 0.000000 imaginary == 0.000000
+X[657]:real == 0.000000 imaginary == 0.000000
+X[658]:real == 0.000000 imaginary == 0.000000
+X[659]:real == 0.000000 imaginary == 0.000000
+X[660]:real == 0.000000 imaginary == 0.000000
+X[661]:real == 866078.000000 imaginary == 0.000000
+X[662]:real == 4.000000 imaginary == 0.000000
+X[663]:real == 866156.000000 imaginary == 0.000000
+X[664]:real == -881963.000000 imaginary == 0.000000
+X[665]:real == -881963.000000 imaginary == 0.000000
+X[666]:real == -881963.000000 imaginary == 0.000000
+X[667]:real == 866072.000000 imaginary == 0.000000
+X[668]:real == 0.000000 imaginary == 0.000000
+X[669]:real == 0.000000 imaginary == 0.000000
+X[670]:real == 0.000000 imaginary == 0.000000
+X[671]:real == 0.000000 imaginary == 0.000000
+X[672]:real == 0.000000 imaginary == 0.000000
+X[673]:real == 866324.000000 imaginary == 0.000000
+X[674]:real == 867260.000000 imaginary == 0.000000
+X[675]:real == 0.000000 imaginary == 0.000000
+X[676]:real == 865888.000000 imaginary == 0.000000
+X[677]:real == 0.000000 imaginary == 0.000000
+X[678]:real == -881963.000000 imaginary == 0.000000
+X[679]:real == -881963.000000 imaginary == 0.000000
+X[680]:real == -881963.000000 imaginary == 0.000000
+X[681]:real == 866078.000000 imaginary == 0.000000
+X[682]:real == 0.000000 imaginary == 0.000000
+X[683]:real == 0.000000 imaginary == 0.000000
+X[684]:real == 0.000000 imaginary == 0.000000
+X[685]:real == 0.000000 imaginary == 0.000000
+X[686]:real == 0.000000 imaginary == 0.000000
+X[687]:real == 0.000000 imaginary == 0.000000
+X[688]:real == 0.000000 imaginary == 0.000000
+X[689]:real == 0.000000 imaginary == 0.000000
+X[690]:real == 0.000000 imaginary == 0.000000
+X[691]:real == 0.000000 imaginary == 0.000000
+X[692]:real == 0.000000 imaginary == 0.000000
+X[693]:real == 0.000000 imaginary == 0.000000
+X[694]:real == 0.000000 imaginary == 0.000000
+X[695]:real == 0.000000 imaginary == 0.000000
+X[696]:real == 0.000000 imaginary == 0.000000
+X[697]:real == 0.000000 imaginary == 0.000000
+X[698]:real == 0.000000 imaginary == 0.000000
+X[699]:real == 0.000000 imaginary == 0.000000
+X[700]:real == 0.000000 imaginary == 0.000000
+X[701]:real == 866078.000000 imaginary == 0.000000
+X[702]:real == 0.000000 imaginary == 0.000000
+X[703]:real == 866156.000000 imaginary == 0.000000
+X[704]:real == -881963.000000 imaginary == 0.000000
+X[705]:real == -881963.000000 imaginary == 0.000000
+X[706]:real == -881963.000000 imaginary == 0.000000
+X[707]:real == 866072.000000 imaginary == 0.000000
+X[708]:real == 0.000000 imaginary == 0.000000
+X[709]:real == 0.000000 imaginary == 0.000000
+X[710]:real == 0.000000 imaginary == 0.000000
+X[711]:real == 0.000000 imaginary == 0.000000
+X[712]:real == 0.000000 imaginary == 0.000000
+X[713]:real == 26.000000 imaginary == 0.000000
+X[714]:real == 55.000000 imaginary == 0.000000
+X[715]:real == 0.000000 imaginary == 0.000000
+X[716]:real == 866156.000000 imaginary == 0.000000
+X[717]:real == 0.000000 imaginary == 0.000000
+X[718]:real == 0.000000 imaginary == 0.000000
+X[719]:real == -881963.000000 imaginary == 0.000000
+X[720]:real == -881963.000000 imaginary == 0.000000
+X[721]:real == 866078.000000 imaginary == 0.000000
+X[722]:real == 866276.000000 imaginary == 0.000000
+X[723]:real == 0.000000 imaginary == 0.000000
+X[724]:real == 0.000000 imaginary == 0.000000
+X[725]:real == 865889.000000 imaginary == 0.000000
+X[726]:real == -254534.000000 imaginary == 0.000000
+X[727]:real == 866063.000000 imaginary == 0.000000
+X[728]:real == 866278.000000 imaginary == 0.000000
+X[729]:real == 0.000000 imaginary == 0.000000
+X[730]:real == 0.000000 imaginary == 0.000000
+X[731]:real == 865889.000000 imaginary == 0.000000
+X[732]:real == 1684464.000000 imaginary == 0.000000
+X[733]:real == 866063.000000 imaginary == 0.000000
+X[734]:real == 100206.000000 imaginary == 0.000000
+X[735]:real == -881963.000000 imaginary == 0.000000
+X[736]:real == 866119.000000 imaginary == 0.000000
+X[737]:real == 866278.000000 imaginary == 0.000000
+X[738]:real == -881963.000000 imaginary == 0.000000
+X[739]:real == 866306.000000 imaginary == 0.000000
+X[740]:real == 52639.000000 imaginary == 0.000000
+X[741]:real == -881963.000000 imaginary == 0.000000
+X[742]:real == 866119.000000 imaginary == 0.000000
+X[743]:real == 866156.000000 imaginary == 0.000000
+X[744]:real == 866278.000000 imaginary == 0.000000
+X[745]:real == 0.000000 imaginary == 0.000000
+X[746]:real == 865889.000000 imaginary == 0.000000
+X[747]:real == 866155.000000 imaginary == 0.000000
+X[748]:real == 0.000000 imaginary == 0.000000
+X[749]:real == 0.000000 imaginary == 0.000000
+X[750]:real == 0.000000 imaginary == 0.000000
+X[751]:real == 1.000000 imaginary == 0.000000
+X[752]:real == 865889.000000 imaginary == 0.000000
+X[753]:real == 865888.000000 imaginary == 0.000000
+X[754]:real == 866033.000000 imaginary == 0.000000
+X[755]:real == 866306.000000 imaginary == 0.000000
+X[756]:real == 866033.000000 imaginary == 0.000000
+X[757]:real == 0.000000 imaginary == 0.000000
+X[758]:real == 866312.000000 imaginary == 0.000000
+X[759]:real == 866156.000000 imaginary == 0.000000
+X[760]:real == 1684464.000000 imaginary == 0.000000
+X[761]:real == -881963.000000 imaginary == 0.000000
+X[762]:real == -881963.000000 imaginary == 0.000000
+X[763]:real == 0.000000 imaginary == 0.000000
+X[764]:real == 866033.000000 imaginary == 0.000000
+X[765]:real == -881963.000000 imaginary == 0.000000
+X[766]:real == -881963.000000 imaginary == 0.000000
+X[767]:real == 866063.000000 imaginary == 0.000000
+X[768]:real == -881963.000000 imaginary == 0.000000
+X[769]:real == 866156.000000 imaginary == 0.000000
+X[770]:real == 0.000000 imaginary == 0.000000
+X[771]:real == 865889.000000 imaginary == 0.000000
+X[772]:real == 0.000000 imaginary == 0.000000
+X[773]:real == 0.000000 imaginary == 0.000000
+X[774]:real == 0.000000 imaginary == 0.000000
+X[775]:real == 866155.000000 imaginary == 0.000000
+X[776]:real == 866155.000000 imaginary == 0.000000
+X[777]:real == 0.000000 imaginary == 0.000000
+X[778]:real == 0.000000 imaginary == 0.000000
+X[779]:real == 0.000000 imaginary == 0.000000
+X[780]:real == 0.000000 imaginary == 0.000000
+X[781]:real == 865888.000000 imaginary == 0.000000
+X[782]:real == 866154.000000 imaginary == 0.000000
+X[783]:real == 865888.000000 imaginary == 0.000000
+X[784]:real == 0.000000 imaginary == 0.000000
+X[785]:real == 0.000000 imaginary == 0.000000
+X[786]:real == 0.000000 imaginary == 0.000000
+X[787]:real == 866156.000000 imaginary == 0.000000
+X[788]:real == 866154.000000 imaginary == 0.000000
+X[789]:real == 866155.000000 imaginary == 0.000000
+X[790]:real == 1585291.000000 imaginary == 0.000000
+X[791]:real == 759772.000000 imaginary == 0.000000
+X[792]:real == 786763.000000 imaginary == 0.000000
+X[793]:real == 679079.000000 imaginary == 0.000000
+X[794]:real == 866295.000000 imaginary == 0.000000
+X[795]:real == 865888.000000 imaginary == 0.000000
+X[796]:real == 10.000000 imaginary == 0.000000
+X[797]:real == 209696.000000 imaginary == 0.000000
+X[798]:real == 0.000000 imaginary == 0.000000
+X[799]:real == 865888.000000 imaginary == 0.000000
+X[800]:real == 866306.000000 imaginary == 0.000000
+X[801]:real == 865888.000000 imaginary == 0.000000
+X[802]:real == 0.000000 imaginary == 0.000000
+X[803]:real == 361.000000 imaginary == 0.000000
+X[804]:real == 5.000000 imaginary == 0.000000
+X[805]:real == 866155.000000 imaginary == 0.000000
+X[806]:real == 866033.000000 imaginary == 0.000000
+X[807]:real == 866033.000000 imaginary == 0.000000
+X[808]:real == 0.000000 imaginary == 0.000000
+X[809]:real == 0.000000 imaginary == 0.000000
+X[810]:real == 0.000000 imaginary == 0.000000
+X[811]:real == 866155.000000 imaginary == 0.000000
+X[812]:real == 0.000000 imaginary == 0.000000
+X[813]:real == 866069.000000 imaginary == 0.000000
+X[814]:real == 865889.000000 imaginary == 0.000000
+X[815]:real == 0.000000 imaginary == 0.000000
+X[816]:real == 0.000000 imaginary == 0.000000
+X[817]:real == 0.000000 imaginary == 0.000000
+X[818]:real == -881963.000000 imaginary == 0.000000
+X[819]:real == 866154.000000 imaginary == 0.000000
+X[820]:real == 866114.000000 imaginary == 0.000000
+X[821]:real == 866120.000000 imaginary == 0.000000
+X[822]:real == 0.000000 imaginary == 0.000000
+X[823]:real == 866156.000000 imaginary == 0.000000
+X[824]:real == 866114.000000 imaginary == 0.000000
+X[825]:real == 866156.000000 imaginary == 0.000000
+X[826]:real == 866120.000000 imaginary == 0.000000
+X[827]:real == 0.000000 imaginary == 0.000000
+X[828]:real == 0.000000 imaginary == 0.000000
+X[829]:real == 0.000000 imaginary == 0.000000
+X[830]:real == 866033.000000 imaginary == 0.000000
+X[831]:real == 866156.000000 imaginary == 0.000000
+X[832]:real == 866033.000000 imaginary == 0.000000
+X[833]:real == 0.000000 imaginary == 0.000000
+X[834]:real == 866154.000000 imaginary == 0.000000
+X[835]:real == 866032.000000 imaginary == 0.000000
+X[836]:real == 866033.000000 imaginary == 0.000000
+X[837]:real == 865465.000000 imaginary == 0.000000
+X[838]:real == 0.000000 imaginary == 0.000000
+X[839]:real == 0.000000 imaginary == 0.000000
+X[840]:real == 0.000000 imaginary == 0.000000
+X[841]:real == 0.000000 imaginary == 0.000000
+X[842]:real == 865465.000000 imaginary == 0.000000
+X[843]:real == 0.000000 imaginary == 0.000000
+X[844]:real == 866154.000000 imaginary == 0.000000
+X[845]:real == 866033.000000 imaginary == 0.000000
+X[846]:real == 0.000000 imaginary == 0.000000
+X[847]:real == 0.000000 imaginary == 0.000000
+X[848]:real == 865889.000000 imaginary == 0.000000
+X[849]:real == 0.000000 imaginary == 0.000000
+X[850]:real == 865465.000000 imaginary == 0.000000
+X[851]:real == 866306.000000 imaginary == 0.000000
+X[852]:real == 866154.000000 imaginary == 0.000000
+X[853]:real == 866154.000000 imaginary == 0.000000
+X[854]:real == 866156.000000 imaginary == 0.000000
+X[855]:real == 0.000000 imaginary == 0.000000
+X[856]:real == 1.000000 imaginary == 0.000000
+X[857]:real == 0.000000 imaginary == 0.000000
+X[858]:real == 0.000000 imaginary == 0.000000
+X[859]:real == 866154.000000 imaginary == 0.000000
+X[860]:real == 866156.000000 imaginary == 0.000000
+X[861]:real == 866041.000000 imaginary == 0.000000
+X[862]:real == 0.000000 imaginary == 0.000000
+X[863]:real == 0.000000 imaginary == 0.000000
+X[864]:real == 0.000000 imaginary == 0.000000
+X[865]:real == 0.000000 imaginary == 0.000000
+X[866]:real == 0.000000 imaginary == 0.000000
+X[867]:real == 0.000000 imaginary == 0.000000
+X[868]:real == 0.000000 imaginary == 0.000000
+X[869]:real == 0.000000 imaginary == 0.000000
+X[870]:real == 0.000000 imaginary == 0.000000
+X[871]:real == 0.000000 imaginary == 0.000000
+X[872]:real == 0.000000 imaginary == 0.000000
+X[873]:real == 0.000000 imaginary == 0.000000
+X[874]:real == 0.000000 imaginary == 0.000000
+X[875]:real == 0.000000 imaginary == 0.000000
+X[876]:real == 0.000000 imaginary == 0.000000
+X[877]:real == 0.000000 imaginary == 0.000000
+X[878]:real == 0.000000 imaginary == 0.000000
+X[879]:real == 0.000000 imaginary == 0.000000
+X[880]:real == -37.000000 imaginary == 0.000000
+X[881]:real == 0.000000 imaginary == 0.000000
+X[882]:real == 865465.000000 imaginary == 0.000000
+X[883]:real == 0.000000 imaginary == 0.000000
+X[884]:real == 52.000000 imaginary == 0.000000
+X[885]:real == 1.000000 imaginary == 0.000000
+X[886]:real == 866156.000000 imaginary == 0.000000
+X[887]:real == 0.000000 imaginary == 0.000000
+X[888]:real == 866155.000000 imaginary == 0.000000
+X[889]:real == 866156.000000 imaginary == 0.000000
+X[890]:real == 0.000000 imaginary == 0.000000
+X[891]:real == 0.000000 imaginary == 0.000000
+X[892]:real == 0.000000 imaginary == 0.000000
+X[893]:real == 0.000000 imaginary == 0.000000
+X[894]:real == 0.000000 imaginary == 0.000000
+X[895]:real == 0.000000 imaginary == 0.000000
+X[896]:real == 0.000000 imaginary == 0.000000
+X[897]:real == 0.000000 imaginary == 0.000000
+X[898]:real == 0.000000 imaginary == 0.000000
+X[899]:real == 0.000000 imaginary == 0.000000
+X[900]:real == 0.000000 imaginary == 0.000000
+X[901]:real == 0.000000 imaginary == 0.000000
+X[902]:real == 0.000000 imaginary == 0.000000
+X[903]:real == 0.000000 imaginary == 0.000000
+X[904]:real == 0.000000 imaginary == 0.000000
+X[905]:real == 0.000000 imaginary == 0.000000
+X[906]:real == 0.000000 imaginary == 0.000000
+X[907]:real == 0.000000 imaginary == 0.000000
+X[908]:real == 0.000000 imaginary == 0.000000
+X[909]:real == 0.000000 imaginary == 0.000000
+X[910]:real == 0.000000 imaginary == 0.000000
+X[911]:real == 0.000000 imaginary == 0.000000
+X[912]:real == 0.000000 imaginary == 0.000000
+X[913]:real == 866154.000000 imaginary == 0.000000
+X[914]:real == 0.000000 imaginary == 0.000000
+X[915]:real == 0.000000 imaginary == 0.000000
+X[916]:real == 866154.000000 imaginary == 0.000000
+X[917]:real == 26.000000 imaginary == 0.000000
+X[918]:real == 0.000000 imaginary == 0.000000
+X[919]:real == 0.000000 imaginary == 0.000000
+X[920]:real == 3.000000 imaginary == 0.000000
+X[921]:real == 866098.000000 imaginary == 0.000000
+X[922]:real == 0.000000 imaginary == 0.000000
+X[923]:real == 0.000000 imaginary == 0.000000
+X[924]:real == 26.000000 imaginary == 0.000000
+X[925]:real == 0.000000 imaginary == 0.000000
+X[926]:real == 0.000000 imaginary == 0.000000
+X[927]:real == 866037.000000 imaginary == 0.000000
+X[928]:real == 0.000000 imaginary == 0.000000
+X[929]:real == 27.000000 imaginary == 0.000000
+X[930]:real == 0.000000 imaginary == 0.000000
+X[931]:real == 866154.000000 imaginary == 0.000000
+X[932]:real == 866154.000000 imaginary == 0.000000
+X[933]:real == 866155.000000 imaginary == 0.000000
+X[934]:real == -881962.000000 imaginary == 0.000000
+X[935]:real == -881963.000000 imaginary == 0.000000
+X[936]:real == 866033.000000 imaginary == 0.000000
+X[937]:real == 866154.000000 imaginary == 0.000000
+X[938]:real == -881963.000000 imaginary == 0.000000
+X[939]:real == 866046.000000 imaginary == 0.000000
+X[940]:real == 0.000000 imaginary == 0.000000
+X[941]:real == 0.000000 imaginary == 0.000000
+X[942]:real == 866032.000000 imaginary == 0.000000
+X[943]:real == 866033.000000 imaginary == 0.000000
+X[944]:real == 122.000000 imaginary == 0.000000
+X[945]:real == 866101.000000 imaginary == 0.000000
+X[946]:real == -881963.000000 imaginary == 0.000000
+X[947]:real == 866047.000000 imaginary == 0.000000
+X[948]:real == 0.000000 imaginary == 0.000000
+X[949]:real == 0.000000 imaginary == 0.000000
+X[950]:real == 0.000000 imaginary == 0.000000
+X[951]:real == 866156.000000 imaginary == 0.000000
+X[952]:real == -881962.000000 imaginary == 0.000000
+X[953]:real == 866154.000000 imaginary == 0.000000
+X[954]:real == 866032.000000 imaginary == 0.000000
+X[955]:real == 0.000000 imaginary == 0.000000
+X[956]:real == 866154.000000 imaginary == 0.000000
+X[957]:real == 0.000000 imaginary == 0.000000
+X[958]:real == 0.000000 imaginary == 0.000000
+X[959]:real == 0.000000 imaginary == 0.000000
+X[960]:real == 0.000000 imaginary == 0.000000
+X[961]:real == 0.000000 imaginary == 0.000000
+X[962]:real == 0.000000 imaginary == 0.000000
+X[963]:real == 0.000000 imaginary == 0.000000
+X[964]:real == 866154.000000 imaginary == 0.000000
+X[965]:real == 866154.000000 imaginary == 0.000000
+X[966]:real == 866154.000000 imaginary == 0.000000
+X[967]:real == 866154.000000 imaginary == 0.000000
+X[968]:real == 866154.000000 imaginary == 0.000000
+X[969]:real == 0.000000 imaginary == 0.000000
+X[970]:real == 0.000000 imaginary == 0.000000
+X[971]:real == 0.000000 imaginary == 0.000000
+X[972]:real == 866154.000000 imaginary == 0.000000
+X[973]:real == 866154.000000 imaginary == 0.000000
+X[974]:real == 0.000000 imaginary == 0.000000
+X[975]:real == 0.000000 imaginary == 0.000000
+X[976]:real == 866154.000000 imaginary == 0.000000
+X[977]:real == 0.000000 imaginary == 0.000000
+X[978]:real == 0.000000 imaginary == 0.000000
+X[979]:real == 866154.000000 imaginary == 0.000000
+X[980]:real == 866154.000000 imaginary == 0.000000
+X[981]:real == 866154.000000 imaginary == 0.000000
+X[982]:real == 866154.000000 imaginary == 0.000000
+X[983]:real == 0.000000 imaginary == 0.000000
+X[984]:real == 0.000000 imaginary == 0.000000
+X[985]:real == 866154.000000 imaginary == 0.000000
+X[986]:real == 0.000000 imaginary == 0.000000
+X[987]:real == 0.000000 imaginary == 0.000000
+X[988]:real == 0.000000 imaginary == 0.000000
+X[989]:real == 0.000000 imaginary == 0.000000
+X[990]:real == 0.000000 imaginary == 0.000000
+X[991]:real == 0.000000 imaginary == 0.000000
+X[992]:real == 0.000000 imaginary == 0.000000
+X[993]:real == 0.000000 imaginary == 0.000000
+X[994]:real == 0.000000 imaginary == 0.000000
+X[995]:real == 0.000000 imaginary == 0.000000
+X[996]:real == 0.000000 imaginary == 0.000000
+X[997]:real == 0.000000 imaginary == 0.000000
+X[998]:real == 866154.000000 imaginary == 0.000000
+X[999]:real == 866154.000000 imaginary == 0.000000
+X[1000]:real == 0.000000 imaginary == 0.000000
+X[1001]:real == 866154.000000 imaginary == 0.000000
+X[1002]:real == 866278.000000 imaginary == 0.000000
+X[1003]:real == 0.000000 imaginary == 0.000000
+X[1004]:real == 0.000000 imaginary == 0.000000
+X[1005]:real == 865889.000000 imaginary == 0.000000
+X[1006]:real == -131963.000000 imaginary == 0.000000
+X[1007]:real == 866063.000000 imaginary == 0.000000
+X[1008]:real == 0.000000 imaginary == 0.000000
+X[1009]:real == 0.000000 imaginary == 0.000000
+X[1010]:real == 0.000000 imaginary == 0.000000
+X[1011]:real == 866278.000000 imaginary == 0.000000
+X[1012]:real == -881962.000000 imaginary == 0.000000
+X[1013]:real == 866304.000000 imaginary == 0.000000
+X[1014]:real == 104036.000000 imaginary == 0.000000
+X[1015]:real == -881962.000000 imaginary == 0.000000
+X[1016]:real == 866119.000000 imaginary == 0.000000
+X[1017]:real == 866156.000000 imaginary == 0.000000
+X[1018]:real == 866278.000000 imaginary == 0.000000
+X[1019]:real == 0.000000 imaginary == 0.000000
+X[1020]:real == 27.000000 imaginary == 0.000000
+X[1021]:real == 27.000000 imaginary == 0.000000
+X[1022]:real == 867266.000000 imaginary == 0.000000
+X[1023]:real == 0.000000 imaginary == 0.000000
+
+
+**********After*********
+X[0]:real == 0.000000 imaginary == 0.000000
+X[1]:real == 518973.015625 imaginary == 0.000000
+X[2]:real == 16678.829275 imaginary == 264556.825996
+X[3]:real == 10568.706633 imaginary == 174248.787673
+X[4]:real == -130765.715051 imaginary == -101809.882197
+X[5]:real == 174335.054556 imaginary == 69038.456534
+X[6]:real == 11157.768807 imaginary == 29489.442798
+X[7]:real == -1119.097340 imaginary == 183304.923644
+X[8]:real == -55557.209731 imaginary == -43972.494644
+X[9]:real == -37366.245530 imaginary == 96183.224723
+X[10]:real == -23680.120028 imaginary == -51919.562518
+X[11]:real == -34888.037488 imaginary == -5168.859805
+X[12]:real == 85217.433558 imaginary == 4609.480515
+X[13]:real == -68859.484704 imaginary == 36211.319469
+X[14]:real == 31781.306846 imaginary == -3037.563671
+X[15]:real == -13298.168626 imaginary == -10363.864609
+X[16]:real == 3379.927040 imaginary == 51702.670932
+X[17]:real == -21513.997871 imaginary == -55179.389494
+X[18]:real == 24026.730305 imaginary == 18801.354985
+X[19]:real == 57410.455803 imaginary == -14795.900232
+X[20]:real == -29347.365811 imaginary == 98127.835225
+X[21]:real == -26975.368857 imaginary == -54751.388561
+X[22]:real == 21911.749004 imaginary == 2306.161259
+X[23]:real == 53001.090342 imaginary == -317.637533
+X[24]:real == 6837.119433 imaginary == 77435.391495
+X[25]:real == -25732.823659 imaginary == 10948.305663
+X[26]:real == -8532.544068 imaginary == 39003.004852
+X[27]:real == -24593.046696 imaginary == -15999.071154
+X[28]:real == 7092.223399 imaginary == 56249.941159
+X[29]:real == -69006.079395 imaginary == -23038.033920
+X[30]:real == 9794.805823 imaginary == -9873.494443
+X[31]:real == 1732.935570 imaginary == -26341.824799
+X[32]:real == 36786.686893 imaginary == 36529.398777
+X[33]:real == -51778.854856 imaginary == 50723.620234
+X[34]:real == -53423.313810 imaginary == -37665.113555
+X[35]:real == -14548.128597 imaginary == -36372.434261
+X[36]:real == 37728.015535 imaginary == -33444.424304
+X[37]:real == -27062.032233 imaginary == 3473.106002
+X[38]:real == 63752.891136 imaginary == -46567.056004
+X[39]:real == 6726.399142 imaginary == 39304.169341
+X[40]:real == 16985.333760 imaginary == 29787.519404
+X[41]:real == -57719.930477 imaginary == -30334.694615
+X[42]:real == 57174.950980 imaginary == -3904.383328
+X[43]:real == -615.672891 imaginary == -19324.066866
+X[44]:real == 16456.039533 imaginary == 50440.673838
+X[45]:real == 8441.858269 imaginary == -56443.921845
+X[46]:real == 12211.312194 imaginary == 58332.582003
+X[47]:real == 39080.819218 imaginary == -31321.046898
+X[48]:real == -32438.637940 imaginary == 54470.054337
+X[49]:real == 50460.636925 imaginary == -25427.257978
+X[50]:real == -17351.531323 imaginary == 26535.948932
+X[51]:real == 41485.831348 imaginary == 44313.645189
+X[52]:real == -59870.837554 imaginary == -17060.099620
+X[53]:real == 63930.214264 imaginary == 3728.601646
+X[54]:real == 20193.389758 imaginary == 37305.032525
+X[55]:real == -19242.350401 imaginary == 62333.892190
+X[56]:real == -13752.226077 imaginary == 6812.418968
+X[57]:real == -18536.738236 imaginary == 19341.545280
+X[58]:real == 4477.536880 imaginary == 27533.140041
+X[59]:real == -26664.258184 imaginary == 15003.988913
+X[60]:real == -25478.640382 imaginary == 45051.589286
+X[61]:real == -39534.725641 imaginary == -32238.545159
+X[62]:real == -2217.226236 imaginary == 24460.683680
+X[63]:real == -16094.197449 imaginary == 7868.753609
+X[64]:real == -68244.300003 imaginary == 7002.022060
+X[65]:real == -7447.127639 imaginary == -43432.161623
+X[66]:real == 1825.706509 imaginary == -40503.068391
+X[67]:real == 28315.150187 imaginary == 41321.067253
+X[68]:real == -35643.182524 imaginary == -16597.614010
+X[69]:real == -31234.599093 imaginary == 5859.689296
+X[70]:real == 28868.679192 imaginary == -69541.232041
+X[71]:real == 14109.295177 imaginary == 49940.815806
+X[72]:real == -25290.607673 imaginary == -8377.457072
+X[73]:real == -5840.973773 imaginary == -43763.030326
+X[74]:real == 55122.422623 imaginary == 18806.145682
+X[75]:real == -27604.160796 imaginary == 6885.281536
+X[76]:real == 26329.350622 imaginary == -10304.285128
+X[77]:real == 44402.464128 imaginary == 22605.002231
+X[78]:real == -28564.283993 imaginary == 93294.512936
+X[79]:real == -59162.529537 imaginary == -21675.678185
+X[80]:real == -20007.359433 imaginary == 18722.845426
+X[81]:real == -48840.630886 imaginary == -39303.049421
+X[82]:real == 28533.481430 imaginary == -20894.208481
+X[83]:real == -33402.812928 imaginary == 17742.600818
+X[84]:real == -3846.102763 imaginary == -35762.100611
+X[85]:real == -20263.590437 imaginary == -29294.275535
+X[86]:real == 58691.685049 imaginary == -1548.483483
+X[87]:real == -64907.475720 imaginary == -17512.245915
+X[88]:real == 96769.970507 imaginary == -43738.354496
+X[89]:real == 8800.286961 imaginary == 57667.592522
+X[90]:real == -7070.574543 imaginary == 26245.166955
+X[91]:real == -17561.733754 imaginary == -8962.700125
+X[92]:real == 17939.517293 imaginary == 7234.117954
+X[93]:real == 4762.264958 imaginary == 32503.682838
+X[94]:real == -36637.370540 imaginary == 30211.045665
+X[95]:real == -46234.245877 imaginary == -4358.666133
+X[96]:real == -20859.871166 imaginary == -54947.625553
+X[97]:real == 45572.083348 imaginary == 10175.527464
+X[98]:real == -52459.541322 imaginary == 8499.411491
+X[99]:real == 18532.351518 imaginary == -34231.341669
+X[100]:real == -12082.329768 imaginary == 11256.545873
+X[101]:real == -9366.549996 imaginary == -35201.444722
+X[102]:real == 47416.204386 imaginary == -16409.018432
+X[103]:real == 14548.169828 imaginary == 50073.559624
+X[104]:real == -44949.693572 imaginary == 19360.192576
+X[105]:real == -19184.582659 imaginary == -33907.609222
+X[106]:real == 6826.554718 imaginary == -10279.436182
+X[107]:real == 8802.993266 imaginary == -10073.564422
+X[108]:real == 14762.009300 imaginary == 16671.250925
+X[109]:real == -39954.668907 imaginary == 15963.997130
+X[110]:real == 5995.374637 imaginary == -25700.547801
+X[111]:real == -47515.295999 imaginary == 7285.220467
+X[112]:real == 18895.546265 imaginary == -63193.085411
+X[113]:real == 5880.940341 imaginary == -2313.168449
+X[114]:real == 35448.008108 imaginary == -8655.521010
+X[115]:real == -15449.558793 imaginary == 19198.519302
+X[116]:real == -11601.119943 imaginary == -2976.736278
+X[117]:real == -41438.358515 imaginary == -47647.001183
+X[118]:real == 68239.995519 imaginary == -59702.039784
+X[119]:real == 21167.861850 imaginary == 28477.856981
+X[120]:real == 30103.138233 imaginary == -37204.597560
+X[121]:real == 56750.965193 imaginary == 48351.829889
+X[122]:real == -29025.149818 imaginary == 16826.019078
+X[123]:real == 29129.855175 imaginary == -3387.017670
+X[124]:real == 11740.460858 imaginary == 19431.592191
+X[125]:real == -8211.087204 imaginary == 47382.534483
+X[126]:real == -25027.099708 imaginary == -43447.536876
+X[127]:real == 51166.348804 imaginary == 48650.027614
+X[128]:real == -63276.249329 imaginary == 6724.561970
+X[129]:real == 15187.517008 imaginary == -5311.689792
+X[130]:real == -36064.520341 imaginary == -17841.268042
+X[131]:real == 42044.540887 imaginary == -11871.097850
+X[132]:real == -9595.116288 imaginary == 1174.964429
+X[133]:real == 33910.196252 imaginary == 30622.365069
+X[134]:real == -56209.422332 imaginary == 18106.087648
+X[135]:real == -34508.712249 imaginary == -42265.400487
+X[136]:real == 50746.382530 imaginary == -70551.758668
+X[137]:real == 57647.383198 imaginary == 38782.931308
+X[138]:real == 1258.218528 imaginary == 47765.440071
+X[139]:real == -43793.707196 imaginary == -19567.916505
+X[140]:real == 45526.087739 imaginary == 2402.337374
+X[141]:real == -14410.146114 imaginary == -4093.247773
+X[142]:real == 25387.609146 imaginary == 28657.605094
+X[143]:real == -7310.568828 imaginary == -26487.455814
+X[144]:real == 38931.122743 imaginary == 48470.820467
+X[145]:real == -11274.890328 imaginary == 27565.090544
+X[146]:real == -65678.289732 imaginary == 21675.577065
+X[147]:real == 43232.074448 imaginary == -41493.843961
+X[148]:real == -56245.194071 imaginary == 52340.947358
+X[149]:real == 7193.923389 imaginary == -48926.458854
+X[150]:real == -7277.399758 imaginary == -17802.240834
+X[151]:real == 43494.470730 imaginary == 34024.298489
+X[152]:real == -58054.431540 imaginary == -18766.823332
+X[153]:real == 38380.229580 imaginary == -6090.679789
+X[154]:real == -18944.767380 imaginary == 9916.254839
+X[155]:real == -22252.467368 imaginary == -44791.220586
+X[156]:real == 86169.583598 imaginary == -14451.047331
+X[157]:real == -21301.981667 imaginary == 44085.394107
+X[158]:real == 15411.896890 imaginary == -4276.398351
+X[159]:real == -1861.115427 imaginary == -26750.341858
+X[160]:real == 56240.755551 imaginary == 52058.289251
+X[161]:real == -43403.461429 imaginary == -20487.625823
+X[162]:real == 70088.802535 imaginary == 38716.548782
+X[163]:real == -58749.848376 imaginary == 28978.493556
+X[164]:real == 7271.465607 imaginary == -34713.881338
+X[165]:real == 54714.312491 imaginary == 2341.816917
+X[166]:real == 23571.831421 imaginary == 72277.989816
+X[167]:real == -43504.673474 imaginary == 49757.492684
+X[168]:real == -35967.940700 imaginary == -6888.055156
+X[169]:real == -7522.839927 imaginary == -8592.213360
+X[170]:real == 36682.060116 imaginary == 9400.270054
+X[171]:real == -43450.285818 imaginary == 91612.121405
+X[172]:real == -95593.220687 imaginary == -55713.804996
+X[173]:real == 29518.565995 imaginary == -49532.643971
+X[174]:real == 15843.338032 imaginary == -16247.758162
+X[175]:real == 41250.711563 imaginary == 15442.432851
+X[176]:real == -162.359824 imaginary == 25979.405310
+X[177]:real == -20235.097760 imaginary == 35574.545205
+X[178]:real == -9666.912684 imaginary == -57096.955814
+X[179]:real == 66266.640033 imaginary == 67088.512724
+X[180]:real == -56503.714541 imaginary == 19204.318209
+X[181]:real == 5555.166411 imaginary == 26620.473994
+X[182]:real == -23263.096575 imaginary == 7275.265185
+X[183]:real == -33839.674676 imaginary == 47237.941150
+X[184]:real == -62591.543721 imaginary == -30316.146300
+X[185]:real == -21388.334181 imaginary == -42436.386669
+X[186]:real == 39249.907393 imaginary == -47442.802692
+X[187]:real == 41883.213170 imaginary == 38924.433610
+X[188]:real == -36781.633581 imaginary == 31326.907901
+X[189]:real == 4568.419781 imaginary == -39346.882849
+X[190]:real == 42127.139150 imaginary == 48460.295524
+X[191]:real == -37913.451703 imaginary == 42331.473913
+X[192]:real == -35685.349834 imaginary == 16186.662721
+X[193]:real == -25933.979542 imaginary == -13786.195775
+X[194]:real == -12462.936513 imaginary == 25541.170496
+X[195]:real == -60039.835119 imaginary == -11927.034847
+X[196]:real == -9741.482773 imaginary == -40267.649820
+X[197]:real == 16080.217339 imaginary == -21663.665423
+X[198]:real == 15797.266693 imaginary == 42015.986539
+X[199]:real == -78761.768748 imaginary == -9865.825274
+X[200]:real == 33167.660246 imaginary == -63520.530151
+X[201]:real == 49006.581834 imaginary == 39202.299053
+X[202]:real == -49338.096038 imaginary == 67475.136180
+X[203]:real == -50516.615800 imaginary == -30776.935212
+X[204]:real == -18144.646246 imaginary == -248.478301
+X[205]:real == -40273.342788 imaginary == -12260.652828
+X[206]:real == -23822.664690 imaginary == -60282.192109
+X[207]:real == 41746.939963 imaginary == -9850.771687
+X[208]:real == -32283.315005 imaginary == 21233.343922
+X[209]:real == -29285.443244 imaginary == -60738.452239
+X[210]:real == 49338.678249 imaginary == -28927.330194
+X[211]:real == 33244.799732 imaginary == 11592.966838
+X[212]:real == -6466.498019 imaginary == 52062.907978
+X[213]:real == -29523.537522 imaginary == -15384.504885
+X[214]:real == -12175.766174 imaginary == 25616.178379
+X[215]:real == -38886.518301 imaginary == -29849.376239
+X[216]:real == -11143.138441 imaginary == -14656.027268
+X[217]:real == 19613.753842 imaginary == -29076.994438
+X[218]:real == -30591.719867 imaginary == 20511.008006
+X[219]:real == 10850.624467 imaginary == -35150.263325
+X[220]:real == -27290.343183 imaginary == -21778.835228
+X[221]:real == 62525.599403 imaginary == 7273.294659
+X[222]:real == -49808.624892 imaginary == 4544.027030
+X[223]:real == 3489.159759 imaginary == 15406.479171
+X[224]:real == -19122.863418 imaginary == -57760.465553
+X[225]:real == 12766.446746 imaginary == 55340.371506
+X[226]:real == -56917.018789 imaginary == -48990.208605
+X[227]:real == 1157.311309 imaginary == -25106.071533
+X[228]:real == 14085.397963 imaginary == -30093.528104
+X[229]:real == -16700.926303 imaginary == -21529.118924
+X[230]:real == 48262.338405 imaginary == -28766.853234
+X[231]:real == -18599.285814 imaginary == 1774.144190
+X[232]:real == 42789.130787 imaginary == -30101.613257
+X[233]:real == 22046.556880 imaginary == 5355.034519
+X[234]:real == 4165.205927 imaginary == 42142.084438
+X[235]:real == -11441.380604 imaginary == -47828.815316
+X[236]:real == 40491.766878 imaginary == 30547.849664
+X[237]:real == 1652.945268 imaginary == 23775.877575
+X[238]:real == -42533.395901 imaginary == 8227.765322
+X[239]:real == 17483.940191 imaginary == -10337.157296
+X[240]:real == -11739.596607 imaginary == 7335.508008
+X[241]:real == -15608.810810 imaginary == 21978.687610
+X[242]:real == -32364.205869 imaginary == -24035.128079
+X[243]:real == 821.967167 imaginary == -17550.263652
+X[244]:real == -4416.261271 imaginary == -2720.726270
+X[245]:real == 504.538666 imaginary == -12005.756048
+X[246]:real == -17866.700380 imaginary == 16734.016785
+X[247]:real == -34898.531948 imaginary == -33349.151303
+X[248]:real == 11951.949094 imaginary == -22590.142463
+X[249]:real == -24117.377210 imaginary == -13066.633958
+X[250]:real == -4796.950683 imaginary == -37195.008384
+X[251]:real == 19763.352224 imaginary == -46139.839318
+X[252]:real == 13558.294909 imaginary == 5966.307942
+X[253]:real == 8592.817631 imaginary == -29819.242709
+X[254]:real == -2497.592428 imaginary == -27089.537511
+X[255]:real == 48075.250468 imaginary == -25697.325418
+X[256]:real == 50110.386575 imaginary == -12232.316015
+X[257]:real == 6189.347656 imaginary == 81956.222656
+X[258]:real == -32695.861021 imaginary == -57182.680139
+X[259]:real == 46207.518017 imaginary == 16552.704563
+X[260]:real == -5262.433114 imaginary == 26113.436371
+X[261]:real == -43889.581305 imaginary == 620.692541
+X[262]:real == -11348.595748 imaginary == -52405.064321
+X[263]:real == 31602.790077 imaginary == -36799.415305
+X[264]:real == 44389.894211 imaginary == 7165.785456
+X[265]:real == -26059.386090 imaginary == 6553.280899
+X[266]:real == 32273.194554 imaginary == -46078.124976
+X[267]:real == 57647.083752 imaginary == -5161.458219
+X[268]:real == 12758.304638 imaginary == 87100.614276
+X[269]:real == -45375.041333 imaginary == -48577.853864
+X[270]:real == 24969.277539 imaginary == 17214.041841
+X[271]:real == 3285.958862 imaginary == -32950.476522
+X[272]:real == 19816.938595 imaginary == 13456.752494
+X[273]:real == -5476.970852 imaginary == -13795.169822
+X[274]:real == 36649.721082 imaginary == -30069.055374
+X[275]:real == 50782.478890 imaginary == 12086.134277
+X[276]:real == 13464.766866 imaginary == 55888.965417
+X[277]:real == -1731.308858 imaginary == -27432.891094
+X[278]:real == 36502.702554 imaginary == 57855.457094
+X[279]:real == -20792.992591 imaginary == 8953.191358
+X[280]:real == 2812.363490 imaginary == 2836.828244
+X[281]:real == 33910.525832 imaginary == 43792.100558
+X[282]:real == -70263.235453 imaginary == 44151.346599
+X[283]:real == -25228.623042 imaginary == -50409.104485
+X[284]:real == 16430.194624 imaginary == 7578.843547
+X[285]:real == -19504.414039 imaginary == -11042.359573
+X[286]:real == -10041.230811 imaginary == -25258.070300
+X[287]:real == 55123.064812 imaginary == -22201.633679
+X[288]:real == 6365.171261 imaginary == 31252.075568
+X[289]:real == -5930.960191 imaginary == 22144.845800
+X[290]:real == 1359.153330 imaginary == -36017.480371
+X[291]:real == 30122.136277 imaginary == 24905.253535
+X[292]:real == 23864.116522 imaginary == 35499.740740
+X[293]:real == -59662.846025 imaginary == 25619.850177
+X[294]:real == 6895.502880 imaginary == -32060.745723
+X[295]:real == 33278.843576 imaginary == 18437.642936
+X[296]:real == -40904.490544 imaginary == 47274.926243
+X[297]:real == -28602.246261 imaginary == -19188.836781
+X[298]:real == -4924.381795 imaginary == -22881.930773
+X[299]:real == -15717.065173 imaginary == 16290.686990
+X[300]:real == -16507.319882 imaginary == -52063.360381
+X[301]:real == 28169.575179 imaginary == -30661.253581
+X[302]:real == 54182.581448 imaginary == 8495.475151
+X[303]:real == 8857.375684 imaginary == 39215.437962
+X[304]:real == -20796.514214 imaginary == 22145.981798
+X[305]:real == -21139.144024 imaginary == -8664.575719
+X[306]:real == 30299.222086 imaginary == -14638.253362
+X[307]:real == -26656.556196 imaginary == 41306.225119
+X[308]:real == -365.695702 imaginary == -14694.104533
+X[309]:real == -40931.635103 imaginary == -24466.909936
+X[310]:real == 52559.053724 imaginary == -16067.413020
+X[311]:real == 7016.943206 imaginary == 7984.151275
+X[312]:real == -13410.003647 imaginary == 13228.361783
+X[313]:real == 40750.896382 imaginary == -17392.432469
+X[314]:real == -2927.105476 imaginary == 28789.385926
+X[315]:real == 6486.020101 imaginary == 30623.504829
+X[316]:real == -6402.983104 imaginary == -17563.593462
+X[317]:real == 13655.729431 imaginary == 53555.182061
+X[318]:real == -29328.459372 imaginary == 7367.700023
+X[319]:real == -7644.884216 imaginary == 17866.491964
+X[320]:real == -36177.616038 imaginary == 14987.790847
+X[321]:real == -10955.082832 imaginary == -9336.861106
+X[322]:real == -20075.676671 imaginary == 15107.771070
+X[323]:real == -51232.563212 imaginary == -7000.224363
+X[324]:real == 17250.178633 imaginary == -43407.491500
+X[325]:real == -8495.854396 imaginary == 24885.699566
+X[326]:real == -20278.927269 imaginary == 20743.154077
+X[327]:real == -49427.041604 imaginary == -26958.253999
+X[328]:real == -37496.788585 imaginary == -2919.056731
+X[329]:real == -21699.041576 imaginary == -68054.895155
+X[330]:real == 4793.958428 imaginary == -50330.193696
+X[331]:real == 31476.397519 imaginary == 5668.954011
+X[332]:real == -11240.150449 imaginary == -45097.213074
+X[333]:real == 1655.125136 imaginary == 17782.301872
+X[334]:real == -4250.319618 imaginary == -65696.218165
+X[335]:real == 39657.356112 imaginary == -23724.702017
+X[336]:real == 32043.927342 imaginary == 27933.771359
+X[337]:real == -24082.517386 imaginary == -19092.299488
+X[338]:real == 32961.937356 imaginary == -18352.283392
+X[339]:real == 17235.648268 imaginary == 39286.093034
+X[340]:real == -57946.772754 imaginary == -8761.165718
+X[341]:real == 10867.762350 imaginary == -62145.914799
+X[342]:real == 42464.478494 imaginary == 27038.329705
+X[343]:real == -64955.953386 imaginary == -22414.677939
+X[344]:real == 15374.509122 imaginary == -53827.360211
+X[345]:real == 37832.622192 imaginary == -66649.239650
+X[346]:real == 68528.968730 imaginary == 8196.164983
+X[347]:real == 17118.959486 imaginary == 19691.789010
+X[348]:real == 21100.612521 imaginary == -16558.985634
+X[349]:real == 29687.339337 imaginary == 7810.156456
+X[350]:real == 43822.475693 imaginary == 58873.966543
+X[351]:real == -90438.367481 imaginary == -9262.331395
+X[352]:real == 34144.040589 imaginary == -20261.720467
+X[353]:real == -6446.796181 imaginary == -45448.778350
+X[354]:real == -375.085937 imaginary == -8344.090676
+X[355]:real == 86082.442652 imaginary == -62610.448725
+X[356]:real == -7823.237085 imaginary == 35983.193508
+X[357]:real == 67353.433589 imaginary == -42335.928015
+X[358]:real == 39618.572560 imaginary == -11277.521748
+X[359]:real == 104980.169552 imaginary == 41609.466872
+X[360]:real == 21738.342807 imaginary == 46745.765669
+X[361]:real == 44264.229821 imaginary == 84227.503135
+X[362]:real == -29954.537114 imaginary == 30246.323166
+X[363]:real == 6484.695100 imaginary == 85047.527275
+X[364]:real == -60147.289501 imaginary == -19158.744642
+X[365]:real == -5724.981804 imaginary == 28594.820576
+X[366]:real == 27729.346996 imaginary == -6907.177203
+X[367]:real == -73552.615459 imaginary == 42885.121807
+X[368]:real == 23239.912848 imaginary == -29187.760250
+X[369]:real == -28807.991082 imaginary == -30835.074322
+X[370]:real == 50048.795663 imaginary == 17988.919096
+X[371]:real == 24640.433143 imaginary == 2013.639303
+X[372]:real == -40737.968950 imaginary == 50989.960151
+X[373]:real == 37009.398425 imaginary == -40953.832635
+X[374]:real == -1743.818218 imaginary == 48330.408836
+X[375]:real == -3172.552545 imaginary == 8855.609904
+X[376]:real == 6967.067162 imaginary == -517.790959
+X[377]:real == 19075.610971 imaginary == 46283.486829
+X[378]:real == -40165.314534 imaginary == 28759.079868
+X[379]:real == -18498.502721 imaginary == 16322.754092
+X[380]:real == -41651.099134 imaginary == -19540.794424
+X[381]:real == -9334.430856 imaginary == -3583.288007
+X[382]:real == 17515.988962 imaginary == -37650.231850
+X[383]:real == -22317.331221 imaginary == 15093.806787
+X[384]:real == 61599.342078 imaginary == -28076.761122
+X[385]:real == -17911.759196 imaginary == 37095.935208
+X[386]:real == 18644.452746 imaginary == 15522.027848
+X[387]:real == -7202.283679 imaginary == -2578.002505
+X[388]:real == 11074.787387 imaginary == 24092.772988
+X[389]:real == 13495.121518 imaginary == 45023.670507
+X[390]:real == -65944.691632 imaginary == 25325.724173
+X[391]:real == -30275.326080 imaginary == -16837.820937
+X[392]:real == 9505.548475 imaginary == -23172.575838
+X[393]:real == -25823.640306 imaginary == 6691.851892
+X[394]:real == 21776.178927 imaginary == -17111.257712
+X[395]:real == -3541.725928 imaginary == 15459.688016
+X[396]:real == -20030.412081 imaginary == 11237.212315
+X[397]:real == -4803.771114 imaginary == -23981.890898
+X[398]:real == 20959.319877 imaginary == 6114.763830
+X[399]:real == -22881.852139 imaginary == 21568.319408
+X[400]:real == 14356.618290 imaginary == 2106.540807
+X[401]:real == -67424.571821 imaginary == 8240.419291
+X[402]:real == 32138.598614 imaginary == -46758.074582
+X[403]:real == -1349.095894 imaginary == 22444.180864
+X[404]:real == -19155.433537 imaginary == -9514.014475
+X[405]:real == 16664.270618 imaginary == -13102.467895
+X[406]:real == 14786.311368 imaginary == -364.583374
+X[407]:real == -17929.691949 imaginary == 50359.467050
+X[408]:real == -14974.951153 imaginary == -50448.757526
+X[409]:real == 10428.678660 imaginary == 30293.373094
+X[410]:real == -13003.948120 imaginary == 3806.372425
+X[411]:real == -25139.825883 imaginary == -3559.419449
+X[412]:real == -32955.816068 imaginary == -17803.817123
+X[413]:real == 38641.181632 imaginary == -43432.143610
+X[414]:real == -12735.202203 imaginary == 14601.310715
+X[415]:real == 31081.718869 imaginary == 731.415204
+X[416]:real == -34168.884495 imaginary == -4816.151890
+X[417]:real == 29482.170331 imaginary == -7523.446646
+X[418]:real == -10154.657806 imaginary == 17832.017917
+X[419]:real == -16247.200737 imaginary == -13608.489105
+X[420]:real == 3935.345249 imaginary == -15224.131814
+X[421]:real == 24249.549982 imaginary == 1162.368463
+X[422]:real == -18766.252027 imaginary == 14468.277285
+X[423]:real == -3193.516992 imaginary == -12022.434227
+X[424]:real == 13319.419579 imaginary == -1928.922287
+X[425]:real == -26324.100887 imaginary == 13418.511633
+X[426]:real == -9436.071928 imaginary == -13767.160947
+X[427]:real == -4962.292755 imaginary == -46116.654801
+X[428]:real == 16051.349663 imaginary == 20648.029638
+X[429]:real == 6347.354625 imaginary == -36838.261614
+X[430]:real == -17040.751607 imaginary == 104.479581
+X[431]:real == 55602.446412 imaginary == -22589.216320
+X[432]:real == -23815.170663 imaginary == -10639.469550
+X[433]:real == 72391.794117 imaginary == 13148.529798
+X[434]:real == -21724.929953 imaginary == 15788.115623
+X[435]:real == 704.617713 imaginary == 19951.849494
+X[436]:real == -4643.096150 imaginary == -38999.620476
+X[437]:real == 30204.251878 imaginary == 26547.963504
+X[438]:real == 4000.871210 imaginary == -13952.334942
+X[439]:real == -1575.198281 imaginary == 59008.361615
+X[440]:real == -43182.135038 imaginary == -50996.452640
+X[441]:real == 22972.339512 imaginary == -20082.493560
+X[442]:real == 56069.308462 imaginary == 3756.616737
+X[443]:real == -43477.060797 imaginary == 25620.029925
+X[444]:real == 25032.384647 imaginary == -37411.951670
+X[445]:real == 42308.741853 imaginary == -6564.064919
+X[446]:real == 4011.678687 imaginary == 57418.909091
+X[447]:real == -4411.917554 imaginary == -14259.719439
+X[448]:real == -14757.641440 imaginary == -1496.481272
+X[449]:real == 50719.424388 imaginary == -11435.201954
+X[450]:real == 305.723941 imaginary == 40895.782649
+X[451]:real == -17564.437900 imaginary == 2168.759079
+X[452]:real == 15436.705668 imaginary == -17486.725488
+X[453]:real == 34486.263507 imaginary == 18610.612415
+X[454]:real == -15343.709314 imaginary == 50054.952851
+X[455]:real == -34639.032024 imaginary == -14076.424111
+X[456]:real == 2556.377599 imaginary == -24147.981146
+X[457]:real == 14172.041945 imaginary == -13865.637906
+X[458]:real == 40471.111280 imaginary == -12170.969689
+X[459]:real == 27910.503834 imaginary == 29772.789326
+X[460]:real == -1076.530398 imaginary == 31783.751513
+X[461]:real == 9915.559036 imaginary == -22224.404229
+X[462]:real == 30346.289454 imaginary == 44609.426744
+X[463]:real == 9830.662370 imaginary == 24059.949815
+X[464]:real == -32620.099630 imaginary == 16121.733178
+X[465]:real == 65543.403616 imaginary == 14221.033046
+X[466]:real == -54772.278496 imaginary == 75977.051387
+X[467]:real == -22408.264117 imaginary == -20269.287886
+X[468]:real == -898.859087 imaginary == -2235.108941
+X[469]:real == 26987.181448 imaginary == 21541.649037
+X[470]:real == -45673.332390 imaginary == 43194.302297
+X[471]:real == -2840.694348 imaginary == -37696.019027
+X[472]:real == 8444.089027 imaginary == 24429.011303
+X[473]:real == 5867.781228 imaginary == 3556.094175
+X[474]:real == 7610.175269 imaginary == 28944.927287
+X[475]:real == -16629.032163 imaginary == 26460.768931
+X[476]:real == -1689.636345 imaginary == 20451.221472
+X[477]:real == -25141.195207 imaginary == 24613.707645
+X[478]:real == -21767.604597 imaginary == 29487.130470
+X[479]:real == -46095.750335 imaginary == -5819.778883
+X[480]:real == -9701.243338 imaginary == -8313.381316
+X[481]:real == -7813.721517 imaginary == 10070.710445
+X[482]:real == -22784.405041 imaginary == 7730.080174
+X[483]:real == -41402.573587 imaginary == 10403.554611
+X[484]:real == -19759.080995 imaginary == -52878.183197
+X[485]:real == 25787.690089 imaginary == 10072.491824
+X[486]:real == -40489.993204 imaginary == 13227.491411
+X[487]:real == -9745.318136 imaginary == -59122.194530
+X[488]:real == 53401.626039 imaginary == 5920.673928
+X[489]:real == -963.825878 imaginary == 33513.077666
+X[490]:real == -6311.310097 imaginary == 28082.789554
+X[491]:real == -41551.590266 imaginary == 22483.338998
+X[492]:real == -33312.233895 imaginary == -9680.956103
+X[493]:real == -4716.015653 imaginary == -34619.091261
+X[494]:real == 9436.270167 imaginary == 58566.954680
+X[495]:real == -83995.832830 imaginary == -33971.543773
+X[496]:real == 14260.484894 imaginary == 806.941680
+X[497]:real == -64051.458935 imaginary == -33340.066226
+X[498]:real == -312.138452 imaginary == -36228.400008
+X[499]:real == 2000.839307 imaginary == -62493.475485
+X[500]:real == 36426.381354 imaginary == 2702.540549
+X[501]:real == 11240.708281 imaginary == -31708.300721
+X[502]:real == 11577.589409 imaginary == 33321.002802
+X[503]:real == 2862.063298 imaginary == -63858.628273
+X[504]:real == 69803.424245 imaginary == 50608.046411
+X[505]:real == -24359.522382 imaginary == 40651.454986
+X[506]:real == -52286.218649 imaginary == 18772.316939
+X[507]:real == -10917.626592 imaginary == -43938.593250
+X[508]:real == -21693.696389 imaginary == 5941.713657
+X[509]:real == 551.758351 imaginary == -62621.090228
+X[510]:real == 30379.013018 imaginary == 5369.883767
+X[511]:real == -8899.024528 imaginary == -15725.648338
+X[512]:real == 21005.780796 imaginary == -35324.330074
+X[513]:real == 55886.242188 imaginary == 0.000000
+X[514]:real == 21005.780796 imaginary == 35324.330074
+X[515]:real == -8899.024528 imaginary == 15725.648338
+X[516]:real == 30379.013018 imaginary == -5369.883767
+X[517]:real == 551.758351 imaginary == 62621.090228
+X[518]:real == -21693.696389 imaginary == -5941.713657
+X[519]:real == -10917.626592 imaginary == 43938.593250
+X[520]:real == -52286.218649 imaginary == -18772.316939
+X[521]:real == -24359.522382 imaginary == -40651.454986
+X[522]:real == 69803.424245 imaginary == -50608.046411
+X[523]:real == 2862.063298 imaginary == 63858.628273
+X[524]:real == 11577.589409 imaginary == -33321.002802
+X[525]:real == 11240.708281 imaginary == 31708.300721
+X[526]:real == 36426.381354 imaginary == -2702.540549
+X[527]:real == 2000.839307 imaginary == 62493.475485
+X[528]:real == -312.138452 imaginary == 36228.400008
+X[529]:real == -64051.458935 imaginary == 33340.066226
+X[530]:real == 14260.484894 imaginary == -806.941680
+X[531]:real == -83995.832830 imaginary == 33971.543773
+X[532]:real == 9436.270167 imaginary == -58566.954680
+X[533]:real == -4716.015653 imaginary == 34619.091261
+X[534]:real == -33312.233895 imaginary == 9680.956103
+X[535]:real == -41551.590266 imaginary == -22483.338998
+X[536]:real == -6311.310097 imaginary == -28082.789554
+X[537]:real == -963.825878 imaginary == -33513.077666
+X[538]:real == 53401.626039 imaginary == -5920.673928
+X[539]:real == -9745.318136 imaginary == 59122.194530
+X[540]:real == -40489.993204 imaginary == -13227.491411
+X[541]:real == 25787.690089 imaginary == -10072.491824
+X[542]:real == -19759.080995 imaginary == 52878.183197
+X[543]:real == -41402.573587 imaginary == -10403.554611
+X[544]:real == -22784.405041 imaginary == -7730.080174
+X[545]:real == -7813.721517 imaginary == -10070.710445
+X[546]:real == -9701.243338 imaginary == 8313.381316
+X[547]:real == -46095.750335 imaginary == 5819.778883
+X[548]:real == -21767.604597 imaginary == -29487.130470
+X[549]:real == -25141.195207 imaginary == -24613.707645
+X[550]:real == -1689.636345 imaginary == -20451.221472
+X[551]:real == -16629.032163 imaginary == -26460.768931
+X[552]:real == 7610.175269 imaginary == -28944.927287
+X[553]:real == 5867.781228 imaginary == -3556.094175
+X[554]:real == 8444.089027 imaginary == -24429.011303
+X[555]:real == -2840.694348 imaginary == 37696.019027
+X[556]:real == -45673.332390 imaginary == -43194.302297
+X[557]:real == 26987.181448 imaginary == -21541.649037
+X[558]:real == -898.859087 imaginary == 2235.108941
+X[559]:real == -22408.264117 imaginary == 20269.287886
+X[560]:real == -54772.278496 imaginary == -75977.051387
+X[561]:real == 65543.403616 imaginary == -14221.033046
+X[562]:real == -32620.099630 imaginary == -16121.733178
+X[563]:real == 9830.662370 imaginary == -24059.949815
+X[564]:real == 30346.289454 imaginary == -44609.426744
+X[565]:real == 9915.559036 imaginary == 22224.404229
+X[566]:real == -1076.530398 imaginary == -31783.751513
+X[567]:real == 27910.503834 imaginary == -29772.789326
+X[568]:real == 40471.111280 imaginary == 12170.969689
+X[569]:real == 14172.041945 imaginary == 13865.637906
+X[570]:real == 2556.377599 imaginary == 24147.981146
+X[571]:real == -34639.032024 imaginary == 14076.424111
+X[572]:real == -15343.709314 imaginary == -50054.952851
+X[573]:real == 34486.263507 imaginary == -18610.612415
+X[574]:real == 15436.705668 imaginary == 17486.725488
+X[575]:real == -17564.437900 imaginary == -2168.759079
+X[576]:real == 305.723941 imaginary == -40895.782649
+X[577]:real == 50719.424388 imaginary == 11435.201954
+X[578]:real == -14757.641440 imaginary == 1496.481272
+X[579]:real == -4411.917554 imaginary == 14259.719439
+X[580]:real == 4011.678687 imaginary == -57418.909091
+X[581]:real == 42308.741853 imaginary == 6564.064919
+X[582]:real == 25032.384647 imaginary == 37411.951670
+X[583]:real == -43477.060797 imaginary == -25620.029925
+X[584]:real == 56069.308462 imaginary == -3756.616737
+X[585]:real == 22972.339512 imaginary == 20082.493560
+X[586]:real == -43182.135038 imaginary == 50996.452640
+X[587]:real == -1575.198281 imaginary == -59008.361615
+X[588]:real == 4000.871210 imaginary == 13952.334942
+X[589]:real == 30204.251878 imaginary == -26547.963504
+X[590]:real == -4643.096150 imaginary == 38999.620476
+X[591]:real == 704.617713 imaginary == -19951.849494
+X[592]:real == -21724.929953 imaginary == -15788.115623
+X[593]:real == 72391.794117 imaginary == -13148.529798
+X[594]:real == -23815.170663 imaginary == 10639.469550
+X[595]:real == 55602.446412 imaginary == 22589.216320
+X[596]:real == -17040.751607 imaginary == -104.479581
+X[597]:real == 6347.354625 imaginary == 36838.261614
+X[598]:real == 16051.349663 imaginary == -20648.029638
+X[599]:real == -4962.292755 imaginary == 46116.654801
+X[600]:real == -9436.071928 imaginary == 13767.160947
+X[601]:real == -26324.100887 imaginary == -13418.511633
+X[602]:real == 13319.419579 imaginary == 1928.922287
+X[603]:real == -3193.516992 imaginary == 12022.434227
+X[604]:real == -18766.252027 imaginary == -14468.277285
+X[605]:real == 24249.549982 imaginary == -1162.368463
+X[606]:real == 3935.345249 imaginary == 15224.131814
+X[607]:real == -16247.200737 imaginary == 13608.489105
+X[608]:real == -10154.657806 imaginary == -17832.017917
+X[609]:real == 29482.170331 imaginary == 7523.446646
+X[610]:real == -34168.884495 imaginary == 4816.151890
+X[611]:real == 31081.718869 imaginary == -731.415204
+X[612]:real == -12735.202203 imaginary == -14601.310715
+X[613]:real == 38641.181632 imaginary == 43432.143610
+X[614]:real == -32955.816068 imaginary == 17803.817123
+X[615]:real == -25139.825883 imaginary == 3559.419449
+X[616]:real == -13003.948120 imaginary == -3806.372425
+X[617]:real == 10428.678660 imaginary == -30293.373094
+X[618]:real == -14974.951153 imaginary == 50448.757526
+X[619]:real == -17929.691949 imaginary == -50359.467050
+X[620]:real == 14786.311368 imaginary == 364.583374
+X[621]:real == 16664.270618 imaginary == 13102.467895
+X[622]:real == -19155.433537 imaginary == 9514.014475
+X[623]:real == -1349.095894 imaginary == -22444.180864
+X[624]:real == 32138.598614 imaginary == 46758.074582
+X[625]:real == -67424.571821 imaginary == -8240.419291
+X[626]:real == 14356.618290 imaginary == -2106.540807
+X[627]:real == -22881.852139 imaginary == -21568.319408
+X[628]:real == 20959.319877 imaginary == -6114.763830
+X[629]:real == -4803.771114 imaginary == 23981.890898
+X[630]:real == -20030.412081 imaginary == -11237.212315
+X[631]:real == -3541.725928 imaginary == -15459.688016
+X[632]:real == 21776.178927 imaginary == 17111.257712
+X[633]:real == -25823.640306 imaginary == -6691.851892
+X[634]:real == 9505.548475 imaginary == 23172.575838
+X[635]:real == -30275.326080 imaginary == 16837.820937
+X[636]:real == -65944.691632 imaginary == -25325.724173
+X[637]:real == 13495.121518 imaginary == -45023.670507
+X[638]:real == 11074.787387 imaginary == -24092.772988
+X[639]:real == -7202.283679 imaginary == 2578.002505
+X[640]:real == 18644.452746 imaginary == -15522.027848
+X[641]:real == -17911.759196 imaginary == -37095.935208
+X[642]:real == 61599.342078 imaginary == 28076.761122
+X[643]:real == -22317.331221 imaginary == -15093.806787
+X[644]:real == 17515.988962 imaginary == 37650.231850
+X[645]:real == -9334.430856 imaginary == 3583.288007
+X[646]:real == -41651.099134 imaginary == 19540.794424
+X[647]:real == -18498.502721 imaginary == -16322.754092
+X[648]:real == -40165.314534 imaginary == -28759.079868
+X[649]:real == 19075.610971 imaginary == -46283.486829
+X[650]:real == 6967.067162 imaginary == 517.790959
+X[651]:real == -3172.552545 imaginary == -8855.609904
+X[652]:real == -1743.818218 imaginary == -48330.408836
+X[653]:real == 37009.398425 imaginary == 40953.832635
+X[654]:real == -40737.968950 imaginary == -50989.960151
+X[655]:real == 24640.433143 imaginary == -2013.639303
+X[656]:real == 50048.795663 imaginary == -17988.919096
+X[657]:real == -28807.991082 imaginary == 30835.074322
+X[658]:real == 23239.912848 imaginary == 29187.760250
+X[659]:real == -73552.615459 imaginary == -42885.121807
+X[660]:real == 27729.346996 imaginary == 6907.177203
+X[661]:real == -5724.981804 imaginary == -28594.820576
+X[662]:real == -60147.289501 imaginary == 19158.744642
+X[663]:real == 6484.695100 imaginary == -85047.527275
+X[664]:real == -29954.537114 imaginary == -30246.323166
+X[665]:real == 44264.229821 imaginary == -84227.503135
+X[666]:real == 21738.342807 imaginary == -46745.765669
+X[667]:real == 104980.169552 imaginary == -41609.466872
+X[668]:real == 39618.572560 imaginary == 11277.521748
+X[669]:real == 67353.433589 imaginary == 42335.928015
+X[670]:real == -7823.237085 imaginary == -35983.193508
+X[671]:real == 86082.442652 imaginary == 62610.448725
+X[672]:real == -375.085937 imaginary == 8344.090676
+X[673]:real == -6446.796181 imaginary == 45448.778350
+X[674]:real == 34144.040589 imaginary == 20261.720467
+X[675]:real == -90438.367481 imaginary == 9262.331395
+X[676]:real == 43822.475693 imaginary == -58873.966543
+X[677]:real == 29687.339337 imaginary == -7810.156456
+X[678]:real == 21100.612521 imaginary == 16558.985634
+X[679]:real == 17118.959486 imaginary == -19691.789010
+X[680]:real == 68528.968730 imaginary == -8196.164983
+X[681]:real == 37832.622192 imaginary == 66649.239650
+X[682]:real == 15374.509122 imaginary == 53827.360211
+X[683]:real == -64955.953386 imaginary == 22414.677939
+X[684]:real == 42464.478494 imaginary == -27038.329705
+X[685]:real == 10867.762350 imaginary == 62145.914799
+X[686]:real == -57946.772754 imaginary == 8761.165718
+X[687]:real == 17235.648268 imaginary == -39286.093034
+X[688]:real == 32961.937356 imaginary == 18352.283392
+X[689]:real == -24082.517386 imaginary == 19092.299488
+X[690]:real == 32043.927342 imaginary == -27933.771359
+X[691]:real == 39657.356112 imaginary == 23724.702017
+X[692]:real == -4250.319618 imaginary == 65696.218165
+X[693]:real == 1655.125136 imaginary == -17782.301872
+X[694]:real == -11240.150449 imaginary == 45097.213074
+X[695]:real == 31476.397519 imaginary == -5668.954011
+X[696]:real == 4793.958428 imaginary == 50330.193696
+X[697]:real == -21699.041576 imaginary == 68054.895155
+X[698]:real == -37496.788585 imaginary == 2919.056731
+X[699]:real == -49427.041604 imaginary == 26958.253999
+X[700]:real == -20278.927269 imaginary == -20743.154077
+X[701]:real == -8495.854396 imaginary == -24885.699566
+X[702]:real == 17250.178633 imaginary == 43407.491500
+X[703]:real == -51232.563212 imaginary == 7000.224363
+X[704]:real == -20075.676671 imaginary == -15107.771070
+X[705]:real == -10955.082832 imaginary == 9336.861106
+X[706]:real == -36177.616038 imaginary == -14987.790847
+X[707]:real == -7644.884216 imaginary == -17866.491964
+X[708]:real == -29328.459372 imaginary == -7367.700023
+X[709]:real == 13655.729431 imaginary == -53555.182061
+X[710]:real == -6402.983104 imaginary == 17563.593462
+X[711]:real == 6486.020101 imaginary == -30623.504829
+X[712]:real == -2927.105476 imaginary == -28789.385926
+X[713]:real == 40750.896382 imaginary == 17392.432469
+X[714]:real == -13410.003647 imaginary == -13228.361783
+X[715]:real == 7016.943206 imaginary == -7984.151275
+X[716]:real == 52559.053724 imaginary == 16067.413020
+X[717]:real == -40931.635103 imaginary == 24466.909936
+X[718]:real == -365.695702 imaginary == 14694.104533
+X[719]:real == -26656.556196 imaginary == -41306.225119
+X[720]:real == 30299.222086 imaginary == 14638.253362
+X[721]:real == -21139.144024 imaginary == 8664.575719
+X[722]:real == -20796.514214 imaginary == -22145.981798
+X[723]:real == 8857.375684 imaginary == -39215.437962
+X[724]:real == 54182.581448 imaginary == -8495.475151
+X[725]:real == 28169.575179 imaginary == 30661.253581
+X[726]:real == -16507.319882 imaginary == 52063.360381
+X[727]:real == -15717.065173 imaginary == -16290.686990
+X[728]:real == -4924.381795 imaginary == 22881.930773
+X[729]:real == -28602.246261 imaginary == 19188.836781
+X[730]:real == -40904.490544 imaginary == -47274.926243
+X[731]:real == 33278.843576 imaginary == -18437.642936
+X[732]:real == 6895.502880 imaginary == 32060.745723
+X[733]:real == -59662.846025 imaginary == -25619.850177
+X[734]:real == 23864.116522 imaginary == -35499.740740
+X[735]:real == 30122.136277 imaginary == -24905.253535
+X[736]:real == 1359.153330 imaginary == 36017.480371
+X[737]:real == -5930.960191 imaginary == -22144.845800
+X[738]:real == 6365.171261 imaginary == -31252.075568
+X[739]:real == 55123.064812 imaginary == 22201.633679
+X[740]:real == -10041.230811 imaginary == 25258.070300
+X[741]:real == -19504.414039 imaginary == 11042.359573
+X[742]:real == 16430.194624 imaginary == -7578.843547
+X[743]:real == -25228.623042 imaginary == 50409.104485
+X[744]:real == -70263.235453 imaginary == -44151.346599
+X[745]:real == 33910.525832 imaginary == -43792.100558
+X[746]:real == 2812.363490 imaginary == -2836.828244
+X[747]:real == -20792.992591 imaginary == -8953.191358
+X[748]:real == 36502.702554 imaginary == -57855.457094
+X[749]:real == -1731.308858 imaginary == 27432.891094
+X[750]:real == 13464.766866 imaginary == -55888.965417
+X[751]:real == 50782.478890 imaginary == -12086.134277
+X[752]:real == 36649.721082 imaginary == 30069.055374
+X[753]:real == -5476.970852 imaginary == 13795.169822
+X[754]:real == 19816.938595 imaginary == -13456.752494
+X[755]:real == 3285.958862 imaginary == 32950.476522
+X[756]:real == 24969.277539 imaginary == -17214.041841
+X[757]:real == -45375.041333 imaginary == 48577.853864
+X[758]:real == 12758.304638 imaginary == -87100.614276
+X[759]:real == 57647.083752 imaginary == 5161.458219
+X[760]:real == 32273.194554 imaginary == 46078.124976
+X[761]:real == -26059.386090 imaginary == -6553.280899
+X[762]:real == 44389.894211 imaginary == -7165.785456
+X[763]:real == 31602.790077 imaginary == 36799.415305
+X[764]:real == -11348.595748 imaginary == 52405.064321
+X[765]:real == -43889.581305 imaginary == -620.692541
+X[766]:real == -5262.433114 imaginary == -26113.436371
+X[767]:real == 46207.518017 imaginary == -16552.704563
+X[768]:real == -32695.861021 imaginary == 57182.680139
+X[769]:real == 6189.347656 imaginary == -81956.222656
+X[770]:real == 50110.386575 imaginary == 12232.316015
+X[771]:real == 48075.250468 imaginary == 25697.325418
+X[772]:real == -2497.592428 imaginary == 27089.537511
+X[773]:real == 8592.817631 imaginary == 29819.242709
+X[774]:real == 13558.294909 imaginary == -5966.307942
+X[775]:real == 19763.352224 imaginary == 46139.839318
+X[776]:real == -4796.950683 imaginary == 37195.008384
+X[777]:real == -24117.377210 imaginary == 13066.633958
+X[778]:real == 11951.949094 imaginary == 22590.142463
+X[779]:real == -34898.531948 imaginary == 33349.151303
+X[780]:real == -17866.700380 imaginary == -16734.016785
+X[781]:real == 504.538666 imaginary == 12005.756048
+X[782]:real == -4416.261271 imaginary == 2720.726270
+X[783]:real == 821.967167 imaginary == 17550.263652
+X[784]:real == -32364.205869 imaginary == 24035.128079
+X[785]:real == -15608.810810 imaginary == -21978.687610
+X[786]:real == -11739.596607 imaginary == -7335.508008
+X[787]:real == 17483.940191 imaginary == 10337.157296
+X[788]:real == -42533.395901 imaginary == -8227.765322
+X[789]:real == 1652.945268 imaginary == -23775.877575
+X[790]:real == 40491.766878 imaginary == -30547.849664
+X[791]:real == -11441.380604 imaginary == 47828.815316
+X[792]:real == 4165.205927 imaginary == -42142.084438
+X[793]:real == 22046.556880 imaginary == -5355.034519
+X[794]:real == 42789.130787 imaginary == 30101.613257
+X[795]:real == -18599.285814 imaginary == -1774.144190
+X[796]:real == 48262.338405 imaginary == 28766.853234
+X[797]:real == -16700.926303 imaginary == 21529.118924
+X[798]:real == 14085.397963 imaginary == 30093.528104
+X[799]:real == 1157.311309 imaginary == 25106.071533
+X[800]:real == -56917.018789 imaginary == 48990.208605
+X[801]:real == 12766.446746 imaginary == -55340.371506
+X[802]:real == -19122.863418 imaginary == 57760.465553
+X[803]:real == 3489.159759 imaginary == -15406.479171
+X[804]:real == -49808.624892 imaginary == -4544.027030
+X[805]:real == 62525.599403 imaginary == -7273.294659
+X[806]:real == -27290.343183 imaginary == 21778.835228
+X[807]:real == 10850.624467 imaginary == 35150.263325
+X[808]:real == -30591.719867 imaginary == -20511.008006
+X[809]:real == 19613.753842 imaginary == 29076.994438
+X[810]:real == -11143.138441 imaginary == 14656.027268
+X[811]:real == -38886.518301 imaginary == 29849.376239
+X[812]:real == -12175.766174 imaginary == -25616.178379
+X[813]:real == -29523.537522 imaginary == 15384.504885
+X[814]:real == -6466.498019 imaginary == -52062.907978
+X[815]:real == 33244.799732 imaginary == -11592.966838
+X[816]:real == 49338.678249 imaginary == 28927.330194
+X[817]:real == -29285.443244 imaginary == 60738.452239
+X[818]:real == -32283.315005 imaginary == -21233.343922
+X[819]:real == 41746.939963 imaginary == 9850.771687
+X[820]:real == -23822.664690 imaginary == 60282.192109
+X[821]:real == -40273.342788 imaginary == 12260.652828
+X[822]:real == -18144.646246 imaginary == 248.478301
+X[823]:real == -50516.615800 imaginary == 30776.935212
+X[824]:real == -49338.096038 imaginary == -67475.136180
+X[825]:real == 49006.581834 imaginary == -39202.299053
+X[826]:real == 33167.660246 imaginary == 63520.530151
+X[827]:real == -78761.768748 imaginary == 9865.825274
+X[828]:real == 15797.266693 imaginary == -42015.986539
+X[829]:real == 16080.217339 imaginary == 21663.665423
+X[830]:real == -9741.482773 imaginary == 40267.649820
+X[831]:real == -60039.835119 imaginary == 11927.034847
+X[832]:real == -12462.936513 imaginary == -25541.170496
+X[833]:real == -25933.979542 imaginary == 13786.195775
+X[834]:real == -35685.349834 imaginary == -16186.662721
+X[835]:real == -37913.451703 imaginary == -42331.473913
+X[836]:real == 42127.139150 imaginary == -48460.295524
+X[837]:real == 4568.419781 imaginary == 39346.882849
+X[838]:real == -36781.633581 imaginary == -31326.907901
+X[839]:real == 41883.213170 imaginary == -38924.433610
+X[840]:real == 39249.907393 imaginary == 47442.802692
+X[841]:real == -21388.334181 imaginary == 42436.386669
+X[842]:real == -62591.543721 imaginary == 30316.146300
+X[843]:real == -33839.674676 imaginary == -47237.941150
+X[844]:real == -23263.096575 imaginary == -7275.265185
+X[845]:real == 5555.166411 imaginary == -26620.473994
+X[846]:real == -56503.714541 imaginary == -19204.318209
+X[847]:real == 66266.640033 imaginary == -67088.512724
+X[848]:real == -9666.912684 imaginary == 57096.955814
+X[849]:real == -20235.097760 imaginary == -35574.545205
+X[850]:real == -162.359824 imaginary == -25979.405310
+X[851]:real == 41250.711563 imaginary == -15442.432851
+X[852]:real == 15843.338032 imaginary == 16247.758162
+X[853]:real == 29518.565995 imaginary == 49532.643971
+X[854]:real == -95593.220687 imaginary == 55713.804996
+X[855]:real == -43450.285818 imaginary == -91612.121405
+X[856]:real == 36682.060116 imaginary == -9400.270054
+X[857]:real == -7522.839927 imaginary == 8592.213360
+X[858]:real == -35967.940700 imaginary == 6888.055156
+X[859]:real == -43504.673474 imaginary == -49757.492684
+X[860]:real == 23571.831421 imaginary == -72277.989816
+X[861]:real == 54714.312491 imaginary == -2341.816917
+X[862]:real == 7271.465607 imaginary == 34713.881338
+X[863]:real == -58749.848376 imaginary == -28978.493556
+X[864]:real == 70088.802535 imaginary == -38716.548782
+X[865]:real == -43403.461429 imaginary == 20487.625823
+X[866]:real == 56240.755551 imaginary == -52058.289251
+X[867]:real == -1861.115427 imaginary == 26750.341858
+X[868]:real == 15411.896890 imaginary == 4276.398351
+X[869]:real == -21301.981667 imaginary == -44085.394107
+X[870]:real == 86169.583598 imaginary == 14451.047331
+X[871]:real == -22252.467368 imaginary == 44791.220586
+X[872]:real == -18944.767380 imaginary == -9916.254839
+X[873]:real == 38380.229580 imaginary == 6090.679789
+X[874]:real == -58054.431540 imaginary == 18766.823332
+X[875]:real == 43494.470730 imaginary == -34024.298489
+X[876]:real == -7277.399758 imaginary == 17802.240834
+X[877]:real == 7193.923389 imaginary == 48926.458854
+X[878]:real == -56245.194071 imaginary == -52340.947358
+X[879]:real == 43232.074448 imaginary == 41493.843961
+X[880]:real == -65678.289732 imaginary == -21675.577065
+X[881]:real == -11274.890328 imaginary == -27565.090544
+X[882]:real == 38931.122743 imaginary == -48470.820467
+X[883]:real == -7310.568828 imaginary == 26487.455814
+X[884]:real == 25387.609146 imaginary == -28657.605094
+X[885]:real == -14410.146114 imaginary == 4093.247773
+X[886]:real == 45526.087739 imaginary == -2402.337374
+X[887]:real == -43793.707196 imaginary == 19567.916505
+X[888]:real == 1258.218528 imaginary == -47765.440071
+X[889]:real == 57647.383198 imaginary == -38782.931308
+X[890]:real == 50746.382530 imaginary == 70551.758668
+X[891]:real == -34508.712249 imaginary == 42265.400487
+X[892]:real == -56209.422332 imaginary == -18106.087648
+X[893]:real == 33910.196252 imaginary == -30622.365069
+X[894]:real == -9595.116288 imaginary == -1174.964429
+X[895]:real == 42044.540887 imaginary == 11871.097850
+X[896]:real == -36064.520341 imaginary == 17841.268042
+X[897]:real == 15187.517008 imaginary == 5311.689792
+X[898]:real == -63276.249329 imaginary == -6724.561970
+X[899]:real == 51166.348804 imaginary == -48650.027614
+X[900]:real == -25027.099708 imaginary == 43447.536876
+X[901]:real == -8211.087204 imaginary == -47382.534483
+X[902]:real == 11740.460858 imaginary == -19431.592191
+X[903]:real == 29129.855175 imaginary == 3387.017670
+X[904]:real == -29025.149818 imaginary == -16826.019078
+X[905]:real == 56750.965193 imaginary == -48351.829889
+X[906]:real == 30103.138233 imaginary == 37204.597560
+X[907]:real == 21167.861850 imaginary == -28477.856981
+X[908]:real == 68239.995519 imaginary == 59702.039784
+X[909]:real == -41438.358515 imaginary == 47647.001183
+X[910]:real == -11601.119943 imaginary == 2976.736278
+X[911]:real == -15449.558793 imaginary == -19198.519302
+X[912]:real == 35448.008108 imaginary == 8655.521010
+X[913]:real == 5880.940341 imaginary == 2313.168449
+X[914]:real == 18895.546265 imaginary == 63193.085411
+X[915]:real == -47515.295999 imaginary == -7285.220467
+X[916]:real == 5995.374637 imaginary == 25700.547801
+X[917]:real == -39954.668907 imaginary == -15963.997130
+X[918]:real == 14762.009300 imaginary == -16671.250925
+X[919]:real == 8802.993266 imaginary == 10073.564422
+X[920]:real == 6826.554718 imaginary == 10279.436182
+X[921]:real == -19184.582659 imaginary == 33907.609222
+X[922]:real == -44949.693572 imaginary == -19360.192576
+X[923]:real == 14548.169828 imaginary == -50073.559624
+X[924]:real == 47416.204386 imaginary == 16409.018432
+X[925]:real == -9366.549996 imaginary == 35201.444722
+X[926]:real == -12082.329768 imaginary == -11256.545873
+X[927]:real == 18532.351518 imaginary == 34231.341669
+X[928]:real == -52459.541322 imaginary == -8499.411491
+X[929]:real == 45572.083348 imaginary == -10175.527464
+X[930]:real == -20859.871166 imaginary == 54947.625553
+X[931]:real == -46234.245877 imaginary == 4358.666133
+X[932]:real == -36637.370540 imaginary == -30211.045665
+X[933]:real == 4762.264958 imaginary == -32503.682838
+X[934]:real == 17939.517293 imaginary == -7234.117954
+X[935]:real == -17561.733754 imaginary == 8962.700125
+X[936]:real == -7070.574543 imaginary == -26245.166955
+X[937]:real == 8800.286961 imaginary == -57667.592522
+X[938]:real == 96769.970507 imaginary == 43738.354496
+X[939]:real == -64907.475720 imaginary == 17512.245915
+X[940]:real == 58691.685049 imaginary == 1548.483483
+X[941]:real == -20263.590437 imaginary == 29294.275535
+X[942]:real == -3846.102763 imaginary == 35762.100611
+X[943]:real == -33402.812928 imaginary == -17742.600818
+X[944]:real == 28533.481430 imaginary == 20894.208481
+X[945]:real == -48840.630886 imaginary == 39303.049421
+X[946]:real == -20007.359433 imaginary == -18722.845426
+X[947]:real == -59162.529537 imaginary == 21675.678185
+X[948]:real == -28564.283993 imaginary == -93294.512936
+X[949]:real == 44402.464128 imaginary == -22605.002231
+X[950]:real == 26329.350622 imaginary == 10304.285128
+X[951]:real == -27604.160796 imaginary == -6885.281536
+X[952]:real == 55122.422623 imaginary == -18806.145682
+X[953]:real == -5840.973773 imaginary == 43763.030326
+X[954]:real == -25290.607673 imaginary == 8377.457072
+X[955]:real == 14109.295177 imaginary == -49940.815806
+X[956]:real == 28868.679192 imaginary == 69541.232041
+X[957]:real == -31234.599093 imaginary == -5859.689296
+X[958]:real == -35643.182524 imaginary == 16597.614010
+X[959]:real == 28315.150187 imaginary == -41321.067253
+X[960]:real == 1825.706509 imaginary == 40503.068391
+X[961]:real == -7447.127639 imaginary == 43432.161623
+X[962]:real == -68244.300003 imaginary == -7002.022060
+X[963]:real == -16094.197449 imaginary == -7868.753609
+X[964]:real == -2217.226236 imaginary == -24460.683680
+X[965]:real == -39534.725641 imaginary == 32238.545159
+X[966]:real == -25478.640382 imaginary == -45051.589286
+X[967]:real == -26664.258184 imaginary == -15003.988913
+X[968]:real == 4477.536880 imaginary == -27533.140041
+X[969]:real == -18536.738236 imaginary == -19341.545280
+X[970]:real == -13752.226077 imaginary == -6812.418968
+X[971]:real == -19242.350401 imaginary == -62333.892190
+X[972]:real == 20193.389758 imaginary == -37305.032525
+X[973]:real == 63930.214264 imaginary == -3728.601646
+X[974]:real == -59870.837554 imaginary == 17060.099620
+X[975]:real == 41485.831348 imaginary == -44313.645189
+X[976]:real == -17351.531323 imaginary == -26535.948932
+X[977]:real == 50460.636925 imaginary == 25427.257978
+X[978]:real == -32438.637940 imaginary == -54470.054337
+X[979]:real == 39080.819218 imaginary == 31321.046898
+X[980]:real == 12211.312194 imaginary == -58332.582003
+X[981]:real == 8441.858269 imaginary == 56443.921845
+X[982]:real == 16456.039533 imaginary == -50440.673838
+X[983]:real == -615.672891 imaginary == 19324.066866
+X[984]:real == 57174.950980 imaginary == 3904.383328
+X[985]:real == -57719.930477 imaginary == 30334.694615
+X[986]:real == 16985.333760 imaginary == -29787.519404
+X[987]:real == 6726.399142 imaginary == -39304.169341
+X[988]:real == 63752.891136 imaginary == 46567.056004
+X[989]:real == -27062.032233 imaginary == -3473.106002
+X[990]:real == 37728.015535 imaginary == 33444.424304
+X[991]:real == -14548.128597 imaginary == 36372.434261
+X[992]:real == -53423.313810 imaginary == 37665.113555
+X[993]:real == -51778.854856 imaginary == -50723.620234
+X[994]:real == 36786.686893 imaginary == -36529.398777
+X[995]:real == 1732.935570 imaginary == 26341.824799
+X[996]:real == 9794.805823 imaginary == 9873.494443
+X[997]:real == -69006.079395 imaginary == 23038.033920
+X[998]:real == 7092.223399 imaginary == -56249.941159
+X[999]:real == -24593.046696 imaginary == 15999.071154
+X[1000]:real == -8532.544068 imaginary == -39003.004852
+X[1001]:real == -25732.823659 imaginary == -10948.305663
+X[1002]:real == 6837.119433 imaginary == -77435.391495
+X[1003]:real == 53001.090342 imaginary == 317.637533
+X[1004]:real == 21911.749004 imaginary == -2306.161259
+X[1005]:real == -26975.368857 imaginary == 54751.388561
+X[1006]:real == -29347.365811 imaginary == -98127.835225
+X[1007]:real == 57410.455803 imaginary == 14795.900232
+X[1008]:real == 24026.730305 imaginary == -18801.354985
+X[1009]:real == -21513.997871 imaginary == 55179.389494
+X[1010]:real == 3379.927040 imaginary == -51702.670932
+X[1011]:real == -13298.168626 imaginary == 10363.864609
+X[1012]:real == 31781.306846 imaginary == 3037.563671
+X[1013]:real == -68859.484704 imaginary == -36211.319469
+X[1014]:real == 85217.433558 imaginary == -4609.480515
+X[1015]:real == -34888.037488 imaginary == 5168.859805
+X[1016]:real == -23680.120028 imaginary == 51919.562518
+X[1017]:real == -37366.245530 imaginary == -96183.224723
+X[1018]:real == -55557.209731 imaginary == 43972.494644
+X[1019]:real == -1119.097340 imaginary == -183304.923644
+X[1020]:real == 11157.768807 imaginary == -29489.442798
+X[1021]:real == 174335.054556 imaginary == -69038.456534
+X[1022]:real == -130765.715051 imaginary == 101809.882197
+X[1023]:real == 10568.706633 imaginary == -174248.787673
+
+
+************ Calculate Power ********
+
+Power is 0.000000
+Power is 129743.250000
+Power is 66270.515625
+Power is 43642.250000
+Power is 41431.363281
+Power is 46876.847656
+Power is 7882.429199
+Power is 45827.085938
+Power is 17713.312500
+Power is 25796.619141
+Power is 14266.195312
+Power is 8817.213867
+Power is 21335.501953
+Power is 19450.078125
+Power is 7981.534668
+Power is 4214.936035
+Power is 12953.257812
+Power is 14806.284180
+Power is 7627.150391
+Power is 14821.603516
+Power is 25605.589844
+Power is 15258.983398
+Power is 5508.193359
+Power is 13250.510742
+Power is 19434.162109
+Power is 6991.260742
+Power is 9981.353516
+Power is 7334.798340
+Power is 14173.821289
+Power is 18187.546875
+Power is 3476.925049
+Power is 6599.691406
+Power is 12960.655273
+Power is 18121.009766
+Power is 16341.495117
+Power is 9793.499023
+Power is 12604.395508
+Power is 6820.997070
+Power is 19737.214844
+Power is 9968.895508
+Power is 8572.477539
+Power is 16301.426758
+Power is 14327.027344
+Power is 4833.467773
+Power is 13264.291016
+Power is 14267.930664
+Power is 14899.257812
+Power is 12520.779297
+Power is 15849.392578
+Power is 14126.263672
+Power is 7926.349609
+Power is 15175.583984
+Power is 15563.506836
+Power is 16009.713867
+Power is 10604.946289
+Power is 16309.089844
+Power is 3836.769287
+Power is 6697.508789
+Power is 6973.709961
+Power is 7648.947266
+Power is 12939.297852
+Power is 12753.230469
+Power is 6140.242188
+Power is 4478.703125
+Power is 17150.642578
+Power is 11016.500000
+Power is 10136.048828
+Power is 12522.924805
+Power is 9829.539062
+Power is 7944.873047
+Power is 18823.828125
+Power is 12973.910156
+Power is 6660.501953
+Power is 11037.775391
+Power is 14560.546875
+Power is 7112.475098
+Power is 7068.473145
+Power is 12456.336914
+Power is 24392.345703
+Power is 15752.062500
+Power is 6850.361816
+Power is 15672.701172
+Power is 8841.406250
+Power is 9455.645508
+Power is 8992.081055
+Power is 8904.941406
+Power is 14678.027344
+Power is 16807.101562
+Power is 26548.859375
+Power is 14583.801758
+Power is 6795.227051
+Power is 4929.150879
+Power is 4835.795898
+Power is 8212.674805
+Power is 11871.720703
+Power is 11609.810547
+Power is 14693.484375
+Power is 11673.571289
+Power is 13285.903320
+Power is 9731.498047
+Power is 4128.351074
+Power is 9106.570312
+Power is 12543.804688
+Power is 13036.033203
+Power is 12235.430664
+Power is 9739.655273
+Power is 3084.929688
+Power is 3344.486084
+Power is 5566.908203
+Power is 10756.464844
+Power is 6597.644531
+Power is 12017.637695
+Power is 16489.404297
+Power is 1579.877563
+Power is 9122.360352
+Power is 6160.722168
+Power is 2994.233398
+Power is 15786.414062
+Power is 22667.474609
+Power is 8870.833008
+Power is 11964.480469
+Power is 18638.957031
+Power is 8387.394531
+Power is 7331.525879
+Power is 5675.744629
+Power is 12022.184570
+Power is 12535.061523
+Power is 17650.816406
+Power is 15908.141602
+Power is 4022.395996
+Power is 10059.077148
+Power is 10922.071289
+Power is 2416.697021
+Power is 11422.649414
+Power is 14763.404297
+Power is 13640.965820
+Power is 21726.634766
+Power is 17369.759766
+Power is 11945.501953
+Power is 11991.643555
+Power is 11397.356445
+Power is 3745.054932
+Power is 9571.405273
+Power is 6869.451172
+Power is 15542.386719
+Power is 7445.457520
+Power is 17290.656250
+Power is 14980.719727
+Power is 19207.904297
+Power is 12363.127930
+Power is 4808.068359
+Power is 13805.392578
+Power is 15253.095703
+Power is 9715.125000
+Power is 5345.771484
+Power is 12503.563477
+Power is 21843.234375
+Power is 12240.548828
+Power is 3998.547852
+Power is 6703.751465
+Power is 19159.019531
+Power is 11998.966797
+Power is 20017.822266
+Power is 16376.999023
+Power is 8866.819336
+Power is 13691.101562
+Power is 19006.148438
+Power is 16523.591797
+Power is 9155.387695
+Power is 2855.031250
+Power is 9466.845703
+Power is 25348.457031
+Power is 27660.996094
+Power is 14415.331055
+Power is 5673.408691
+Power is 11011.613281
+Power is 6494.978027
+Power is 10231.713867
+Power is 14477.377930
+Power is 23574.529297
+Power is 14919.525391
+Power is 6798.481445
+Power is 6093.547363
+Power is 14527.014648
+Power is 17386.722656
+Power is 11880.414062
+Power is 15393.535156
+Power is 14294.481445
+Power is 12078.554688
+Power is 9902.800781
+Power is 16052.834961
+Power is 14206.916016
+Power is 9796.211914
+Power is 7342.643066
+Power is 7104.911133
+Power is 15303.258789
+Power is 10357.304688
+Power is 6744.849121
+Power is 11221.900391
+Power is 19844.316406
+Power is 17914.644531
+Power is 15689.297852
+Power is 20897.281250
+Power is 14788.399414
+Power is 4536.586914
+Power is 10524.571289
+Power is 16204.671875
+Power is 10723.352539
+Power is 9660.057617
+Power is 16857.486328
+Power is 14298.374023
+Power is 8802.037109
+Power is 13115.739258
+Power is 8322.869141
+Power is 7090.653809
+Power is 12255.474609
+Power is 4602.775391
+Power is 8768.448242
+Power is 9207.859375
+Power is 9196.728516
+Power is 8728.833008
+Power is 15736.802734
+Power is 12503.867188
+Power is 3949.160156
+Power is 15210.923828
+Power is 14198.457031
+Power is 18774.296875
+Power is 6283.183105
+Power is 8306.694336
+Power is 6811.864258
+Power is 14046.318359
+Power is 4670.927734
+Power is 13079.126953
+Power is 5671.898926
+Power is 10586.856445
+Power is 12294.563477
+Power is 12680.582031
+Power is 5958.316406
+Power is 10830.471680
+Power is 5077.800781
+Power is 3460.742432
+Power is 6739.333008
+Power is 10078.222656
+Power is 4392.375000
+Power is 1296.767944
+Power is 3004.088135
+Power is 6119.876953
+Power is 12067.708984
+Power is 6389.266602
+Power is 6857.408203
+Power is 9375.764648
+Power is 12548.591797
+Power is 3703.243408
+Power is 7758.155762
+Power is 6801.107422
+Power is 13628.055664
+Power is 12895.445312
+Power is 20547.400391
+Power is 16467.539062
+Power is 12270.713867
+Power is 6659.601562
+Power is 10973.492188
+Power is 13404.946289
+Power is 12126.760742
+Power is 11241.138672
+Power is 6717.687012
+Power is 14064.033203
+Power is 14469.421875
+Power is 22007.515625
+Power is 16618.330078
+Power is 7582.001953
+Power is 8278.479492
+Power is 5988.505859
+Power is 3710.659668
+Power is 11851.556641
+Power is 13050.227539
+Power is 14372.013672
+Power is 6871.867188
+Power is 17102.085938
+Power is 5659.660645
+Power is 998.654785
+Power is 13846.641602
+Power is 20745.878906
+Power is 14092.464844
+Power is 4523.481445
+Power is 5603.324219
+Power is 6795.202637
+Power is 14856.532227
+Power is 7973.423340
+Power is 5731.331055
+Power is 9010.779297
+Power is 9771.177734
+Power is 10693.829102
+Power is 16232.744141
+Power is 8198.472656
+Power is 9511.269531
+Power is 15628.691406
+Power is 8610.675781
+Power is 5851.454590
+Power is 5659.133301
+Power is 13654.406250
+Power is 10409.243164
+Power is 13711.138672
+Power is 10050.820312
+Power is 7594.979980
+Power is 5711.492188
+Power is 8412.495117
+Power is 12290.179688
+Power is 3674.663574
+Power is 11921.693359
+Power is 13740.032227
+Power is 2657.350098
+Power is 4709.151367
+Power is 11076.811523
+Power is 7234.451660
+Power is 7825.708984
+Power is 4673.583008
+Power is 13817.191406
+Power is 7559.933594
+Power is 4858.341797
+Power is 9789.833984
+Power is 3598.531006
+Power is 6281.309570
+Power is 12927.148438
+Power is 11677.378906
+Power is 6573.990234
+Power is 7252.212402
+Power is 14075.199219
+Power is 9402.559570
+Power is 17857.626953
+Power is 12639.498047
+Power is 7995.704590
+Power is 11619.217773
+Power is 4464.790527
+Power is 16458.392578
+Power is 11553.049805
+Power is 10627.525391
+Power is 7683.112793
+Power is 9431.647461
+Power is 10725.159180
+Power is 14651.335938
+Power is 15772.251953
+Power is 12585.465820
+Power is 17178.644531
+Power is 13995.000000
+Power is 19159.574219
+Power is 17254.341797
+Power is 6523.157715
+Power is 6705.575195
+Power is 7674.375488
+Power is 18348.285156
+Power is 22727.859375
+Power is 9925.828125
+Power is 11475.932617
+Power is 2088.129150
+Power is 26610.917969
+Power is 9205.954102
+Power is 19888.462891
+Power is 10298.099609
+Power is 28231.390625
+Power is 12888.275391
+Power is 23787.595703
+Power is 10642.234375
+Power is 21323.597656
+Power is 15781.226562
+Power is 7290.572754
+Power is 7144.166504
+Power is 21285.441406
+Power is 9327.442383
+Power is 10549.591797
+Power is 13295.871094
+Power is 6180.643555
+Power is 16316.322266
+Power is 13799.709961
+Power is 12090.464844
+Power is 2351.687012
+Power is 1746.570435
+Power is 12515.090820
+Power is 12349.942383
+Power is 6167.591309
+Power is 11501.784180
+Power is 2499.644287
+Power is 10381.323242
+Power is 6735.569336
+Power is 16924.064453
+Power is 10298.481445
+Power is 6065.007324
+Power is 1912.442627
+Power is 6629.067383
+Power is 11750.663086
+Power is 17660.150391
+Power is 8660.642578
+Power is 6261.607910
+Power is 6669.151367
+Power is 6923.678223
+Power is 3965.048584
+Power is 5741.800293
+Power is 6114.569336
+Power is 5458.270020
+Power is 7861.184570
+Power is 3627.585449
+Power is 16981.566406
+Power is 14184.514648
+Power is 5621.172852
+Power is 5347.003418
+Power is 5299.602539
+Power is 3697.701416
+Power is 13364.013672
+Power is 13156.097656
+Power is 8009.547852
+Power is 3387.395264
+Power is 6347.638672
+Power is 9364.366211
+Power is 14533.349609
+Power is 4843.705078
+Power is 7772.580566
+Power is 8626.659180
+Power is 7606.742676
+Power is 5130.167480
+Power is 5298.363281
+Power is 3931.134766
+Power is 6069.348145
+Power is 5924.014648
+Power is 3109.837891
+Power is 3364.592041
+Power is 7386.705566
+Power is 4172.635254
+Power is 11595.716797
+Power is 6538.286133
+Power is 9345.274414
+Power is 4260.268066
+Power is 15003.967773
+Power is 6520.931152
+Power is 18394.046875
+Power is 6713.964844
+Power is 4991.071777
+Power is 9818.759766
+Power is 10053.268555
+Power is 3628.658691
+Power is 14757.345703
+Power is 16705.791016
+Power is 7628.216309
+Power is 14048.752930
+Power is 12616.063477
+Power is 11253.539062
+Power is 10703.727539
+Power is 14389.719727
+Power is 3731.660156
+Power is 3708.330566
+Power is 12998.133789
+Power is 10224.231445
+Power is 4424.456055
+Power is 5831.366699
+Power is 9796.865234
+Power is 13088.467773
+Power is 9347.487305
+Power is 6070.729004
+Power is 4956.704590
+Power is 10565.401367
+Power is 10202.375000
+Power is 7950.494141
+Power is 6084.007812
+Power is 13488.184570
+Power is 6497.707031
+Power is 9096.637695
+Power is 16767.109375
+Power is 23415.425781
+Power is 7553.866211
+Power is 602.269653
+Power is 8632.607422
+Power is 15715.837891
+Power is 9450.725586
+Power is 6461.807129
+Power is 1715.310913
+Power is 7482.160156
+Power is 7813.037598
+Power is 5130.225098
+Power is 8796.001953
+Power is 9162.831055
+Power is 11615.420898
+Power is 3194.002441
+Power is 3186.626953
+Power is 6014.998047
+Power is 10672.415039
+Power is 14112.325195
+Power is 6921.253906
+Power is 10648.960938
+Power is 14979.997070
+Power is 13432.209961
+Power is 8381.734375
+Power is 7195.813477
+Power is 11811.105469
+Power is 8672.607422
+Power is 8734.708984
+Power is 14830.566406
+Power is 22651.388672
+Power is 3570.824219
+Power is 18052.267578
+Power is 9057.436523
+Power is 15631.374023
+Power is 9131.624023
+Power is 8410.447266
+Power is 8818.764648
+Power is 15980.683594
+Power is 21554.714844
+Power is 11847.803711
+Power is 13888.503906
+Power is 11318.664062
+Power is 5623.168457
+Power is 15655.879883
+Power is 7712.490234
+Power is 4517.249023
+Power is 10274.516602
+Power is 13971.560547
+Power is 10274.516602
+Power is 4517.249023
+Power is 7712.490234
+Power is 15655.879883
+Power is 5623.168457
+Power is 11318.664062
+Power is 13888.503906
+Power is 11847.803711
+Power is 21554.714844
+Power is 15980.683594
+Power is 8818.764648
+Power is 8410.447266
+Power is 9131.624023
+Power is 15631.374023
+Power is 9057.436523
+Power is 18052.267578
+Power is 3570.824219
+Power is 22651.388672
+Power is 14830.566406
+Power is 8734.708984
+Power is 8672.607422
+Power is 11811.105469
+Power is 7195.813477
+Power is 8381.734375
+Power is 13432.209961
+Power is 14979.997070
+Power is 10648.960938
+Power is 6921.253906
+Power is 14112.325195
+Power is 10672.415039
+Power is 6014.998047
+Power is 3186.626953
+Power is 3194.002441
+Power is 11615.420898
+Power is 9162.831055
+Power is 8796.001953
+Power is 5130.225098
+Power is 7813.037598
+Power is 7482.160156
+Power is 1715.310913
+Power is 6461.807129
+Power is 9450.725586
+Power is 15715.837891
+Power is 8632.607422
+Power is 602.269653
+Power is 7553.866211
+Power is 23415.425781
+Power is 16767.109375
+Power is 9096.637695
+Power is 6497.707031
+Power is 13488.184570
+Power is 6084.007812
+Power is 7950.494141
+Power is 10202.375000
+Power is 10565.401367
+Power is 4956.704590
+Power is 6070.729004
+Power is 9347.487305
+Power is 13088.467773
+Power is 9796.865234
+Power is 5831.366699
+Power is 4424.456055
+Power is 10224.231445
+Power is 12998.133789
+Power is 3708.330566
+Power is 3731.660156
+Power is 14389.719727
+Power is 10703.727539
+Power is 11253.539062
+Power is 12616.063477
+Power is 14048.752930
+Power is 7628.216309
+Power is 16705.791016
+Power is 14757.345703
+Power is 3628.658691
+Power is 10053.268555
+Power is 9818.759766
+Power is 4991.071777
+Power is 6713.964844
+Power is 18394.046875
+Power is 6520.931152
+Power is 15003.967773
+Power is 4260.268066
+Power is 9345.274414
+Power is 6538.286133
+Power is 11595.716797
+Power is 4172.635254
+Power is 7386.705566
+Power is 3364.592041
+Power is 3109.837891
+Power is 5924.014648
+Power is 6069.348145
+Power is 3931.134766
+Power is 5298.363281
+Power is 5130.167480
+Power is 7606.742676
+Power is 8626.659180
+Power is 7772.580566
+Power is 4843.705078
+Power is 14533.349609
+Power is 9364.366211
+Power is 6347.638672
+Power is 3387.395264
+Power is 8009.547852
+Power is 13156.097656
+Power is 13364.013672
+Power is 3697.701416
+Power is 5299.602539
+Power is 5347.003418
+Power is 5621.172852
+Power is 14184.514648
+Power is 16981.566406
+Power is 3627.585449
+Power is 7861.184570
+Power is 5458.270020
+Power is 6114.569336
+Power is 5741.800293
+Power is 3965.048584
+Power is 6923.678223
+Power is 6669.151367
+Power is 6261.607910
+Power is 8660.642578
+Power is 17660.150391
+Power is 11750.663086
+Power is 6629.067383
+Power is 1912.442627
+Power is 6065.007324
+Power is 10298.481445
+Power is 16924.064453
+Power is 6735.569336
+Power is 10381.323242
+Power is 2499.644287
+Power is 11501.784180
+Power is 6167.591309
+Power is 12349.942383
+Power is 12515.090820
+Power is 1746.570435
+Power is 2351.687012
+Power is 12090.464844
+Power is 13799.709961
+Power is 16316.322266
+Power is 6180.643555
+Power is 13295.871094
+Power is 10549.591797
+Power is 9327.442383
+Power is 21285.441406
+Power is 7144.166504
+Power is 7290.572754
+Power is 15781.226562
+Power is 21323.597656
+Power is 10642.234375
+Power is 23787.595703
+Power is 12888.275391
+Power is 28231.390625
+Power is 10298.099609
+Power is 19888.462891
+Power is 9205.954102
+Power is 26610.917969
+Power is 2088.129150
+Power is 11475.932617
+Power is 9925.828125
+Power is 22727.859375
+Power is 18348.285156
+Power is 7674.375488
+Power is 6705.575195
+Power is 6523.157715
+Power is 17254.341797
+Power is 19159.574219
+Power is 13995.000000
+Power is 17178.644531
+Power is 12585.465820
+Power is 15772.251953
+Power is 14651.335938
+Power is 10725.159180
+Power is 9431.647461
+Power is 7683.112793
+Power is 10627.525391
+Power is 11553.049805
+Power is 16458.392578
+Power is 4464.790527
+Power is 11619.217773
+Power is 7995.704590
+Power is 12639.498047
+Power is 17857.626953
+Power is 9402.559570
+Power is 14075.199219
+Power is 7252.212402
+Power is 6573.990234
+Power is 11677.378906
+Power is 12927.148438
+Power is 6281.309570
+Power is 3598.531006
+Power is 9789.833984
+Power is 4858.341797
+Power is 7559.933594
+Power is 13817.191406
+Power is 4673.583008
+Power is 7825.708984
+Power is 7234.451660
+Power is 11076.811523
+Power is 4709.151367
+Power is 2657.350098
+Power is 13740.032227
+Power is 11921.693359
+Power is 3674.663574
+Power is 12290.179688
+Power is 8412.495117
+Power is 5711.492188
+Power is 7594.979980
+Power is 10050.820312
+Power is 13711.138672
+Power is 10409.243164
+Power is 13654.406250
+Power is 5659.133301
+Power is 5851.454590
+Power is 8610.675781
+Power is 15628.691406
+Power is 9511.269531
+Power is 8198.472656
+Power is 16232.744141
+Power is 10693.829102
+Power is 9771.177734
+Power is 9010.779297
+Power is 5731.331055
+Power is 7973.423340
+Power is 14856.532227
+Power is 6795.202637
+Power is 5603.324219
+Power is 4523.481445
+Power is 14092.464844
+Power is 20745.878906
+Power is 13846.641602
+Power is 998.654785
+Power is 5659.660645
+Power is 17102.085938
+Power is 6871.867188
+Power is 14372.013672
+Power is 13050.227539
+Power is 11851.556641
+Power is 3710.659668
+Power is 5988.505859
+Power is 8278.479492
+Power is 7582.001953
+Power is 16618.330078
+Power is 22007.515625
+Power is 14469.421875
+Power is 14064.033203
+Power is 6717.687012
+Power is 11241.138672
+Power is 12126.760742
+Power is 13404.946289
+Power is 10973.492188
+Power is 6659.601562
+Power is 12270.713867
+Power is 16467.539062
+Power is 20547.400391
+Power is 12895.445312
+Power is 13628.055664
+Power is 6801.107422
+Power is 7758.155762
+Power is 3703.243408
+Power is 12548.591797
+Power is 9375.764648
+Power is 6857.408203
+Power is 6389.266602
+Power is 12067.708984
+Power is 6119.876953
+Power is 3004.088135
+Power is 1296.767944
+Power is 4392.375000
+Power is 10078.222656
+Power is 6739.333008
+Power is 3460.742432
+Power is 5077.800781
+Power is 10830.471680
+Power is 5958.316406
+Power is 12680.582031
+Power is 12294.563477
+Power is 10586.856445
+Power is 5671.898926
+Power is 13079.126953
+Power is 4670.927734
+Power is 14046.318359
+Power is 6811.864258
+Power is 8306.694336
+Power is 6283.183105
+Power is 18774.296875
+Power is 14198.457031
+Power is 15210.923828
+Power is 3949.160156
+Power is 12503.867188
+Power is 15736.802734
+Power is 8728.833008
+Power is 9196.728516
+Power is 9207.859375
+Power is 8768.448242
+Power is 4602.775391
+Power is 12255.474609
+Power is 7090.653809
+Power is 8322.869141
+Power is 13115.739258
+Power is 8802.037109
+Power is 14298.374023
+Power is 16857.486328
+Power is 9660.057617
+Power is 10723.352539
+Power is 16204.671875
+Power is 10524.571289
+Power is 4536.586914
+Power is 14788.399414
+Power is 20897.281250
+Power is 15689.297852
+Power is 17914.644531
+Power is 19844.316406
+Power is 11221.900391
+Power is 6744.849121
+Power is 10357.304688
+Power is 15303.258789
+Power is 7104.911133
+Power is 7342.643066
+Power is 9796.211914
+Power is 14206.916016
+Power is 16052.834961
+Power is 9902.800781
+Power is 12078.554688
+Power is 14294.481445
+Power is 15393.535156
+Power is 11880.414062
+Power is 17386.722656
+Power is 14527.014648
+Power is 6093.547363
+Power is 6798.481445
+Power is 14919.525391
+Power is 23574.529297
+Power is 14477.377930
+Power is 10231.713867
+Power is 6494.978027
+Power is 11011.613281
+Power is 5673.408691
+Power is 14415.331055
+Power is 27660.996094
+Power is 25348.457031
+Power is 9466.845703
+Power is 2855.031250
+Power is 9155.387695
+Power is 16523.591797
+Power is 19006.148438
+Power is 13691.101562
+Power is 8866.819336
+Power is 16376.999023
+Power is 20017.822266
+Power is 11998.966797
+Power is 19159.019531
+Power is 6703.751465
+Power is 3998.547852
+Power is 12240.548828
+Power is 21843.234375
+Power is 12503.563477
+Power is 5345.771484
+Power is 9715.125000
+Power is 15253.095703
+Power is 13805.392578
+Power is 4808.068359
+Power is 12363.127930
+Power is 19207.904297
+Power is 14980.719727
+Power is 17290.656250
+Power is 7445.457520
+Power is 15542.386719
+Power is 6869.451172
+Power is 9571.405273
+Power is 3745.054932
+Power is 11397.356445
+Power is 11991.643555
+Power is 11945.501953
+Power is 17369.759766
+Power is 21726.634766
+Power is 13640.965820
+Power is 14763.404297
+Power is 11422.649414
+Power is 2416.697021
+Power is 10922.071289
+Power is 10059.077148
+Power is 4022.395996
+Power is 15908.141602
+Power is 17650.816406
+Power is 12535.061523
+Power is 12022.184570
+Power is 5675.744629
+Power is 7331.525879
+Power is 8387.394531
+Power is 18638.957031
+Power is 11964.480469
+Power is 8870.833008
+Power is 22667.474609
+Power is 15786.414062
+Power is 2994.233398
+Power is 6160.722168
+Power is 9122.360352
+Power is 1579.877563
+Power is 16489.404297
+Power is 12017.637695
+Power is 6597.644531
+Power is 10756.464844
+Power is 5566.908203
+Power is 3344.486084
+Power is 3084.929688
+Power is 9739.655273
+Power is 12235.430664
+Power is 13036.033203
+Power is 12543.804688
+Power is 9106.570312
+Power is 4128.351074
+Power is 9731.498047
+Power is 13285.903320
+Power is 11673.571289
+Power is 14693.484375
+Power is 11609.810547
+Power is 11871.720703
+Power is 8212.674805
+Power is 4835.795898
+Power is 4929.150879
+Power is 6795.227051
+Power is 14583.801758
+Power is 26548.859375
+Power is 16807.101562
+Power is 14678.027344
+Power is 8904.941406
+Power is 8992.081055
+Power is 9455.645508
+Power is 8841.406250
+Power is 15672.701172
+Power is 6850.361816
+Power is 15752.062500
+Power is 24392.345703
+Power is 12456.336914
+Power is 7068.473145
+Power is 7112.475098
+Power is 14560.546875
+Power is 11037.775391
+Power is 6660.501953
+Power is 12973.910156
+Power is 18823.828125
+Power is 7944.873047
+Power is 9829.539062
+Power is 12522.924805
+Power is 10136.048828
+Power is 11016.500000
+Power is 17150.642578
+Power is 4478.703125
+Power is 6140.242188
+Power is 12753.230469
+Power is 12939.297852
+Power is 7648.947266
+Power is 6973.709961
+Power is 6697.508789
+Power is 3836.769287
+Power is 16309.089844
+Power is 10604.946289
+Power is 16009.713867
+Power is 15563.506836
+Power is 15175.583984
+Power is 7926.349609
+Power is 14126.263672
+Power is 15849.392578
+Power is 12520.779297
+Power is 14899.257812
+Power is 14267.930664
+Power is 13264.291016
+Power is 4833.467773
+Power is 14327.027344
+Power is 16301.426758
+Power is 8572.477539
+Power is 9968.895508
+Power is 19737.214844
+Power is 6820.997070
+Power is 12604.395508
+Power is 9793.499023
+Power is 16341.495117
+Power is 18121.009766
+Power is 12960.655273
+Power is 6599.691406
+Power is 3476.925049
+Power is 18187.546875
+Power is 14173.821289
+Power is 7334.798340
+Power is 9981.353516
+Power is 6991.260742
+Power is 19434.162109
+Power is 13250.510742
+Power is 5508.193359
+Power is 15258.983398
+Power is 25605.589844
+Power is 14821.603516
+Power is 7627.150391
+Power is 14806.284180
+Power is 12953.257812
+Power is 4214.936035
+Power is 7981.534668
+Power is 19450.078125
+Power is 21335.501953
+Power is 8817.213867
+Power is 14266.195312
+Power is 25796.619141
+Power is 17713.312500
+Power is 45827.085938
+Power is 7882.429199
+Power is 46876.847656
+Power is 41431.363281
+Power is 43642.250000
+data is valid
