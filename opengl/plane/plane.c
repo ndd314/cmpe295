@@ -23,7 +23,7 @@ void createObjects(void);
 void createLighting(void);
 void createCamera(void);
 void drawAxes(GLfloat length);
-void drawPlane(GLfloat width, GLfloat height);
+void drawPlane(GLfloat width, GLfloat height, GLfloat depth);
 void handleKeyboard(unsigned char key, int x, int y);
 void handleSpecialKeyboard(int key, int x, int y);
 void handleVisibility(int visible);
@@ -121,12 +121,18 @@ void display(void)
  */
 void createObjects(void)
 {
+   int z;
+
    drawAxes(500);
 
    glEnable(GL_TEXTURE_2D);
    glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE);
    glBindTexture(GL_TEXTURE_2D, textureID);
-   drawPlane(100.0, 100.0);
+
+   for (z = -100; z <= 100; z += 10) {
+      drawPlane(100.0, 100.0, z);
+   }
+
    glDisable(GL_TEXTURE_2D);
 }
 
@@ -185,7 +191,7 @@ void drawAxes(GLfloat length)
  * drawPlane
  * Draws a plane with the given dimensions.
  */
-void drawPlane(GLfloat width, GLfloat height)
+void drawPlane(GLfloat width, GLfloat height, GLfloat depth)
 {
     int i;
     GLfloat normal[3] = {-1.0, 0.0, 0.0};
@@ -208,6 +214,7 @@ void drawPlane(GLfloat width, GLfloat height)
     {
         verts[i][0] *= width;
         verts[i][1] *= height;
+        verts[i][2] += depth;
 
         glNormal3fv(&normal[0]);
         glTexCoord3fv(&texcoords[i][0]);
