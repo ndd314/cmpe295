@@ -12,7 +12,13 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+
+#ifdef __APPLE__
 #include <GLUT/glut.h>
+#else
+#include <GL/glut.h>
+#endif
+
 #include "readBMP.h"
 
 #define PI 3.141592653589793238462643
