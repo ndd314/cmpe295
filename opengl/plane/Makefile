@@ -18,11 +18,14 @@ all: $(BINARIES)
 clean:
 	-rm *.o $(BINARIES)
 
-plane : plane.o 
-	g++ $(LDFLAGS) $^ -o plane
+plane: plane.o readBMPV2.o
+	gcc $(LDFLAGS) $^ -o plane
 
 plane.o: plane.c
-	g++ -c $(CFLAGS) plane.c
+	gcc -c $(CFLAGS) plane.c
+
+readBMPV2.o: readBMPV2.c
+	gcc -c $(CFLAGS) readBMPV2.c
 
 depend:
 	makedepend *.c
