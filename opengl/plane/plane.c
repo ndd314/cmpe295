@@ -42,6 +42,7 @@ char *textureFile = "grape12.bmp";
 GLuint textureID;
 double verticalRotation = 60;
 double horizontalRotation = 0;
+static Image * image = NULL;
 
 /*----------------------------------------------*
  * main
@@ -63,6 +64,7 @@ int main(int argc, char **argv)
 
     // OpenGL initialization
     glutInit(&argc, argv);
+    glutInitWindowSize(800, 800);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
     glutCreateWindow("OpenGL: Textured Plane");
     glutDisplayFunc(display);
@@ -361,7 +363,7 @@ void printUsage(void)
  * LoadBmpTexture
  * Loads a texture from a BMP file.
  */
-static Image * image = NULL;
+
 int LoadBmpTexture(char * filename, GLenum minFilter, GLenum magFilter, GLenum wrapMode)
 {
     // read the texture bits
