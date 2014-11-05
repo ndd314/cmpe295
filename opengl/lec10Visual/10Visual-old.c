@@ -1,17 +1,22 @@
 /***************************************************
  * Program: 10Visual.c       for CMPE262           *
  * Coded: HL with reference from open source       *
- *                                                 * 
- * Date: Sept 12, 2013                             *  
+ *                                                 *
+ * Date: Sept 12, 2013                             *
  * gcc main.cpp -o main.o -lGL -lGLU -lglut -lm    *
  * Note: linking be sure to have included math lib *
- *       e.g., -lm                                 *  
- ***************************************************/ 
+ *       e.g., -lm                                 *
+ ***************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+
+#ifdef __APPLE__
+#include <GLUT/glut.h>
+#else
 #include <GL/glut.h>
+#endif
 
 void Display(void);
 void CreateEnvironment(void);
@@ -57,7 +62,7 @@ int main(int argc,char **argv)
    int mainmenu,speedmenu;
 
    for (i=1;i<argc;i++) {
-      if (strstr(argv[i],"-h") != NULL) 
+      if (strstr(argv[i],"-h") != NULL)
          GiveUsage(argv[0]);
       if (strstr(argv[i],"-q") != NULL) {
          if (i+1 >= argc)
@@ -71,20 +76,16 @@ int main(int argc,char **argv)
   GLfloat x;
   GLfloat y;
 };
- 10:38:24 PM] Harry Li: 还有其他领导吗？
-[10:38:35 PM] Harry Li: 资金何时支付？
-[10:38:41 PM] Harry Li: 何时知道结论？
-[10:38:48 PM] Harry Li: 对于我们产品如何评价？
 
 point vertices[101][101];
- #include <GL/glut.h>
+
 for(int i = 0; i < 101; i++) {
   for(int j = 0; j < 101; j++) {
     vertices[i][j].x = (j - 50) / 50.0;
     vertices[i][j].y = (i - 50) / 50.0;
   }
 }
- 
+
 glBindBuffer(GL_ARRAY_BUFFER, vbo);
 glBufferData(GL_ARRAY_BUFFER, sizeof vertices, vertices, GL_STATIC_DRAW);
 
@@ -104,7 +105,7 @@ glBufferData(GL_ARRAY_BUFFER, sizeof vertices, vertices, GL_STATIC_DRAW);
    glutKeyboardFunc(HandleKeyboard);
    glutSpecialFunc(HandleSpecialKeyboard);
    glutMouseFunc(HandleMouse);
-   
+
    CreateEnvironment();
 
    /* Set up some menus */
@@ -123,9 +124,9 @@ glBufferData(GL_ARRAY_BUFFER, sizeof vertices, vertices, GL_STATIC_DRAW);
    return(0);
 }
 
-/**************************************************** 
-   This is where global settings are made, that is, 
-   things that will not change in time 
+/****************************************************
+   This is where global settings are made, that is,
+   things that will not change in time
 *****************************************************/
 void CreateEnvironment(void)
 {
@@ -142,8 +143,8 @@ void CreateEnvironment(void)
    if (drawquality == BEST) {
       glEnable(GL_LINE_SMOOTH);
       glEnable(GL_POINT_SMOOTH);
-      glEnable(GL_POLYGON_SMOOTH); 
-      glShadeModel(GL_SMOOTH);    
+      glEnable(GL_POLYGON_SMOOTH);
+      glShadeModel(GL_SMOOTH);
       glDisable(GL_DITHER);         /* Assume RGBA capabilities */
    }
 
@@ -193,25 +194,25 @@ void MakeGeometry(void)
   GLfloat x;
   GLfloat y;
 };
- 
+
 point vertices[101][101];
- 
+
 for(int i = 0; i < 101; i++) {
   for(int j = 0; j < 101; j++) {
     vertices[i][j].x = (j - 50) / 50.0;
     vertices[i][j].y = (i - 50) / 50.0;
   }
 }
- 
+
 glBindBuffer(GL_ARRAY_BUFFER, vbo);
 glBufferData(GL_ARRAY_BUFFER, sizeof vertices, vertices, GL_STATIC_DRAW);
  {0.5,0.5,0.5,1.0};  /* Grey boxes */
    GLfloat mamb3[]  = {0.2,0.2,0.2,1.0};
 
-   float ORG[3] = {0,0,0};                     //origin of the world 
+   float ORG[3] = {0,0,0};                     //origin of the world
    float XP[3] = {1000,0,0}, XN[3] = {-1,0,0}; //X axis
    float YP[3] = {0,1000,0}, YN[3] = {0,-1,0}; //y axis
-   float ZP[3] = {0,0,1000}, ZN[3] = {0,0,-1}; //z axis 
+   float ZP[3] = {0,0,1000}, ZN[3] = {0,0,-1}; //z axis
 
 /*-----------------------------------------------------------*/
 /*                  Create a RGB xyz axis                    */
@@ -221,14 +222,14 @@ glLineWidth (3.0);
 
 glBegin (GL_LINES);
 glColor3f (1,0,0); // X axis is red.
-glVertex3fv (ORG); // from origin to XP point; 
-glVertex3fv (XP ); 
+glVertex3fv (ORG); // from origin to XP point;
+glVertex3fv (XP );
 glColor3f (0,1,0); // Y axis is green.
 glVertex3fv (ORG);
 glVertex3fv (YP );
 glColor3f (0,0,1); // z axis is blue.
 glVertex3fv (ORG);
-glVertex3fv (ZP ); 
+glVertex3fv (ZP );
 glEnd();
 
 /*-----------------------------------------------------------*/
@@ -238,13 +239,13 @@ glLineWidth (1.0);
 　
 /*
 #include <GL/glut.h>
-int ii,jj; 
+int ii,jj;
 
 struct point {
   GLfloat x;
   GLfloat y;
 };
- 
+
 struct point vertices[101][101];
  struct point {
   GLfloat x;
@@ -256,10 +257,10 @@ for(ii = 0; ii < 101; ii++) {
     vertices[ii][jj].y = (ii - 50) / 50.0;
   }
 }
- 
+
 glBindBuffer(GL_ARRAY_BUFFER, vbo);
 glBufferData(GL_ARRAY_BUFFER, sizeof vertices, vertices, GL_STATIC_DRAW);
- 
+
 */
 
 //???
@@ -270,14 +271,14 @@ glBufferData(GL_ARRAY_BUFFER, sizeof vertices, vertices, GL_STATIC_DRAW);
    glColor3f(0.5,0.5,0.5);
    if (drawquality > DRAFT) {
       glMaterialfv(GL_FRONT_AND_BACK,GL_DIFFUSE,mdiff3);  //define diffuse reflection
-      glMaterialfv(GL_FRONT_AND_BACK,GL_AMBIENT,mamb3);   //define ambient light 
+      glMaterialfv(GL_FRONT_AND_BACK,GL_AMBIENT,mamb3);   //define ambient light
    }
-   glPushMatrix();   
-/* 
-when using glTranslate(..) or glRotate(..), it will affect the modelview matrix. 
-When applying several transformations (translations & rotations) this matrix changes 
+   glPushMatrix();
+/*
+when using glTranslate(..) or glRotate(..), it will affect the modelview matrix.
+When applying several transformations (translations & rotations) this matrix changes
 too, so to get the (modelview) matrix into the original state, use push~ and pop~
-matrix function, glPushMatrix(), and glPopMatrix, it can also done by glLoadIdentity(); 
+matrix function, glPushMatrix(), and glPopMatrix, it can also done by glLoadIdentity();
 */
  //  glTranslatef(1.8,0.2,1.8);
    glTranslatef(0,0,0);
@@ -293,7 +294,7 @@ matrix function, glPushMatrix(), and glPopMatrix, it can also done by glLoadIden
    glPopMatrix();
 
 }
-/************************************************    
+/************************************************
    Set up the lighing environment
 *************************************************/
 void MakeLighting(void)
@@ -326,7 +327,7 @@ void MakeLighting(void)
 
 /*******************************************************
    Set up the camera
-   Optionally creating a small viewport about 
+   Optionally creating a small viewport about
    the mouse click point for object selection
 ********************************************************/
 void MakeCamera(int pickmode,int x,int y)
@@ -348,7 +349,7 @@ void MakeCamera(int pickmode,int x,int y)
 /*
 gluPickMatrix() Creates a projection matrix that can be used to restrict drawing
             to a small region of the viewport.　
-            This is typically useful to determine what objects are 
+            This is typically useful to determine what objects are
             being drawn near the cursor.
             Use gluPickMatrix to
             restrict drawing to a small region around the cursor.
@@ -356,7 +357,7 @@ gluPickMatrix() Creates a projection matrix that can be used to restrict drawing
             enter selection mode (with glRenderMode) and rerender the scene.
             All primitives that would have been drawn near
             the cursor are identified and stored in the selection buffer.
-        
+
             The matrix created by gluPickMatrix is multiplied by the current matrix just
             as if glMultMatrix is called with the generated matrix.
             To effectively use the generated pick matrix for picking,
@@ -365,13 +366,13 @@ gluPickMatrix() Creates a projection matrix that can be used to restrict drawing
             Then call gluPickMatrix,
             and, finally, call a command (such as gluPerspective)
             to multiply the perspective matrix by the pick matrix.
-        
-            When using gluPickMatrix to pick NURBS, be careful to turn off the NURBS 
+
+            When using gluPickMatrix to pick NURBS, be careful to turn off the NURBS
             property
             GLU_AUTO_LOAD_MATRIX.  If GLU_AUTO_LOAD_MATRIX is not
             turned off, then any NURBS surface rendered is subdivided differently with
             the pick matrix than the way it was subdivided without the pick matrix.
-        
+
 */
    gluPerspective(80.0,          /* Field of view */
                    1.0,          /* aspect ratio  */
@@ -380,27 +381,27 @@ gluPickMatrix() Creates a projection matrix that can be used to restrict drawing
 /*
 gluPerspective() specifies a viewing frustum into the world coordinate system.
             In general, the aspect ratio in gluPerspective should match the aspect ratio
-            of the associated viewport. For example, 
-            
+            of the associated viewport. For example,
+
                     aspect = 2.0
-                
+
             means the viewer's
             angle of view is twice as wide in x as it is in y.
             If the viewport is
             twice as wide as it is tall, it displays the image without distortion.
-        
+
 */
 
    glMatrixMode(GL_MODELVIEW);
    glLoadIdentity();
    float Ex, Ey, Ez;    //define E point
-   Ex = Ey = Ez = 400;  //my default 
-   printf("Enter Eye location (Ex,Ey,Ez)\n"); 
+   Ex = Ey = Ez = 400;  //my default
+   printf("Enter Eye location (Ex,Ey,Ez)\n");
    scanf("%f",&Ex);
-   Ey = Ez = Ex; 
+   Ey = Ez = Ex;
    gluLookAt(Ex*cos(theta*PI/180)*sin(updownrotate*PI/180),
              Ey*cos(updownrotate*PI/180),
-             Ez*sin(theta*PI/180)*sin(updownrotate*PI/180), 
+             Ez*sin(theta*PI/180)*sin(updownrotate*PI/180),
              0.0,0.0,0.0,                                   /* Focus    */
              0.0,1.0,0.0);                                  /* Up       */
    if (spincamera)
@@ -521,7 +522,7 @@ void HandleIdle(void)
 
 /************************************************
    Draw text in the x-y plane
-   The x,y,z coordinate is the bottom left corner 
+   The x,y,z coordinate is the bottom left corner
    (looking down -ve z axis)
 *************************************************/
 void DrawTextXY(double x,double y,double z,double scale,char *s)
