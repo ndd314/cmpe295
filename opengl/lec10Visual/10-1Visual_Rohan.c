@@ -258,22 +258,21 @@ void MakeGeometry(void)
    /*---------------------------------------------------*/
    glLoadName(BOXID);
    glColor3f(0.5,0.5,0.5);
+
    if (drawquality > DRAFT) {
       glMaterialfv(GL_FRONT_AND_BACK,GL_DIFFUSE,mdiff3);
       glMaterialfv(GL_FRONT_AND_BACK,GL_AMBIENT,mamb3);
    }
+
    glPushMatrix();
-   //  glTranslatef(1.8,0.2,1.8);
+
    glTranslatef(0,0,0);
+
    if (drawquality > DRAFT)
       glutSolidCube(200);
    else
       glutWireCube(200);
-   /* glTranslatef(-3.6,0.0,0.0);
-      if (drawquality > DRAFT)
-      glutSolidCube(0.4);
-      else
-      glutWireCube(0.4);*/
+
    glPopMatrix();
 
    /*---------------------------------------------------*/
@@ -347,17 +346,7 @@ void MakeGeometry(void)
       {
       */
 #define DotSize 5.0
-   /*
-      glTranslatef(2.5f,0.0f,2.5f);//move forward 4 units
-      glColor3f(200.0f,200.0f,0.0f); //define dot color
 
-      glBegin(GL_QUADS);
-      glVertex3f(0.0f,0.0f,0.0f);
-      glVertex3f(DotSize,0.0f,0.0f);
-      glVertex3f(DotSize,0.0f,DotSize);
-      glVertex3f(0.0f,0.0f,DotSize);
-      glEnd();//end drawing of points
-      */
    glBegin(GL_QUADS);
    glTexCoord2f(0.0, 0.0); glVertex3f(-2.0, -1.0, 0.0);
    glTexCoord2f(0.0, 3.0); glVertex3f(-2.0, 1.0, 0.0);
@@ -368,16 +357,6 @@ void MakeGeometry(void)
    glTexCoord2f(0.0, 3.0); glVertex3f(1.0, 1.0, 0.0);
    glTexCoord2f(3.0, 3.0); glVertex3f(2.41421, 1.0, -1.41421);
    glTexCoord2f(3.0, 0.0); glVertex3f(2.41421, -1.0, -1.41421); glEnd();
-   //glTranslatef(50.0f,0.0f,50.0f);
-
-   // use GLIdentitymatrix for resetting the matrix
-
-   /*glLineWidth(5.0);
-     glColor3f(10.0, 10.0, 10.0);
-     glBegin(GL_LINES);
-     glVertex3f(x_buffer[0], 0, y_buffer[0]);
-     glVertex3f(x_buffer[buffer_index-1], 0, y_buffer[buffer_index-1]);
-     glEnd();*/
 
    glBegin(GL_POINTS);
    glPointSize(10);
@@ -401,62 +380,6 @@ void MakeGeometry(void)
       glVertex3f(x_buffer[count]*5,0,y_buffer[count]*5);
    }
    glEnd();
-   /*      glBegin(GL_QUADS);
-           glVertex3f(0.0f,0.0f,0.0f);
-           glVertex3f(5.0,0.0f,0.0f);
-           glVertex3f(5.0,0.0f,5.0);
-           glVertex3f(0.0f,0.0f,5.0);
-           glEnd();
-   /*        glBegin(GL_LINES);
-   glVertex3f(x_buffer[3], 0.0, y_buffer[3]);
-   glVertex3f(x_buffer[8]*5.0, 0, y_buffer[8]*5.0);
-   glEnd();
-   glTranslatef(-15.0,0.0,-15.0);
-   glBegin(GL_QUADS);
-   glVertex3f(0.0f,0.0f,0.0f);
-   glVertex3f(5.0,0.0f,0.0f);
-   glVertex3f(5.0,0.0f,5.0);
-   glVertex3f(0.0f,0.0f,5.0);
-   //glEnd();
-   glEnd();*/
-   /*for(count=0; count<=buffer_index; count++)
-     {
-
-     glBegin(GL_QUADS);
-     glVertex3f(5.0,0.0f,5.0);
-     glVertex3f(5.0,0.0f,0.0f);
-     glVertex3f(5.0,0.0f,5.0);
-     glVertex3f(0.0f,0.0f,5.0);
-     glEnd();
-     glTranslatef(5.0,0.0f,5.0);
-     }*/
-
-   //float x, y;
-   //int l;
-   /*x[0] = 1, y[0] = 1;
-     x[1] = 2, y[1] = 2;
-     x[2] = 3, y[2] = 3;
-     glTranslatef(70.0f,0.0f,70.0f);
-     for(l = 0; l < 3; l++) {
-     glTranslatef(x[l],0.0f,y[l]);//move forward 4 units
-     glColor3f(200.0f,200.0f,0.0f); //define dot color
-
-     glBegin(GL_QUADS);
-     glVertex3f(0.0f,0.0f,0.0f);
-     glVertex3f(5.0,0.0f,0.0f);
-     glVertex3f(5.0,0.0f,5.0);
-     glVertex3f(0.0f,0.0f,5.0);
-     glEnd();//end drawing of points
-     }
-
-     glLineWidth(5.0);
-     glColor3f(200.0, 200.0, 0.0);
-     glBegin(GL_LINES);
-     glVertex3f(-10.0, 0.0, 10.0);
-     glVertex3f(20.0, 0, 60.0);
-     glEnd();
-     */
-
 }
 
 void dot_display()
