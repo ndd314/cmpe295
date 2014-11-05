@@ -1,21 +1,27 @@
 /***************************************************
  * Program: 10Visual.c    for MicroCT application  *
- * Date: Oct 8, 2014                               *  
+ * Date: Oct 8, 2014                               *
  * gcc main.cpp -o main.o -lGL -lGLU -lglut -lm    *
  * Note: linking be sure to have included math lib *
- *       e.g., -lm                                 *  
- ***************************************************/ 
-/* Note: 
+ *       e.g., -lm                                 *
+ ***************************************************/
+/* Note:
 
   1. This program is written to buld Micro CT design environment.
-     
+
 */
- 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+
+#ifdef __APPLE__
+#include <GLUT/glut.h>
+#else
 #include <GL/glut.h>
+#endif
+
 #include "readBMP.h"
 
 void Display(void);
@@ -54,138 +60,16 @@ double ballspeed = 2;
 #define PLANEID     4
 #define TEXTID      5
 
-FILE* rd; 
+FILE* rd;
 FILE* rdp;
 float x_buffer[1024], y_buffer[1024];
 int x_bresenham[1024], y_bresenham[1024];
 int buffer_index, count;
 int buffer_bresenham, count_bresenham, radius_file;
 
-
-/////////////////////////////////////////////////////////////////////////////////////////////////
-unsigned int endianReadInt(FILE* file) {
-unsigned char  b[4]; 
-unsigned int i;
-if ( fread( b, 1, 4, file) < 4 )
-return 0;
-
-/* LITTLE VS BIG ENDIAN LINES - comment out 
-one or the other */
-i = (b[3]<<24) | (b[2]<<16) | (b[1]<<8) | b[0]; 
-// big endian
-//i = (b[0]<<24) | (b[1]<<16) | (b[2]<<8) | 
-
-b[3]; // little endian
-return i;
-}
-
-/* Reads a 16 bit integer; comment out one or the other 
-shifting line below, 
-   whichever makes your system work right. */
-unsigned short int endianReadShort(FILE* file) {
-//11
-
-unsigned char  b[2]; 
-unsigned short s;
-if ( fread( b, 1, 2, file) < 2 )
-return 0;
-
-/* LITTLE VS BIG ENDIAN LINES - comment out 
-one or the other */
-
-s = (b[1]<<8) | b[0]; // big endian
-//s = (b[0]<<8) | b[1]; // little endian
-return s;
-}
-/////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////
-int ImageLoad(char *filename, Image *image) {
-FILE *file;
-unsigned long size;                 // size of the image in bytes  
-unsigned long i;                    // standard counter.
-unsigned short int planes;          // number of planes in image (must be 1) 
-unsigned short int bpp;             // number of bits per pixel (must be 24)
-char temp;                          // temporary color storage for bgr-rgb conversion.
-
-// make sure the file is there.
-if ((file = fopen(filename, "rb"))==NULL)
-{
-printf("File Not Found : %s\n",filename);
-return 0;
-}
-
-// seek through the bmp header, up to the width/height:
-fseek(file, 18, SEEK_CUR);
-
-// read the width
-if (!(image->sizeX = endianReadInt(file))) {
-printf("Error reading width from %s.\n", 
-filename);
-return 0;
-}
-
-printf("Width of %s: %lu\n", filename, image->sizeX);
-// read the height 
-
-if (!(image->sizeY = endianReadInt(file))) {
-printf("Error reading height from %s.\n", 
-filename);
-return 0;
-}
-
-printf("Height of %s: %lu\n", filename, image->sizeY);
-// calculate the size (assuming 24 bits or 3 bytes per pixel).
-size = image->sizeX * image->sizeY * 3;
-// read the planes
-if (!(planes=endianReadShort(file))) {
-printf("Error reading planes from %s.\n", 
-filename);
-return 0;
-}
-if (planes != 1) {
-printf("Planes from %s is not 1: %u\n", 
-filename, planes);
-return 0;
-}
-
-// read the bits per pixel
-
-if (!(bpp = endianReadShort(file))) {
-printf("Error reading bpp from %s.\n", filename);
-return 0;
-}
-if (bpp != 24) {
-printf("Bpp from %s is not 24: %u\n", filename, bpp);
-return 0;
-}
-
-// seek past the rest of the bitmap header.
-
-fseek(file, 24, SEEK_CUR);
-
-// read the data. 
-
-image->data = (char *) malloc(size);
-if (image->data == NULL) {
-printf("Error allocating memory for color-corrected image data");
-return 0;
-}
-if ((i = fread(image->data, size, 1, file)) != 1) {
-printf("Error reading image data from %s.\n", 
-filename);
-return 0;
-}
-for (i=0;i<size;i+=3) { // reverse all of the colors. (bgr -> rgb)
-temp = image->data[i];
-image->data[i] = image->data[i+2];
-image->data[i+2] = temp;
-}
-}
-/////////////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////////////
 int window;
 Image *image;
-int n,m; 
+int n,m;
 char *filename;
 
 /*******************************************/
@@ -199,12 +83,12 @@ exit(-1);
 }
 if (!ImageLoad(filename, image)) {
 exit(-2);
-}    
+}
 }
 
 /********************************************/
 // display image
-/********************************************/ 
+/********************************************/
 void display()
 {
 glClear(GL_COLOR_BUFFER_BIT);
@@ -237,7 +121,7 @@ switch (argc) {
 case 1:
 printf("Usage: program__name <image filename>\n");
 exit(-1);
-case  2: 
+case  2:
 filename = argv[1];
 break;
 default:
@@ -279,13 +163,13 @@ printf("usage: program_name <image filename>\n");
       printf("x_bresenham = %d, y_bresenham = %d\n", x_bresenham[m], y_bresenham[m]);
       m++;
    }
-   fclose(rdp);  
+   fclose(rdp);
    buffer_bresenham = m;
-   printf("buffer_bresenham = %d\n", buffer_bresenham); 
+   printf("buffer_bresenham = %d\n", buffer_bresenham);
 
 
    for (i=1;i<argc;i++) {
-      if (strstr(argv[i],"-h") != NULL) 
+      if (strstr(argv[i],"-h") != NULL)
          GiveUsage(argv[0]);
       if (strstr(argv[i],"-q") != NULL) {
          if (i+1 >= argc)
@@ -305,7 +189,7 @@ printf("usage: program_name <image filename>\n");
 
    ///////////////////////////////////////////////////////////////////////////////////////////
    glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB );
-   getImage(image);  
+   getImage(image);
 
 //get image size
 n = image->sizeX;
@@ -324,7 +208,7 @@ glutInitWindowPosition(0,0);
    glutKeyboardFunc(HandleKeyboard);
    glutSpecialFunc(HandleSpecialKeyboard);
    glutMouseFunc(HandleMouse);
-   
+
    CreateEnvironment();
 
    /* Set up some menus */
@@ -343,9 +227,9 @@ glutInitWindowPosition(0,0);
    return(0);
 }
 
-/**************************************************** 
-   This is where global settings are made, that is, 
-   things that will not change in time 
+/****************************************************
+   This is where global settings are made, that is,
+   things that will not change in time
 *****************************************************/
 void CreateEnvironment(void)
 {
@@ -362,8 +246,8 @@ void CreateEnvironment(void)
    if (drawquality == BEST) {
       glEnable(GL_LINE_SMOOTH);
       glEnable(GL_POINT_SMOOTH);
-      glEnable(GL_POLYGON_SMOOTH); 
-      glShadeModel(GL_SMOOTH);    
+      glEnable(GL_POLYGON_SMOOTH);
+      glShadeModel(GL_SMOOTH);
       glDisable(GL_DITHER);         /* Assume RGBA capabilities */
    }
 
@@ -427,18 +311,18 @@ glLineWidth (2.0);
 glBegin (GL_LINES);
 glColor3f (1,0,0); // X axis is red.
 glVertex3fv (ORG);
-glVertex3fv (XP ); 
+glVertex3fv (XP );
 glColor3f (0,1,0); // Y axis is green.
 glVertex3fv (ORG);
 glVertex3fv (YP );
 glColor3f (0,0,1); // z axis is blue.
 glVertex3fv (ORG);
-glVertex3fv (ZP ); 
+glVertex3fv (ZP );
 glEnd();
 
 /*---------------------------------------------------*/
 /*   Place a grey boxes around the place             */
-/*---------------------------------------------------*/ 
+/*---------------------------------------------------*/
    glLoadName(BOXID);
    glColor3f(0.5,0.5,0.5);
    if (drawquality > DRAFT) {
@@ -453,7 +337,7 @@ glTranslatef(0,0,0);
    else
       glutWireCube(200);
   /* glTranslatef(-3.6,0.0,0.0);
-   if (drawquality > DRAFT) 
+   if (drawquality > DRAFT)
      glutSolidCube(0.4);
    else
       glutWireCube(0.4);*/
@@ -465,19 +349,19 @@ glTranslatef(0,0,0);
 /* note: the x-z plane is defined as usual x-y plane
          here, so if you want to have usual x-y plane
          effect, use x-z plane instead, e.g.
-         x-displayed = x; 
-         y-displayed = z;       ...(1) 
+         x-displayed = x;
+         y-displayed = z;       ...(1)
          (x,z) is defined in this program as (x,y)
-*/ 
-           
-//    void Draw_Grid() {
-#define gridRegion 1000 
+*/
 
-float ii; 
+//    void Draw_Grid() {
+#define gridRegion 1000
+
+float ii;
      for( ii = -gridRegion; ii <= gridRegion; ii += 5)
         {
          glBegin(GL_LINES);
-            glColor3ub(50, 250, 150); //define r,g,b color 
+            glColor3ub(50, 250, 150); //define r,g,b color
             glVertex3f(-gridRegion, 0, ii);
             glVertex3f(gridRegion, 0, ii);
             glVertex3f(ii, 0,-gridRegion);
@@ -489,32 +373,32 @@ float ii;
 /*                   set ROI                          */
 /* Note: Z-axis blue, X-axis red, Y-axis green        */
 /*----------------------------------------------------*/
-#define ROIindBound 128   // size of ROI: 256x256 
+#define ROIindBound 128   // size of ROI: 256x256
 #define ROIfunBound 128   // using ind for independant variable x
-                          // using fun for function, variable y 
+                          // using fun for function, variable y
 
       glColor3f(200.0f,200.0f,0.0f); //define color
 
-      glLineWidth (4.0);  //thick line for the ROI boundary 
+      glLineWidth (4.0);  //thick line for the ROI boundary
          glBegin(GL_LINES);
-            //glColor3ub(200, 200, 0); //define r,g,b color 
+            //glColor3ub(200, 200, 0); //define r,g,b color
             glVertex3f(-ROIfunBound,0,-ROIindBound); glVertex3f(ROIfunBound,0,-ROIindBound);
             glVertex3f(ROIfunBound,0,-ROIindBound);  glVertex3f(ROIfunBound,0,ROIindBound);
 
             glVertex3f(ROIfunBound,0,ROIindBound);  glVertex3f(-ROIfunBound,0,ROIindBound);
             glVertex3f(-ROIfunBound,0,ROIindBound); glVertex3f(-ROIfunBound,0,-ROIindBound);
          glEnd();
-     glLineWidth (2.0);   //recover original line width 
+     glLineWidth (2.0);   //recover original line width
 
-#define ROIindBound1 60   // size of ROI: 120x120 
+#define ROIindBound1 60   // size of ROI: 120x120
 #define ROIfunBound1 60   // using ind for independant variable x
-                          // using fun for function, variable y 
+                          // using fun for function, variable y
 
       glColor3f(500.0f,0.0f,500.0f); //define color
 
-      glLineWidth (4.0);  //thick line for the ROI boundary 
+      glLineWidth (4.0);  //thick line for the ROI boundary
          glBegin(GL_LINES);
-            //glColor3ub(200, 200, 0); //define r,g,b color 
+            //glColor3ub(200, 200, 0); //define r,g,b color
             glVertex3f(-ROIfunBound1,0,-ROIindBound1); glVertex3f(ROIfunBound1,0,-ROIindBound1);
             glVertex3f(ROIfunBound1,0,-ROIindBound1);  glVertex3f(ROIfunBound1,0,ROIindBound1);
 
@@ -523,28 +407,28 @@ float ii;
          glEnd();
      glLineWidth (2.0);
 /*----------------------------------------------------*/
-/*                       Set a dot                    */ 
+/*                       Set a dot                    */
 /*----------------------------------------------------*/
 /*
 void Render()
-{      
+{
 */
-#define DotSize 5.0 
+#define DotSize 5.0
 
     glTranslatef(0.0f,0.0f,0.0f);//move forward 4 units
     glColor3f(200.0f,200.0f,0.0f); //define dot color
-     
+
     glBegin(GL_QUADS);
       glVertex3f(0.0f,0.0f,0.0f);
       glVertex3f(DotSize,0.0f,0.0f);
-      glVertex3f(DotSize,0.0f,DotSize); 
-      glVertex3f(0.0f,0.0f,DotSize); 
+      glVertex3f(DotSize,0.0f,DotSize);
+      glVertex3f(0.0f,0.0f,DotSize);
     glEnd();//end drawing of points
     //glTranslatef(50.0f,0.0f,50.0f);
-    
+
     // use GLIdentitymatrix for resetting the matrix
 
-    /*glLineWidth(5.0); 
+    /*glLineWidth(5.0);
     glColor3f(10.0, 10.0, 10.0);
     glBegin(GL_LINES);
     glVertex3f(x_buffer[0], 0, y_buffer[0]);
@@ -553,7 +437,7 @@ void Render()
 
     //glBegin(GL_POINTS);
     //glPointSize(10);
-    for(count_bresenham=0;count_bresenham<buffer_bresenham;count_bresenham++) 
+    for(count_bresenham=0;count_bresenham<buffer_bresenham;count_bresenham++)
     {
       //glVertex3f(x_bresenham[count_bresenham]*5,0,y_bresenham[count_bresenham]*5);
           // glTranslatef(0.0f,0.0f,0.0f);
@@ -562,8 +446,8 @@ void Render()
     glBegin(GL_QUADS);
       glVertex3f(0.0f,0.0f,0.0f);
       glVertex3f(DotSize,0.0f,0.0f);
-      glVertex3f(DotSize,0.0f,DotSize); 
-      glVertex3f(0.0f,0.0f,DotSize); 
+      glVertex3f(DotSize,0.0f,DotSize);
+      glVertex3f(0.0f,0.0f,DotSize);
     glEnd();
     }
     //glEnd();
@@ -580,12 +464,12 @@ void Render()
     }
     glEnd();
 
-    
+
  /*      glBegin(GL_QUADS);
           glVertex3f(0.0f,0.0f,0.0f);
       glVertex3f(5.0,0.0f,0.0f);
-      glVertex3f(5.0,0.0f,5.0); 
-      glVertex3f(0.0f,0.0f,5.0); 
+      glVertex3f(5.0,0.0f,5.0);
+      glVertex3f(0.0f,0.0f,5.0);
           glEnd();
  /*        glBegin(GL_LINES);
     glVertex3f(x_buffer[3], 0.0, y_buffer[3]);
@@ -595,8 +479,8 @@ void Render()
         glBegin(GL_QUADS);
           glVertex3f(0.0f,0.0f,0.0f);
       glVertex3f(5.0,0.0f,0.0f);
-      glVertex3f(5.0,0.0f,5.0); 
-      glVertex3f(0.0f,0.0f,5.0); 
+      glVertex3f(5.0,0.0f,5.0);
+      glVertex3f(0.0f,0.0f,5.0);
           //glEnd();
     glEnd();*/
   /*for(count=0; count<=buffer_index; count++)
@@ -605,8 +489,8 @@ void Render()
       glBegin(GL_QUADS);
       glVertex3f(5.0,0.0f,5.0);
       glVertex3f(5.0,0.0f,0.0f);
-      glVertex3f(5.0,0.0f,5.0); 
-      glVertex3f(0.0f,0.0f,5.0); 
+      glVertex3f(5.0,0.0f,5.0);
+      glVertex3f(0.0f,0.0f,5.0);
       glEnd();
       glTranslatef(5.0,0.0f,5.0);
    }*/
@@ -624,12 +508,12 @@ for(l = 0; l < 3; l++) {
    glBegin(GL_QUADS);
       glVertex3f(0.0f,0.0f,0.0f);
       glVertex3f(5.0,0.0f,0.0f);
-      glVertex3f(5.0,0.0f,5.0); 
-      glVertex3f(0.0f,0.0f,5.0); 
+      glVertex3f(5.0,0.0f,5.0);
+      glVertex3f(0.0f,0.0f,5.0);
     glEnd();//end drawing of points
  }
 
-glLineWidth(5.0); 
+glLineWidth(5.0);
 glColor3f(200.0, 200.0, 0.0);
 glBegin(GL_LINES);
 glVertex3f(-10.0, 0.0, 10.0);
@@ -643,16 +527,16 @@ void dot_display()
 {
     glTranslatef(0.0f,0.0f,0.0f);//move forward 4 units
     glColor3f(200.0f,200.0f,0.0f); //define dot color
-     
+
     glBegin(GL_QUADS);
       glVertex3f(0.0f,0.0f,0.0f);
       glVertex3f(5.0,0.0f,0.0f);
-      glVertex3f(5.0,0.0f,5.0); 
-      glVertex3f(0.0f,0.0f,5.0); 
+      glVertex3f(5.0,0.0f,5.0);
+      glVertex3f(0.0f,0.0f,5.0);
     glEnd();//end drawing of points
 }
 //}
-/************************************************    
+/************************************************
    Set up the lighting environment
 *************************************************/
 void MakeLighting(void)
@@ -685,18 +569,18 @@ void MakeLighting(void)
 
 /*******************************************************
    Set up the camera
-   Optionally creating a small viewport about 
+   Optionally creating a small viewport about
    the mouse click point for object selection.
-   Note: 
-   1. change the camera E distance from the origin of 
-      the world coordinate system, by incease rho, 
-      the default set rho = 400, need to change to 
-      interactive user defined way. 
+   Note:
+   1. change the camera E distance from the origin of
+      the world coordinate system, by incease rho,
+      the default set rho = 400, need to change to
+      interactive user defined way.
 ********************************************************/
 void MakeCamera(int pickmode,int x,int y)
 
 {
-   #define rho  200      //Eye distance from the origin of the world coordinate 
+   #define rho  200      //Eye distance from the origin of the world coordinate
 
    static double theta = 0;
    GLint viewport[4];
@@ -719,7 +603,7 @@ void MakeCamera(int pickmode,int x,int y)
 */
    gluLookAt(rho*cos(theta*PI/180)*sin(updownrotate*PI/180), //control the E distance
              rho*cos(updownrotate*PI/180),
-             rho*sin(theta*PI/180)*sin(updownrotate*PI/180), 
+             rho*sin(theta*PI/180)*sin(updownrotate*PI/180),
              0.0,0.0,0.0,                                   /* Focus    */
              0.0,1.0,0.0);                                  /* Up       */
    if (spincamera)
@@ -840,7 +724,7 @@ void HandleIdle(void)
 
 /************************************************
    Draw text in the x-y plane
-   The x,y,z coordinate is the bottom left corner 
+   The x,y,z coordinate is the bottom left corner
    (looking down -ve z axis)
 *************************************************/
 void DrawTextXY(double x,double y,double z,double scale,char *s)

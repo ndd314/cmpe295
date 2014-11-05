@@ -1,15 +1,20 @@
 /***************************************************
  * Program: 10Visual.c    for MicroCT application  *
- * Date: Oct 8, 2014                               *  
+ * Date: Oct 8, 2014                               *
  * gcc main.cpp -o main.o -lGL -lGLU -lglut -lm    *
  * Note: linking be sure to have included math lib *
- *       e.g., -lm                                 *  
- ***************************************************/ 
+ *       e.g., -lm                                 *
+ ***************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+
+#ifdef __APPLE__
+#include <GLUT/glut.h>
+#else
 #include <GL/glut.h>
+#endif
 
 void Display(void);
 void CreateEnvironment(void);
@@ -53,7 +58,7 @@ int main(int argc,char **argv)
    int mainmenu,speedmenu;
 
    for (i=1;i<argc;i++) {
-      if (strstr(argv[i],"-h") != NULL) 
+      if (strstr(argv[i],"-h") != NULL)
          GiveUsage(argv[0]);
       if (strstr(argv[i],"-q") != NULL) {
          if (i+1 >= argc)
@@ -76,7 +81,7 @@ int main(int argc,char **argv)
    glutKeyboardFunc(HandleKeyboard);
    glutSpecialFunc(HandleSpecialKeyboard);
    glutMouseFunc(HandleMouse);
-   
+
    CreateEnvironment();
 
    /* Set up some menus */
@@ -95,9 +100,9 @@ int main(int argc,char **argv)
    return(0);
 }
 
-/**************************************************** 
-   This is where global settings are made, that is, 
-   things that will not change in time 
+/****************************************************
+   This is where global settings are made, that is,
+   things that will not change in time
 *****************************************************/
 void CreateEnvironment(void)
 {
@@ -114,8 +119,8 @@ void CreateEnvironment(void)
    if (drawquality == BEST) {
       glEnable(GL_LINE_SMOOTH);
       glEnable(GL_POINT_SMOOTH);
-      glEnable(GL_POLYGON_SMOOTH); 
-      glShadeModel(GL_SMOOTH);    
+      glEnable(GL_POLYGON_SMOOTH);
+      glShadeModel(GL_SMOOTH);
       glDisable(GL_DITHER);         /* Assume RGBA capabilities */
    }
 
@@ -178,18 +183,18 @@ glLineWidth (2.0);
 glBegin (GL_LINES);
 glColor3f (1,0,0); // X axis is red.
 glVertex3fv (ORG);
-glVertex3fv (XP ); 
+glVertex3fv (XP );
 glColor3f (0,1,0); // Y axis is green.
 glVertex3fv (ORG);
 glVertex3fv (YP );
 glColor3f (0,0,1); // z axis is blue.
 glVertex3fv (ORG);
-glVertex3fv (ZP ); 
+glVertex3fv (ZP );
 glEnd();
 
 /*---------------------------------------------------*/
 /*   Place a grey boxes around the place             */
-/*---------------------------------------------------*/ 
+/*---------------------------------------------------*/
    glLoadName(BOXID);
    glColor3f(0.5,0.5,0.5);
    if (drawquality > DRAFT) {
@@ -204,7 +209,7 @@ glTranslatef(0,0,0);
    else
       glutWireCube(200);
   /* glTranslatef(-3.6,0.0,0.0);
-   if (drawquality > DRAFT) 
+   if (drawquality > DRAFT)
      glutSolidCube(0.4);
    else
       glutWireCube(0.4);*/
@@ -216,11 +221,11 @@ glTranslatef(0,0,0);
 
 //    void Draw_Grid()
 //    {
-float ii; 
+float ii;
      for( ii = -500; ii <= 500; ii += 5)
         {
          glBegin(GL_LINES);
-            glColor3ub(150, 190, 150); //define r,g,b color 
+            glColor3ub(150, 190, 150); //define r,g,b color
             glVertex3f(-500, 0, ii);
             glVertex3f(500, 0, ii);
             glVertex3f(ii, 0,-500);
@@ -234,17 +239,17 @@ float ii;
 /*----------------------------------------------------*/
 /*
 void Render()
-{     
-    clear color and depth buffer 
+{
+    clear color and depth buffer
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glLoadIdentity();//load identity matrix
-    
+
     glTranslatef(0.0f,0.0f,-4.0f);//move forward 4 units
-*/    
+*/
     glColor3f(0.0f,1.0f,0.0f); //define color
-    
-    glPointSize(50.0f);//set point size 
-    
+
+    glPointSize(50.0f);//set point size
+
     glBegin(GL_POINTS); //starts drawing of points
       glVertex3f(0.0f,0.0f,0.0f);//upper-right corner
       glVertex3f(10.0f,0.0f,10.0f);//lower-left corner
@@ -252,7 +257,7 @@ void Render()
 }
 
 //}
-/************************************************    
+/************************************************
    Set up the lighing environment
 *************************************************/
 void MakeLighting(void)
@@ -285,7 +290,7 @@ void MakeLighting(void)
 
 /*******************************************************
    Set up the camera
-   Optionally creating a small viewport about 
+   Optionally creating a small viewport about
    the mouse click point for object selection
 ********************************************************/
 void MakeCamera(int pickmode,int x,int y)
@@ -309,7 +314,7 @@ void MakeCamera(int pickmode,int x,int y)
    glLoadIdentity();
    gluLookAt(400*cos(theta*PI/180)*sin(updownrotate*PI/180), //control the E distance
              400*cos(updownrotate*PI/180),
-             400*sin(theta*PI/180)*sin(updownrotate*PI/180), 
+             400*sin(theta*PI/180)*sin(updownrotate*PI/180),
              0.0,0.0,0.0,                                   /* Focus    */
              0.0,1.0,0.0);                                  /* Up       */
    if (spincamera)
@@ -430,7 +435,7 @@ void HandleIdle(void)
 
 /************************************************
    Draw text in the x-y plane
-   The x,y,z coordinate is the bottom left corner 
+   The x,y,z coordinate is the bottom left corner
    (looking down -ve z axis)
 *************************************************/
 void DrawTextXY(double x,double y,double z,double scale,char *s)

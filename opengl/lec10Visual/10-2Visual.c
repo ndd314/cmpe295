@@ -1,28 +1,33 @@
 /***************************************************
  * Program: 10Visual.c    for MicroCT application  *
- * Date: Oct 8, 2014                               *  
+ * Date: Oct 8, 2014                               *
  * gcc main.cpp -o main.o -lGL -lGLU -lglut -lm    *
  * Note: linking be sure to have included math lib *
- *       e.g., -lm                                 *  
- ***************************************************/ 
-/* Note: 
+ *       e.g., -lm                                 *
+ ***************************************************/
+/* Note:
 
   1. This program is written to buld Micro CT design environment.
-  2. This program supports: 
-     (1) parallel projection CT; 
-     (2) FAN beam projection CT; 
+  2. This program supports:
+     (1) parallel projection CT;
+     (2) FAN beam projection CT;
      (3) 3D display of the cross section image of the sample object
-         for CT imaging test. 
-     
+         for CT imaging test.
+
 */
- 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-#include <GL/glut.h>
 
-void Display(void);                   // 
+#ifdef __APPLE__
+#include <GLUT/glut.h>
+#else
+#include <GL/glut.h>
+#endif
+
+void Display(void);                   //
 void CreateEnvironment(void);
 void MakeGeometry(void);
 void MakeLighting(void);
@@ -65,7 +70,7 @@ int main(int argc,char **argv)
    int mainmenu,speedmenu;
 
    for (i=1;i<argc;i++) {
-      if (strstr(argv[i],"-h") != NULL) 
+      if (strstr(argv[i],"-h") != NULL)
          GiveUsage(argv[0]);
       if (strstr(argv[i],"-q") != NULL) {
          if (i+1 >= argc)
@@ -88,7 +93,7 @@ int main(int argc,char **argv)
    glutKeyboardFunc(HandleKeyboard);
    glutSpecialFunc(HandleSpecialKeyboard);
    glutMouseFunc(HandleMouse);
-   
+
    CreateEnvironment();
 
    /* Set up some menus */
@@ -107,9 +112,9 @@ int main(int argc,char **argv)
    return(0);
 }
 
-/**************************************************** 
-   This is where global settings are made, that is, 
-   things that will not change in time 
+/****************************************************
+   This is where global settings are made, that is,
+   things that will not change in time
 *****************************************************/
 void CreateEnvironment(void)
 {
@@ -126,8 +131,8 @@ void CreateEnvironment(void)
    if (drawquality == BEST) {
       glEnable(GL_LINE_SMOOTH);
       glEnable(GL_POINT_SMOOTH);
-      glEnable(GL_POLYGON_SMOOTH); 
-      glShadeModel(GL_SMOOTH);    
+      glEnable(GL_POLYGON_SMOOTH);
+      glShadeModel(GL_SMOOTH);
       glDisable(GL_DITHER);         /* Assume RGBA capabilities */
    }
 
@@ -191,18 +196,18 @@ glLineWidth (2.0);
 glBegin (GL_LINES);
 glColor3f (1,0,0); // X axis is red.
 glVertex3fv (ORG);
-glVertex3fv (XP ); 
+glVertex3fv (XP );
 glColor3f (0,1,0); // Y axis is green.
 glVertex3fv (ORG);
 glVertex3fv (YP );
 glColor3f (0,0,1); // z axis is blue.
 glVertex3fv (ORG);
-glVertex3fv (ZP ); 
+glVertex3fv (ZP );
 glEnd();
 
 /*---------------------------------------------------*/
 /*   Place a grey boxes around the place             */
-/*---------------------------------------------------*/ 
+/*---------------------------------------------------*/
    glLoadName(BOXID);
    glColor3f(0.5,0.5,0.5);
    if (drawquality > DRAFT) {
@@ -217,7 +222,7 @@ glTranslatef(0,0,0);
    else
       glutWireCube(200);
   /* glTranslatef(-3.6,0.0,0.0);
-   if (drawquality > DRAFT) 
+   if (drawquality > DRAFT)
      glutSolidCube(0.4);
    else
       glutWireCube(0.4);*/
@@ -229,19 +234,19 @@ glTranslatef(0,0,0);
 /* note: the x-z plane is defined as usual x-y plane
          here, so if you want to have usual x-y plane
          effect, use x-z plane instead, e.g.
-         x-displayed = x; 
-         y-displayed = z;       ...(1) 
+         x-displayed = x;
+         y-displayed = z;       ...(1)
          (x,z) is defined in this program as (x,y)
-*/ 
-           
-//    void Draw_Grid() {
-#define gridRegion 1000 
+*/
 
-float ii; 
+//    void Draw_Grid() {
+#define gridRegion 1000
+
+float ii;
      for( ii = -gridRegion; ii <= gridRegion; ii += 5)
         {
          glBegin(GL_LINES);
-            glColor3ub(50, 250, 150); //define r,g,b color 
+            glColor3ub(50, 250, 150); //define r,g,b color
             glVertex3f(-gridRegion, 0, ii);
             glVertex3f(gridRegion, 0, ii);
             glVertex3f(ii, 0,-gridRegion);
@@ -253,45 +258,45 @@ float ii;
 /*                   set ROI                          */
 /* Note: Z-axis blue, X-axis red, Y-axis green        */
 /*----------------------------------------------------*/
-#define ROIindBound 128   // size of ROI: 256x256 
+#define ROIindBound 128   // size of ROI: 256x256
 #define ROIfunBound 128   // using ind for independant variable x
-                          // using fun for function, variable y 
+                          // using fun for function, variable y
 
       glColor3f(200.0f,200.0f,0.0f); //define color
 
-      glLineWidth (4.0);  //thick line for the ROI boundary 
+      glLineWidth (4.0);  //thick line for the ROI boundary
          glBegin(GL_LINES);
-            //glColor3ub(200, 200, 0); //define r,g,b color 
+            //glColor3ub(200, 200, 0); //define r,g,b color
             glVertex3f(-ROIfunBound,0,-ROIindBound); glVertex3f(ROIfunBound,0,-ROIindBound);
             glVertex3f(ROIfunBound,0,-ROIindBound);  glVertex3f(ROIfunBound,0,ROIindBound);
 
             glVertex3f(ROIfunBound,0,ROIindBound);  glVertex3f(-ROIfunBound,0,ROIindBound);
             glVertex3f(-ROIfunBound,0,ROIindBound); glVertex3f(-ROIfunBound,0,-ROIindBound);
          glEnd();
-     glLineWidth (2.0);   //recover original line width 
+     glLineWidth (2.0);   //recover original line width
 
 /*----------------------------------------------------*/
-/*                       Set a dot                    */ 
+/*                       Set a dot                    */
 /*----------------------------------------------------*/
 /*
 void Render()
-{      
+{
 */
-#define DotSize 10.0 
+#define DotSize 10.0
 
     glTranslatef(0.0f,0.0f,0.0f);//move forward 4 units
     glColor3f(200.0f,200.0f,0.0f); //define dot color
-     
+
     glBegin(GL_QUADS);
       glVertex3f(0.0f,0.0f,0.0f);
       glVertex3f(DotSize,0.0f,0.0f);
-      glVertex3f(DotSize,0.0f,DotSize); 
-      glVertex3f(0.0f,0.0f,DotSize); 
+      glVertex3f(DotSize,0.0f,DotSize);
+      glVertex3f(0.0f,0.0f,DotSize);
     glEnd();//end drawing of points
 }
 
 //}
-/************************************************    
+/************************************************
    Set up the lighing environment
 *************************************************/
 void MakeLighting(void)
@@ -324,18 +329,18 @@ void MakeLighting(void)
 
 /*******************************************************
    Set up the camera
-   Optionally creating a small viewport about 
+   Optionally creating a small viewport about
    the mouse click point for object selection.
-   Note: 
-   1. change the camera E distance from the origin of 
-      the world coordinate system, by incease rho, 
-      the default set rho = 400, need to change to 
-      interactive user defined way. 
+   Note:
+   1. change the camera E distance from the origin of
+      the world coordinate system, by incease rho,
+      the default set rho = 400, need to change to
+      interactive user defined way.
 ********************************************************/
 void MakeCamera(int pickmode,int x,int y)
 
 {
-   #define rho  200      //Eye distance from the origin of the world coordinate 
+   #define rho  200      //Eye distance from the origin of the world coordinate
 
    static double theta = 0;
    GLint viewport[4];
@@ -358,7 +363,7 @@ void MakeCamera(int pickmode,int x,int y)
 */
    gluLookAt(rho*cos(theta*PI/180)*sin(updownrotate*PI/180), //control the E distance
              rho*cos(updownrotate*PI/180),
-             rho*sin(theta*PI/180)*sin(updownrotate*PI/180), 
+             rho*sin(theta*PI/180)*sin(updownrotate*PI/180),
              0.0,0.0,0.0,                                   /* Focus    */
              0.0,1.0,0.0);                                  /* Up       */
    if (spincamera)
@@ -479,7 +484,7 @@ void HandleIdle(void)
 
 /************************************************
    Draw text in the x-y plane
-   The x,y,z coordinate is the bottom left corner 
+   The x,y,z coordinate is the bottom left corner
    (looking down -ve z axis)
 *************************************************/
 void DrawTextXY(double x,double y,double z,double scale,char *s)
