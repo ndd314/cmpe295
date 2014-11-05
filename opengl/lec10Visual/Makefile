@@ -11,7 +11,7 @@ endif
 CFLAGS= $(OPENGL_INC)
 LDFLAGS= $(OPENGL_LIB)
 
-BINARIES=2dpattern 10Visual 10-1Visual 10-2Visual 10-3Visual 10-4Visual
+BINARIES=2dpattern 10Visual 10-1Visual_Rohan 10-1Visual 10-2Visual 10-3Visual 10-4Visual
 
 all: $(BINARIES)
 
@@ -23,6 +23,12 @@ clean:
 
 2dpattern.o: 2dpattern.c
 	gcc -c $(CFLAGS) 2dpattern.c
+
+10-1Visual_Rohan: 10-1Visual_Rohan.o readBMPV2.o
+	gcc $(LDFLAGS) $^ -o 10-1Visual_Rohan
+
+10-1Visual_Rohan.o: 10-1Visual_Rohan.c
+	gcc -c $(CFLAGS) 10-1Visual_Rohan.c
 
 10-1Visual.o: 10-1Visual.c
 	gcc -c $(CFLAGS) 10-1Visual.c
