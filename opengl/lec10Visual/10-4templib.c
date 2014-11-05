@@ -1,16 +1,16 @@
 /***************************************************
  * Program: 10Visual.c    for MicroCT application  *
- * Date: Oct 8, 2014                               *  
+ * Date: Oct 8, 2014                               *
  * gcc main.cpp -o main.o -lGL -lGLU -lglut -lm    *
  * Note: linking be sure to have included math lib *
- *       e.g., -lm                                 *  
- ***************************************************/ 
-/* Note: 
+ *       e.g., -lm                                 *
+ ***************************************************/
+/* Note:
 
   1. This program is written to buld Micro CT design environment.
-     
+
 */
- 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -18,7 +18,7 @@
 #include <GL/gl.h>
 #include <GL/glu.h>
 #include <GL/glut.h>
-#include "readBMP_changes.h"
+#include "readBMP.h"
 
 void Display(void);
 void CreateEnvironment(void);
@@ -56,7 +56,7 @@ double ballspeed = 2;
 #define PLANEID     4
 #define TEXTID      5
 
-FILE* rd; 
+FILE* rd;
 FILE* rdp;
 float x_buffer[1024], y_buffer[1024];
 int x_bresenham[1024], y_bresenham[1024];
@@ -65,7 +65,7 @@ int buffer_bresenham, count_bresenham, radius_file;
 
 int window;
 Image *image;
-int n,m; 
+int n,m;
 char *filename;
 
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -85,10 +85,10 @@ printf("Image loading successful\n\n");
 //get image data
 /*******************************************/
 }
-/****************************************************************************************** 
-   display function not migrated from the file bmpV2.c, 
+/******************************************************************************************
+   display function not migrated from the file bmpV2.c,
    instead edited the existing Display function
-*******************************************************************************************/   
+*******************************************************************************************/
 /*********************************************/
 // reshape
 /*********************************************/
@@ -108,8 +108,8 @@ glViewport(0,0,width,height);
 void performPixelManipulation()
 {
     int i;
-    GLbyte *pbits = NULL;     //signed 8 bit integer  
-    GLbyte ptemp;             //  
+    GLbyte *pbits = NULL;     //signed 8 bit integer
+    GLbyte ptemp;             //
     GLint viewport[4];
     GLenum lastBuffer;
     unsigned long imageSize;
@@ -152,15 +152,15 @@ void performPixelManipulation()
     // run through the pixels for modification
     for(i = 0; i < imageSize; i = i+3)
     {
-        //ptemp = 0.333*(pbits[i] + pbits[i+1] + pbits[i+2]);   //rgb to grey scale  
-        
-        //if (ptemp < 0) ptemp = abs(ptemp);  //has to check this out  
+        //ptemp = 0.333*(pbits[i] + pbits[i+1] + pbits[i+2]);   //rgb to grey scale
+
+        //if (ptemp < 0) ptemp = abs(ptemp);  //has to check this out
         //pbits[i+2] = 0; //b
         pbits[i+1] = 0; //g
-         
-        //pbits[i]   = ptemp;  //r 
-        //pbits[i+1] = ptemp; //g 
-        //pbits[i+2] = ptemp; //b 
+
+        //pbits[i]   = ptemp;  //r
+        //pbits[i+1] = ptemp; //g
+        //pbits[i+2] = ptemp; //b
     }
 
     // save buffer setting
@@ -175,9 +175,9 @@ void performPixelManipulation()
     glReadBuffer(lastBuffer);
 }
 
-/**************************************************** 
-   This is where global settings are made, that is, 
-   things that will not change in time 
+/****************************************************
+   This is where global settings are made, that is,
+   things that will not change in time
 *****************************************************/
 void CreateEnvironment(void)
 {
@@ -194,8 +194,8 @@ void CreateEnvironment(void)
    if (drawquality == BEST) {
       glEnable(GL_LINE_SMOOTH);
       glEnable(GL_POINT_SMOOTH);
-      glEnable(GL_POLYGON_SMOOTH); 
-      glShadeModel(GL_SMOOTH);    
+      glEnable(GL_POLYGON_SMOOTH);
+      glShadeModel(GL_SMOOTH);
       glDisable(GL_DITHER);         /* Assume RGBA capabilities */
    }
 
@@ -221,7 +221,7 @@ void Display(void)
    MakeLighting();
    MakeGeometry();
    glPopMatrix();
-    //glFlush(); This isn't necessary for double buffers 
+    //glFlush(); This isn't necessary for double buffers
    glutSwapBuffers();
 }
 
@@ -257,18 +257,18 @@ glLineWidth (2.0);
 glBegin (GL_LINES);
 glColor3f (1,0,0); // X axis is red.
 glVertex3fv (ORG);
-glVertex3fv (XP ); 
+glVertex3fv (XP );
 glColor3f (0,1,0); // Y axis is green.
 glVertex3fv (ORG);
 glVertex3fv (YP );
 glColor3f (0,0,1); // z axis is blue.
 glVertex3fv (ORG);
-glVertex3fv (ZP ); 
+glVertex3fv (ZP );
 glEnd();
 
 /*---------------------------------------------------*/
 /*   Place a grey boxes around the place             */
-/*---------------------------------------------------*/ 
+/*---------------------------------------------------*/
    glLoadName(BOXID);
    glColor3f(0.5,0.5,0.5);
    if (drawquality > DRAFT) {
@@ -283,7 +283,7 @@ glTranslatef(0,0,0);
    else
       glutWireCube(200);
   /* glTranslatef(-3.6,0.0,0.0);
-   if (drawquality > DRAFT) 
+   if (drawquality > DRAFT)
      glutSolidCube(0.4);
    else
       glutWireCube(0.4);*/
@@ -295,19 +295,19 @@ glTranslatef(0,0,0);
 /* note: the x-z plane is defined as usual x-y plane
          here, so if you want to have usual x-y plane
          effect, use x-z plane instead, e.g.
-         x-displayed = x; 
-         y-displayed = z;       ...(1) 
+         x-displayed = x;
+         y-displayed = z;       ...(1)
          (x,z) is defined in this program as (x,y)
-*/ 
-           
-//    void Draw_Grid() {
-#define gridRegion 1000 
+*/
 
-float ii; 
+//    void Draw_Grid() {
+#define gridRegion 1000
+
+float ii;
      for( ii = -gridRegion; ii <= gridRegion; ii += 5)
         {
          glBegin(GL_LINES);
-            glColor3ub(50, 250, 150); //define r,g,b color 
+            glColor3ub(50, 250, 150); //define r,g,b color
             glVertex3f(-gridRegion, 0, ii);
             glVertex3f(gridRegion, 0, ii);
             glVertex3f(ii, 0,-gridRegion);
@@ -319,32 +319,32 @@ float ii;
 /*                   set ROI                          */
 /* Note: Z-axis blue, X-axis red, Y-axis green        */
 /*----------------------------------------------------*/
-#define ROIindBound 128   // size of ROI: 256x256 
+#define ROIindBound 128   // size of ROI: 256x256
 #define ROIfunBound 128   // using ind for independant variable x
-                          // using fun for function, variable y 
+                          // using fun for function, variable y
 
       glColor3f(200.0f,200.0f,0.0f); //define color
 
-      glLineWidth (4.0);  //thick line for the ROI boundary 
+      glLineWidth (4.0);  //thick line for the ROI boundary
          glBegin(GL_LINES);
-            //glColor3ub(200, 200, 0); //define r,g,b color 
+            //glColor3ub(200, 200, 0); //define r,g,b color
             glVertex3f(-ROIfunBound,0,-ROIindBound); glVertex3f(ROIfunBound,0,-ROIindBound);
             glVertex3f(ROIfunBound,0,-ROIindBound);  glVertex3f(ROIfunBound,0,ROIindBound);
 
             glVertex3f(ROIfunBound,0,ROIindBound);  glVertex3f(-ROIfunBound,0,ROIindBound);
             glVertex3f(-ROIfunBound,0,ROIindBound); glVertex3f(-ROIfunBound,0,-ROIindBound);
          glEnd();
-     glLineWidth (2.0);   //recover original line width 
+     glLineWidth (2.0);   //recover original line width
 
-#define ROIindBound1 60   // size of ROI: 120x120 
+#define ROIindBound1 60   // size of ROI: 120x120
 #define ROIfunBound1 60   // using ind for independant variable x
-                          // using fun for function, variable y 
+                          // using fun for function, variable y
 
       glColor3f(500.0f,0.0f,500.0f); //define color
 
-      glLineWidth (4.0);  //thick line for the ROI boundary 
+      glLineWidth (4.0);  //thick line for the ROI boundary
          glBegin(GL_LINES);
-            //glColor3ub(200, 200, 0); //define r,g,b color 
+            //glColor3ub(200, 200, 0); //define r,g,b color
             glVertex3f(-ROIfunBound1,0,-ROIindBound1); glVertex3f(ROIfunBound1,0,-ROIindBound1);
             glVertex3f(ROIfunBound1,0,-ROIindBound1);  glVertex3f(ROIfunBound1,0,ROIindBound1);
 
@@ -353,23 +353,23 @@ float ii;
          glEnd();
      glLineWidth (2.0);
 /*----------------------------------------------------*/
-/*                       Set a dot                    */ 
+/*                       Set a dot                    */
 /*----------------------------------------------------*/
 /*
 void Render()
-{      
+{
 */
 
-#define DotSize 5.0 
+#define DotSize 5.0
 /*  Drawing a dot at center
     glTranslatef(0.0f,0.0f,0.0f);//move forward 4 units
     glColor3f(200.0f,200.0f,0.0f); //define dot color
-     
+
     glBegin(GL_QUADS);
       glVertex3f(0.0f,0.0f,0.0f);
       glVertex3f(DotSize,0.0f,0.0f);
-      glVertex3f(DotSize,0.0f,DotSize); 
-      glVertex3f(0.0f,0.0f,DotSize); 
+      glVertex3f(DotSize,0.0f,DotSize);
+      glVertex3f(0.0f,0.0f,DotSize);
     glEnd();//end drawing of points
     //glTranslatef(50.0f,0.0f,50.0f);
 */
@@ -383,7 +383,7 @@ performPixelManipulation();
 
     //glBegin(GL_POINTS);
     //glPointSize(10);
-    for(count_bresenham=0;count_bresenham<buffer_bresenham;count_bresenham++) 
+    for(count_bresenham=0;count_bresenham<buffer_bresenham;count_bresenham++)
     {
       //glVertex3f(x_bresenham[count_bresenham]*5,0,y_bresenham[count_bresenham]*5);
           // glTranslatef(0.0f,0.0f,0.0f);
@@ -392,8 +392,8 @@ performPixelManipulation();
     glBegin(GL_QUADS);
       glVertex3f(0.0f,0.0f,0.0f);
       glVertex3f(DotSize,0.0f,0.0f);
-      glVertex3f(DotSize,0.0f,DotSize); 
-      glVertex3f(0.0f,0.0f,DotSize); 
+      glVertex3f(DotSize,0.0f,DotSize);
+      glVertex3f(0.0f,0.0f,DotSize);
     glEnd();
     }
     //glEnd();
@@ -410,12 +410,12 @@ performPixelManipulation();
     }
     glEnd();
 
-    
+
  /*      glBegin(GL_QUADS);
           glVertex3f(0.0f,0.0f,0.0f);
       glVertex3f(5.0,0.0f,0.0f);
-      glVertex3f(5.0,0.0f,5.0); 
-      glVertex3f(0.0f,0.0f,5.0); 
+      glVertex3f(5.0,0.0f,5.0);
+      glVertex3f(0.0f,0.0f,5.0);
           glEnd();
  /*        glBegin(GL_LINES);
     glVertex3f(x_buffer[3], 0.0, y_buffer[3]);
@@ -425,8 +425,8 @@ performPixelManipulation();
         glBegin(GL_QUADS);
           glVertex3f(0.0f,0.0f,0.0f);
       glVertex3f(5.0,0.0f,0.0f);
-      glVertex3f(5.0,0.0f,5.0); 
-      glVertex3f(0.0f,0.0f,5.0); 
+      glVertex3f(5.0,0.0f,5.0);
+      glVertex3f(0.0f,0.0f,5.0);
           //glEnd();
     glEnd();*/
   /*for(count=0; count<=buffer_index; count++)
@@ -435,8 +435,8 @@ performPixelManipulation();
       glBegin(GL_QUADS);
       glVertex3f(5.0,0.0f,5.0);
       glVertex3f(5.0,0.0f,0.0f);
-      glVertex3f(5.0,0.0f,5.0); 
-      glVertex3f(0.0f,0.0f,5.0); 
+      glVertex3f(5.0,0.0f,5.0);
+      glVertex3f(0.0f,0.0f,5.0);
       glEnd();
       glTranslatef(5.0,0.0f,5.0);
    }*/
@@ -454,12 +454,12 @@ for(l = 0; l < 3; l++) {
    glBegin(GL_QUADS);
       glVertex3f(0.0f,0.0f,0.0f);
       glVertex3f(5.0,0.0f,0.0f);
-      glVertex3f(5.0,0.0f,5.0); 
-      glVertex3f(0.0f,0.0f,5.0); 
+      glVertex3f(5.0,0.0f,5.0);
+      glVertex3f(0.0f,0.0f,5.0);
     glEnd();//end drawing of points
  }
 
-glLineWidth(5.0); 
+glLineWidth(5.0);
 glColor3f(200.0, 200.0, 0.0);
 glBegin(GL_LINES);
 glVertex3f(-10.0, 0.0, 10.0);
@@ -473,16 +473,16 @@ void dot_display()
 {
     glTranslatef(0.0f,0.0f,0.0f);//move forward 4 units
     glColor3f(200.0f,200.0f,0.0f); //define dot color
-     
+
     glBegin(GL_QUADS);
       glVertex3f(0.0f,0.0f,0.0f);
       glVertex3f(5.0,0.0f,0.0f);
-      glVertex3f(5.0,0.0f,5.0); 
-      glVertex3f(0.0f,0.0f,5.0); 
+      glVertex3f(5.0,0.0f,5.0);
+      glVertex3f(0.0f,0.0f,5.0);
     glEnd();//end drawing of points
 }
 //}
-/************************************************    
+/************************************************
    Set up the lighting environment
 *************************************************/
 void MakeLighting(void)
@@ -515,18 +515,18 @@ void MakeLighting(void)
 
 /*******************************************************
    Set up the camera
-   Optionally creating a small viewport about 
+   Optionally creating a small viewport about
    the mouse click point for object selection.
-   Note: 
-   1. change the camera E distance from the origin of 
-      the world coordinate system, by incease rho, 
-      the default set rho = 400, need to change to 
-      interactive user defined way. 
+   Note:
+   1. change the camera E distance from the origin of
+      the world coordinate system, by incease rho,
+      the default set rho = 400, need to change to
+      interactive user defined way.
 ********************************************************/
 void MakeCamera(int pickmode,int x,int y)
 
 {
-   #define rho  200      //Eye distance from the origin of the world coordinate 
+   #define rho  200      //Eye distance from the origin of the world coordinate
 
    static double theta = 0;
    GLint viewport[4];
@@ -549,7 +549,7 @@ void MakeCamera(int pickmode,int x,int y)
 */
    gluLookAt(rho*cos(theta*PI/180)*sin(updownrotate*PI/180), //control the E distance
              rho*cos(updownrotate*PI/180),
-             rho*sin(theta*PI/180)*sin(updownrotate*PI/180), 
+             rho*sin(theta*PI/180)*sin(updownrotate*PI/180),
              0.0,0.0,0.0,                                   /* Focus    */
              0.0,1.0,0.0);                                  /* Up       */
    if (spincamera)
@@ -670,7 +670,7 @@ void HandleIdle(void)
 
 /************************************************
    Draw text in the x-y plane
-   The x,y,z coordinate is the bottom left corner 
+   The x,y,z coordinate is the bottom left corner
    (looking down -ve z axis)
 *************************************************/
 void DrawTextXY(double x,double y,double z,double scale,char *s)
