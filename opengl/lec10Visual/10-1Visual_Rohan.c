@@ -385,7 +385,7 @@ void Render()
     {
       //glVertex3f(x_bresenham[count_bresenham]*5,0,y_bresenham[count_bresenham]*5);
       glTranslatef(2.5f,0.0f,2.5f);
-      glVertex3f(x_bresenham[count_bresenham]*5,,y_bresenham[count_bresenham]*5, 0);
+      glVertex3f(x_bresenham[count_bresenham]*5, 0, y_bresenham[count_bresenham]*5);
       glLoadIdentity();
     }
     glEnd();
