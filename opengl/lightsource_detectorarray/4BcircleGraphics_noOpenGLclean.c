@@ -3,64 +3,20 @@
  * Version: x1.0;    status: tested;                 *
  * Compile and build:                                *
  * gcc -lGL -lGLU -lglut line.c -o main.o            *
- * Date: Jun 5, 2014                                 * 
+ * Date: Jun 5, 2014                                 *
  * Purpose: Graphics program to prepare visulization *
- *          of Bresenham circle.                     *  
- *****************************************************/ 
-#include<GL/glut.h>
+ *          of Bresenham circle.                     *
+ *****************************************************/
+
+#ifdef __APPLE__
+#include <GLUT/glut.h>
+#else
+#include <GL/glut.h>
+#endif
+
 #include<stdio.h>
 
 FILE* wrp;
-
-void mydisplay()
-{
-
-//------------Graphics---------------------------//  
-/* define virtex for the outter big square
-   (p4x,p4y) ---------- (p1x,p1y)
-  (0.0f,1.0f)          (1.0f,1.0f) 
-       |                    | 
-       |                    |  
-       |                    |  
-   (p3x,p3y) ----------  (p2x,p2y)
-  (0.0f,0.0f)           (1.0f,0.0f)  
-*/
-   
-float p1x=1.0f,p1y=1.0f;  
-float p2x=1.0f,p2y=0.0f;
-float p3x=0.0f,p3y=0.0f; 
-float p4x=0.0f,p4y=1.0f;  
-
-//int r; 
-float grid, float_r;      
-int i=0, j=0; 
-
-/*define the x-y axis 
-
-             (px4x,px4y)     
-             (0.5f,1.0f)  
-                  |
-                  |
-                  | 
-   (px1x,px1y) -------- (px2x,px2y)
-   (0.0f,0.5f)    |     (1.0f,0.5f)
-                  |
-                  |   
-             (px3x,px3y) 
-             (0.5f,0.0f)   
-*/
- 
-float px1x=0.0f,px1y=0.5f, px2x=1.0f, px2y=0.5f;   
-float px3x=0.5f,px3y=0.0f, px4x=0.5f, px4y=1.0f;   
-
-//--------------Bresenham circle module------------
-
-//#include <stdio.h>
-//#include <math.h>
-
-//---------------------------------------------------//
-// Parameter passing                                 //
-//---------------------------------------------------//
 
 int getArcPoint(int x, int y_previous, int r)
 {
@@ -102,6 +58,57 @@ else if (dist2 < dist1)
 return (y_previous);
 
 }
+
+void mydisplay()
+{
+
+//------------Graphics---------------------------//
+/* define virtex for the outter big square
+   (p4x,p4y) ---------- (p1x,p1y)
+  (0.0f,1.0f)          (1.0f,1.0f)
+       |                    |
+       |                    |
+       |                    |
+   (p3x,p3y) ----------  (p2x,p2y)
+  (0.0f,0.0f)           (1.0f,0.0f)
+*/
+
+float p1x=1.0f,p1y=1.0f;
+float p2x=1.0f,p2y=0.0f;
+float p3x=0.0f,p3y=0.0f;
+float p4x=0.0f,p4y=1.0f;
+
+//int r;
+float grid, float_r;
+int i=0, j=0;
+
+/*define the x-y axis
+
+             (px4x,px4y)
+             (0.5f,1.0f)
+                  |
+                  |
+                  |
+   (px1x,px1y) -------- (px2x,px2y)
+   (0.0f,0.5f)    |     (1.0f,0.5f)
+                  |
+                  |
+             (px3x,px3y)
+             (0.5f,0.0f)
+*/
+
+float px1x=0.0f,px1y=0.5f, px2x=1.0f, px2y=0.5f;
+float px3x=0.5f,px3y=0.0f, px4x=0.5f, px4y=1.0f;
+
+//--------------Bresenham circle module------------
+
+//#include <stdio.h>
+//#include <math.h>
+
+//---------------------------------------------------//
+// Parameter passing                                 //
+//---------------------------------------------------//
+
 
 //--------- Bresenham circle -----------------//
 int r, x[1024], y[1024], x_buf[1024], y_buf[1024]; //stored in x_buf, y_buf
@@ -189,8 +196,8 @@ int i_shift1, i_shift2;                     // value of i for points on the axis
 //-----------------------------------------//
 
    i_offset = i_accumulator;
-   
-   //accumulator defines total number of circle pts 
+
+   //accumulator defines total number of circle pts
 
    for(i = 1; i <= 4*upperBound + 2; i++) {  // +1 due to a pt on the axis
    i_accumulator++;
@@ -200,7 +207,7 @@ int i_shift1, i_shift2;                     // value of i for points on the axis
    y_buf[i_accumulator] = i_y;
    printf( "Half i = %4d | x = %4d y = %4d \n", i_accumulator, x_buf[i_accumulator], y_buf[i_accumulator]);
 
-   //Bresenham cirlec pts are in x_buf[] and y_buf[] 
+   //Bresenham cirlec pts are in x_buf[] and y_buf[]
 }
 
 i_accumulator++;
@@ -253,13 +260,13 @@ for (j = i_shift2 + i_shift1 + 2; j <= i_shift2 * 2; j++) {
 }
 
 
-//-------grids size-------------------//  
-float_r = r; 
-grid = 1.0/(2*float_r); 
-//printf("\ngrid = %f\n", grid);  
+//-------grids size-------------------//
+float_r = r;
+grid = 1.0/(2*float_r);
+//printf("\ngrid = %f\n", grid);
 }
 
-//------------------main--------------------------// 
+//------------------main--------------------------//
 int main(int argc, char** argv)
 {
        wrp = fopen("write_bresenham.csv", "w");
