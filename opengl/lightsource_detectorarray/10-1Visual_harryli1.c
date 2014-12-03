@@ -284,6 +284,163 @@ void Display(void)
    glutSwapBuffers();
 }
 
+
+void drawGrid(int gridRegion) {
+   float ii;
+
+   for( ii = -gridRegion; ii <= gridRegion; ii += 5) {
+      glBegin(GL_LINES);
+      glColor3ub(50, 250, 150); //define r,g,b color
+      glVertex3f(-gridRegion, 0, ii);
+      glVertex3f(gridRegion, 0, ii);
+      glVertex3f(ii, 0,-gridRegion);
+      glVertex3f(ii, 0, gridRegion);
+      glEnd();
+   }
+}
+
+void drawAxises(int length, float thickness) {
+   float ORG[3] = { 0, 0, 0 };
+   float XP[3] = { length, 0, 0 }, XN[3] = { -1, 0, 0 };
+   float YP[3] = { 0, length, 0 }, YN[3] = { 0, -1, 0 };
+   float ZP[3] = { 0, 0, length }, ZN[3] = { 0, 0, -1 };
+
+   glLineWidth(thickness);
+
+   glBegin(GL_LINES);
+
+   glColor3f(1, 0, 0); // X axis is red.
+   glVertex3fv(ORG);
+   glVertex3fv(XP);
+
+   glColor3f(0, 1, 0); // Y axis is green.
+   glVertex3fv(ORG);
+   glVertex3fv(YP);
+
+   glColor3f(0, 0, 1); // z axis is blue.
+   glVertex3fv(ORG);
+   glVertex3fv(ZP);
+
+   glEnd();
+}
+
+void drawGrayBox(int length) {
+   GLfloat mdiff3[] = {0.5, 0.5, 0.5, 1.0};  /* Grey boxes */
+   GLfloat mamb3[]  = {0.2, 0.2, 0.2, 1.0};
+
+   glLoadName(BOXID);
+   glColor3f(0.5, 0.5, 0.5);
+
+   if (drawquality > DRAFT) {
+      glMaterialfv(GL_FRONT_AND_BACK,GL_DIFFUSE, mdiff3);
+      glMaterialfv(GL_FRONT_AND_BACK,GL_AMBIENT, mamb3);
+   }
+
+   glPushMatrix();
+   glTranslatef(0, 0, 0);
+
+   if (drawquality > DRAFT)
+      glutSolidCube(length);
+   else
+      glutWireCube(length);
+
+   glPopMatrix();
+}
+
+void drawSomething() {
+   /*----------------------------------------------------*/
+   /*                   set ROI                          */
+   /* Note: Z-axis blue, X-axis red, Y-axis green        */
+   /*----------------------------------------------------*/
+#define ROIindBound 128   // size of ROI: 256x256
+#define ROIfunBound 128   // using ind for independant variable x
+   // using fun for function, variable y
+
+   glColor3f(200.0f,200.0f,0.0f); //define color
+
+   glLineWidth (4.0);  //thick line for the ROI boundary
+   glBegin(GL_LINES);
+   //glColor3ub(200, 200, 0); //define r,g,b color
+   glVertex3f(-ROIfunBound,0,-ROIindBound);
+   glVertex3f(ROIfunBound,0,-ROIindBound);
+   glVertex3f(ROIfunBound,0,-ROIindBound);
+   glVertex3f(ROIfunBound,0,ROIindBound);
+
+   glVertex3f(ROIfunBound,0,ROIindBound);
+   glVertex3f(-ROIfunBound,0,ROIindBound);
+   glVertex3f(-ROIfunBound,0,ROIindBound);
+   glVertex3f(-ROIfunBound,0,-ROIindBound);
+   glEnd();
+}
+
+void drawSomething2() {
+   glLineWidth (2.0);   //recover original line width
+
+#define ROIindBound1 60   // size of ROI: 120x120
+#define ROIfunBound1 60   // using ind for independant variable x
+   // using fun for function, variable y
+
+   glColor3f(500.0f,0.0f,500.0f); //define color
+
+   glLineWidth (4.0);  //thick line for the ROI boundary
+   glBegin(GL_LINES);
+
+   //glColor3ub(200, 200, 0); //define r,g,b color
+   glVertex3f(-ROIfunBound1,0,-ROIindBound1);
+   glVertex3f(ROIfunBound1,0,-ROIindBound1);
+   glVertex3f(ROIfunBound1,0,-ROIindBound1);
+   glVertex3f(ROIfunBound1,0,ROIindBound1);
+
+   glVertex3f(ROIfunBound1,0,ROIindBound1);
+   glVertex3f(-ROIfunBound1,0,ROIindBound1);
+   glVertex3f(-ROIfunBound1,0,ROIindBound1);
+   glVertex3f(-ROIfunBound1,0,-ROIindBound1);
+   glEnd();
+}
+
+void drawSomething3() {
+     glLineWidth (2.0);
+
+   /*----------------------------------------------------*/
+   /*                       Set a dot                    */
+   /*----------------------------------------------------*/
+   /*
+      void Render()
+      {
+      */
+#define DotSize 5.0
+
+   glBegin(GL_QUADS);
+   glTexCoord2f(0.0, 0.0); glVertex3f(-2.0, -1.0, 0.0);
+   glTexCoord2f(0.0, 3.0); glVertex3f(-2.0, 1.0, 0.0);
+   glTexCoord2f(3.0, 3.0); glVertex3f(0.0, 1.0, 0.0);
+   glTexCoord2f(3.0, 0.0); glVertex3f(0.0, -1.0, 0.0);
+
+   glTexCoord2f(0.0, 0.0); glVertex3f(1.0, -1.0, 0.0);
+   glTexCoord2f(0.0, 3.0); glVertex3f(1.0, 1.0, 0.0);
+   glTexCoord2f(3.0, 3.0); glVertex3f(2.41421, 1.0, -1.41421);
+   glTexCoord2f(3.0, 0.0); glVertex3f(2.41421, -1.0, -1.41421);
+   glEnd();
+}
+
+void drawBresenhamCircle() {
+   glBegin(GL_POINTS);
+   glPointSize(10);
+
+   for(count_bresenham=0;count_bresenham<buffer_bresenham;count_bresenham++)
+   {
+      //glVertex3f(x_bresenham[count_bresenham]*5,0,y_bresenham[count_bresenham]*5);
+      glTranslatef(2.5f,0.0f,2.5f);
+      glVertex3f(x_bresenham[count_bresenham]*5, 0, y_bresenham[count_bresenham]*5);
+      glLoadIdentity();
+   }
+
+   glEnd();
+
+   //printf("radius from file = %d\n", radius_file);
+   glTranslatef(radius_file,0.0f,radius_file);
+}
+
 /*************************************************************
    Create the geometry
 **************************************************************/
@@ -306,117 +463,13 @@ void MakeGeometry(void)
    float YP[3] = {0,500,0}, YN[3] = {0,-1,0};
    float ZP[3] = {0,0,500}, ZN[3] = {0,0,-1};
 
-/*------------------------------------------------------*/
-/*            Create a world cordinate system           */
-/*            e.g., RGB xyz axis                        */
-/*------------------------------------------------------*/
-// glClear(GL_CLEAR_COLOR_BUFFER_BIT | GL _DEPTH_BUFFER_BIT);
-glLineWidth (2.0);
+   drawAxises(500, 2.0);
+   drawGrayBox(200);
+   drawGrid(1000);
 
-glBegin (GL_LINES);
-glColor3f (1,0,0); // X axis is red.
-glVertex3fv (ORG);
-glVertex3fv (XP );
-glColor3f (0,1,0); // Y axis is green.
-glVertex3fv (ORG);
-glVertex3fv (YP );
-glColor3f (0,0,1); // z axis is blue.
-glVertex3fv (ORG);
-glVertex3fv (ZP );
-glEnd();
-
-/*---------------------------------------------------*/
-/*   Place a grey boxes around the place             */
-/*---------------------------------------------------*/
-   glLoadName(BOXID);
-   glColor3f(0.75,0.75,0.75);
-   if (drawquality > DRAFT) {
-      glMaterialfv(GL_FRONT_AND_BACK,GL_DIFFUSE,mdiff3);
-      glMaterialfv(GL_FRONT_AND_BACK,GL_AMBIENT,mamb3);
-   }
-   glPushMatrix();
-   glTranslatef(0,0,0);
-   if (drawquality > DRAFT)
-     glutSolidCube(200);
-   else
-      glutWireCube(200);
-   glPopMatrix();
-
-/*---------------------------------------------------*/
-/*   draw 2D system set up                           */
-/*---------------------------------------------------*/
-/* note: the x-z plane is defined as usual x-y plane
-         here, so if you want to have usual x-y plane
-         effect, use x-z plane instead, e.g.
-         x-displayed = x;
-         y-displayed = z;       ...(1)
-         (x,z) is defined in this program as (x,y)
-         where z ind, and x is function.
-*/
-
-//    void Draw_Grid() {
-#define gridRegion 1000
-#define DotSize 5.0   //this has to match up with the same dot size in SetDot() module
-
-float ii;
-     for( ii = -gridRegion; ii <= gridRegion; ii += DotSize)
-        {
-         glBegin(GL_LINES);
-            glColor3ub(50, 250, 150); //define r,g,b color
-            glVertex3f(-gridRegion, 0, ii);
-            glVertex3f(gridRegion, 0, ii);
-            glVertex3f(ii, 0,-gridRegion);
-            glVertex3f(ii, 0, gridRegion);
-         glEnd();
-        }
-//}
-//Draw_Grid
-
-/*----------------------------------------------------*/
-/*                   set ROI                          */
-/* Note: Z-axis blue, X-axis red, Y-axis green        */
-/*----------------------------------------------------*/
-#define ROIindBound 128   // size of ROI: 256x256
-#define ROIfunBound 128   // using ind for independant variable x
-                          // using fun for function, variable y
-
-      glColor3f(200.0f,200.0f,0.0f); //define color
-
-      glLineWidth (4.0);  //thick line for the ROI boundary
-         glBegin(GL_LINES);
-            //glColor3ub(200, 200, 0); //define r,g,b color
-            glVertex3f(-ROIfunBound,0,-ROIindBound);
-            glVertex3f(ROIfunBound,0,-ROIindBound);
-            glVertex3f(ROIfunBound,0,-ROIindBound);
-            glVertex3f(ROIfunBound,0,ROIindBound);
-
-            glVertex3f(ROIfunBound,0,ROIindBound);
-            glVertex3f(-ROIfunBound,0,ROIindBound);
-            glVertex3f(-ROIfunBound,0,ROIindBound);
-            glVertex3f(-ROIfunBound,0,-ROIindBound);
-         glEnd();
-     glLineWidth (2.0);   //recover original line width
-
-#define ROIindBound1 60   // size of ROI: 120x120
-#define ROIfunBound1 60   // using ind for independant variable x
-                          // using fun for function, variable y
-
-      glColor3f(500.0f,0.0f,500.0f); //define color
-
-      glLineWidth (4.0);  //thick line for the ROI boundary
-         glBegin(GL_LINES);
-            //glColor3ub(200, 200, 0); //define r,g,b color
-            glVertex3f(-ROIfunBound1,0,-ROIindBound1);
-            glVertex3f(ROIfunBound1,0,-ROIindBound1);
-            glVertex3f(ROIfunBound1,0,-ROIindBound1);
-            glVertex3f(ROIfunBound1,0,ROIindBound1);
-
-            glVertex3f(ROIfunBound1,0,ROIindBound1);
-            glVertex3f(-ROIfunBound1,0,ROIindBound1);
-            glVertex3f(-ROIfunBound1,0,ROIindBound1);
-            glVertex3f(-ROIfunBound1,0,-ROIindBound1);
-         glEnd();
-     glLineWidth (2.0);
+   drawSomething(); // yellow square
+   drawSomething2(); // small purple square
+   // drawSomething3(); // two chads near the origin
 
     //The following code is needed only when debuging the
     //the plot dots. So set 4 landmarks
