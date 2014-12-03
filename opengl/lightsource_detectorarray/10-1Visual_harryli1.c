@@ -347,98 +347,19 @@ void drawGrayBox(int length) {
    glPopMatrix();
 }
 
-void drawSomething() {
-   /*----------------------------------------------------*/
-   /*                   set ROI                          */
-   /* Note: Z-axis blue, X-axis red, Y-axis green        */
-   /*----------------------------------------------------*/
-#define ROIindBound 128   // size of ROI: 256x256
-#define ROIfunBound 128   // using ind for independant variable x
-   // using fun for function, variable y
-
-   glColor3f(200.0f,200.0f,0.0f); //define color
-
-   glLineWidth (4.0);  //thick line for the ROI boundary
-   glBegin(GL_LINES);
-   //glColor3ub(200, 200, 0); //define r,g,b color
-   glVertex3f(-ROIfunBound,0,-ROIindBound);
-   glVertex3f(ROIfunBound,0,-ROIindBound);
-   glVertex3f(ROIfunBound,0,-ROIindBound);
-   glVertex3f(ROIfunBound,0,ROIindBound);
-
-   glVertex3f(ROIfunBound,0,ROIindBound);
-   glVertex3f(-ROIfunBound,0,ROIindBound);
-   glVertex3f(-ROIfunBound,0,ROIindBound);
-   glVertex3f(-ROIfunBound,0,-ROIindBound);
-   glEnd();
-}
-
-void drawSomething2() {
-   glLineWidth (2.0);   //recover original line width
-
-#define ROIindBound1 60   // size of ROI: 120x120
-#define ROIfunBound1 60   // using ind for independant variable x
-   // using fun for function, variable y
-
-   glColor3f(500.0f,0.0f,500.0f); //define color
-
-   glLineWidth (4.0);  //thick line for the ROI boundary
+void drawRectangle(int indBound, int funBound) {
    glBegin(GL_LINES);
 
-   //glColor3ub(200, 200, 0); //define r,g,b color
-   glVertex3f(-ROIfunBound1,0,-ROIindBound1);
-   glVertex3f(ROIfunBound1,0,-ROIindBound1);
-   glVertex3f(ROIfunBound1,0,-ROIindBound1);
-   glVertex3f(ROIfunBound1,0,ROIindBound1);
+   glVertex3f(-1*funBound,0,-1*indBound);
+   glVertex3f(funBound,0,-1*indBound);
+   glVertex3f(funBound,0,-1*indBound);
+   glVertex3f(funBound,0,indBound);
 
-   glVertex3f(ROIfunBound1,0,ROIindBound1);
-   glVertex3f(-ROIfunBound1,0,ROIindBound1);
-   glVertex3f(-ROIfunBound1,0,ROIindBound1);
-   glVertex3f(-ROIfunBound1,0,-ROIindBound1);
+   glVertex3f(funBound,0,indBound);
+   glVertex3f(-1*funBound,0,indBound);
+   glVertex3f(-1*funBound,0,indBound);
+   glVertex3f(-1*funBound,0,-1*indBound);
    glEnd();
-}
-
-void drawSomething3() {
-     glLineWidth (2.0);
-
-   /*----------------------------------------------------*/
-   /*                       Set a dot                    */
-   /*----------------------------------------------------*/
-   /*
-      void Render()
-      {
-      */
-#define DotSize 5.0
-
-   glBegin(GL_QUADS);
-   glTexCoord2f(0.0, 0.0); glVertex3f(-2.0, -1.0, 0.0);
-   glTexCoord2f(0.0, 3.0); glVertex3f(-2.0, 1.0, 0.0);
-   glTexCoord2f(3.0, 3.0); glVertex3f(0.0, 1.0, 0.0);
-   glTexCoord2f(3.0, 0.0); glVertex3f(0.0, -1.0, 0.0);
-
-   glTexCoord2f(0.0, 0.0); glVertex3f(1.0, -1.0, 0.0);
-   glTexCoord2f(0.0, 3.0); glVertex3f(1.0, 1.0, 0.0);
-   glTexCoord2f(3.0, 3.0); glVertex3f(2.41421, 1.0, -1.41421);
-   glTexCoord2f(3.0, 0.0); glVertex3f(2.41421, -1.0, -1.41421);
-   glEnd();
-}
-
-void drawBresenhamCircle() {
-   glBegin(GL_POINTS);
-   glPointSize(10);
-
-   for(count_bresenham=0;count_bresenham<buffer_bresenham;count_bresenham++)
-   {
-      //glVertex3f(x_bresenham[count_bresenham]*5,0,y_bresenham[count_bresenham]*5);
-      glTranslatef(2.5f,0.0f,2.5f);
-      glVertex3f(x_bresenham[count_bresenham]*5, 0, y_bresenham[count_bresenham]*5);
-      glLoadIdentity();
-   }
-
-   glEnd();
-
-   //printf("radius from file = %d\n", radius_file);
-   glTranslatef(radius_file,0.0f,radius_file);
 }
 
 /*************************************************************
@@ -467,9 +388,13 @@ void MakeGeometry(void)
    drawGrayBox(200);
    drawGrid(1000);
 
-   drawSomething(); // yellow square
-   drawSomething2(); // small purple square
-   // drawSomething3(); // two chads near the origin
+   glColor3f(200.0f,200.0f,0.0f); //define color
+   glLineWidth(4.0);  //thick line for the ROI boundary
+   drawRectangle(128, 128);
+
+   glColor3f(500.0f,0.0f,500.0f); //define color purple
+   glLineWidth(4.0);  //thick line for the ROI boundary
+   drawRectangle(60, 60);
 
     //The following code is needed only when debuging the
     //the plot dots. So set 4 landmarks
