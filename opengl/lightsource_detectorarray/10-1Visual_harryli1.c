@@ -388,12 +388,12 @@ void MakeGeometry(void)
    drawGrayBox(200);
    drawGrid(1000);
 
-   glColor3f(200.0f,200.0f,0.0f); //define color
-   glLineWidth(4.0);  //thick line for the ROI boundary
+   glColor3f(200.0f, 200.0f, 0.0f); //define color yellow
+   glLineWidth(4.0);
    drawRectangle(128, 128);
 
-   glColor3f(500.0f,0.0f,500.0f); //define color purple
-   glLineWidth(4.0);  //thick line for the ROI boundary
+   glColor3f(500.0f, 0.0f, 500.0f); //define color purple
+   glLineWidth(4.0);
    drawRectangle(60, 60);
 
     //The following code is needed only when debuging the
