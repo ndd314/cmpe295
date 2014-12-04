@@ -72,7 +72,7 @@ int x_buffer[1024], y_buffer[1024];
 int x_buffer1[1024], y_buffer1[1024];
 int x_bresenham[1024], y_bresenham[1024];
 int buffer_index = 0, buffer_index1 = 0, count, count1;
-int buffer_bresenham, count_bresenham, radius_file;
+int buffer_bresenham, radius_file;
 
 int window;
 Image *image;
@@ -362,6 +362,12 @@ void drawRectangle(int indBound, int funBound) {
    glEnd();
 }
 
+void drawDotsFromArray(int *x[], int *y[], int size) {
+    for(int i=2; i < size; i++) {
+      SetDot(x[i], y[i]);
+    }
+}
+
 /*************************************************************
    Create the geometry
 **************************************************************/
@@ -403,26 +409,9 @@ void MakeGeometry(void)
     SetDot(-5,-5);
     SetDot(5,-5);
 
-    //for(count_bresenham=0;count_bresenham<buffer_bresenham;count_bresenham++) //first 2 index in the array have incorrect values
-    for(count_bresenham=2;count_bresenham<buffer_bresenham;count_bresenham++)
-    {
-      SetDot(x_bresenham[count_bresenham],y_bresenham[count_bresenham]);
-    }
-
-
-    //for(count=0;count<buffer_index-1;count++) //first 2 index in the array have incorrect values
-    for(count=2;count<buffer_index-1;count++)
-    {
-      //glVertex3f(x_buffer[count]*5,0,y_buffer[count]*5);
-      SetDot(x_buffer[count], y_buffer[count]);
-    }
-
-   // first 2 index in the array have incorrect values
-    for(count1=2;count1<buffer_index1-1;count1++)
-    {
-      //glVertex3f(x_buffer[count]*5,0,y_buffer[count]*5);
-      SetDot(x_buffer1[count1], y_buffer1[count1]);
-    }
+    drawDotsFromArray(&x_bresenham, &y_bresenham, buffer_bresenham);
+    drawDotsFromArray(&x_buffer, &y_buffer, buffer_index-1);
+    drawDotsFromArray(&x_buffer1, &y_buffer1, buffer_index-1);
 
     glLineWidth (9.0);
 // Connecting light source and detector array
